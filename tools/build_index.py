@@ -55,6 +55,16 @@ def main():
             continue
         path = os.path.join(PACKS, name)
         raw = open(path, "rb").read()
+        # Served as committed (LF): hashed the same way, so IsaClient's check of the download matches.
+        if b"
+" in raw or raw.startswith(b"ï»¿"):
+            raw = raw.replace(b"
+", b"
+")
+            if raw.startswith(b"ï»¿"):
+                raw = raw[3:]
+            with open(path, "wb") as f:
+                f.write(raw)
         try:
             pack = json.loads(raw.decode("utf-8-sig"))
         except ValueError as e:
