@@ -559,22 +559,6 @@
    "IsaClient.Core/CommandHelp.cs:66 L10n.T(text)"
   ]
  },
- "  {0} status={1} pasting={2} outfit={3} disabled={4} vanity={5} pos={6}": {
-  "where": [
-   "Client core: chat commands, their help, updates, startup"
-  ],
-  "code": [
-   "IsaClient.Core/TestHarness.cs:351 TestHarness.Log(text)"
-  ]
- },
- "  {0} strip {1} x={2} y={3} w={4} h={5} rate={6} done={7}": {
-  "where": [
-   "Client core: chat commands, their help, updates, startup"
-  ],
-  "code": [
-   "IsaClient.Core/TestHarness.cs:344 TestHarness.Log(text)"
-  ]
- },
  "  {0}: {1} members, {2} online, {3}": {
   "where": [
    "Bots: extra characters controlled from this client, possession"
@@ -4528,7 +4512,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:267 MusicDrawing.TextButton(tooltip)"
+   "IsaClient.Languages/LanguageWindow.cs:385 MusicDrawing.TextButton(tooltip)"
   ]
  },
  "Agent: ": {
@@ -9973,7 +9957,7 @@
    "Language picker window"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:193 L10n.T(text)"
+   "IsaClient.Languages/LanguageWindow.cs:271 L10n.T(text)"
   ]
  },
  "Changes your character's difficulty: softcore, mediumcore, hardcore or journey.": {
@@ -10276,6 +10260,17 @@
   "code": [
    "IsaClient.Casino/CasinoWindow.cs:1167 L10n.T(text)",
    "IsaClient.Casino/PokerTable.cs:54 ReturnStatement"
+  ]
+ },
+ "Check now": {
+  "where": [
+   "Language picker window"
+  ],
+  "kind": [
+   "button"
+  ],
+  "code": [
+   "IsaClient.Languages/LanguageWindow.cs:240 MusicDrawing.TextButton(label)"
   ]
  },
  "Check!": {
@@ -11099,6 +11094,14 @@
    "IsaClient.Sharing/FileCard.cs:87 L10n.T(text)"
   ]
  },
+ "Click to download and use it": {
+  "where": [
+   "Language picker window"
+  ],
+  "code": [
+   "IsaClient.Languages/LanguageWindow.cs:316 L10n.T(text)"
+  ]
+ },
  "Click to enlarge": {
   "where": [
    "Client core: chat commands, their help, updates, startup"
@@ -11260,7 +11263,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:224 MusicDrawing.Hover(tooltip)"
+   "IsaClient.Languages/LanguageWindow.cs:342 MusicDrawing.Hover(tooltip)"
   ]
  },
  "Click to view{0}": {
@@ -11669,7 +11672,7 @@
   "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.ChatImages/GifPicker.cs:348 MusicDrawing.BareIcon(tooltip)",
-   "IsaClient.Languages/LanguageWindow.cs:155 MusicDrawing.BareIcon(tooltip)",
+   "IsaClient.Languages/LanguageWindow.cs:176 MusicDrawing.BareIcon(tooltip)",
    "IsaClient.Menu/BotsMenu.cs:239 HubKit.IconButton(tooltip)",
    "IsaClient.Menu/ProxyMenu.cs:227 HubKit.IconButton(tooltip)"
   ]
@@ -13529,6 +13532,14 @@
    "IsaClient.Items/ItemFiles.cs:172 L10n.F(text)"
   ]
  },
+ "Could not download it: {0}": {
+  "where": [
+   "Language picker window"
+  ],
+  "code": [
+   "IsaClient.Languages/LanguageWindow.cs:295 L10n.F(text)"
+  ]
+ },
  "Could not download the developer tools: {0}": {
   "where": [
    "Plugins and developer tools"
@@ -13564,7 +13575,7 @@
    "Language picker window"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:415 LanguageWindow.Note(text)"
+   "IsaClient.Languages/LanguageWindow.cs:563 LanguageWindow.Note(text)"
   ]
  },
  "Could not finish the file": {
@@ -13605,7 +13616,7 @@
    "Language picker window"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:372 LanguageWindow.Note(text)"
+   "IsaClient.Languages/LanguageWindow.cs:520 LanguageWindow.Note(text)"
   ]
  },
  "Could not install deno: {0}": {
@@ -13653,6 +13664,14 @@
   "code": [
    "IsaClient.Gameplay/CharacterPresets.cs:484 ClientChat.Error(text)",
    "IsaClient.Hub/HubSpriteArt.cs:302 ClientChat.Error(text)"
+  ]
+ },
+ "Could not open the browser: {0}": {
+  "where": [
+   "Language picker window"
+  ],
+  "code": [
+   "IsaClient.Languages/LanguageWindow.cs:400 LanguageWindow.Note(text)"
   ]
  },
  "Could not open the file": {
@@ -13805,7 +13824,7 @@
    "Language picker window"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:270 LanguageWindow.Note(text)"
+   "IsaClient.Languages/LanguageWindow.cs:388 LanguageWindow.Note(text)"
   ]
  },
  "Could not save the character: {0}": {
@@ -16896,6 +16915,7 @@
  },
  "Download": {
   "where": [
+   "Language picker window",
    "Sharing characters, styles, schematics and files as chat cards",
    "Video player window"
   ],
@@ -16903,8 +16923,9 @@
    "button",
    "tooltip (shown when the mouse is over something)"
   ],
-  "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
+  "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
+   "IsaClient.Languages/LanguageWindow.cs:312 L10n.T(text)",
    "IsaClient.Sharing/FileShareDialog.cs:123 UiKit.Button(label)",
    "IsaClient.Video/VideoWindow.cs:1177 = tip"
   ]
@@ -16949,6 +16970,14 @@
   ],
   "code": [
    "IsaClient.Gba/PokemonFinder.cs:507 SwitchExpressionArm"
+  ]
+ },
+ "Download {0} again": {
+  "where": [
+   "Language picker window"
+  ],
+  "code": [
+   "IsaClient.Languages/LanguageWindow.cs:414 L10n.F(text)"
   ]
  },
  "Downloaded songs, settings and yt-dlp.": {
@@ -17041,6 +17070,22 @@
   ],
   "code": [
    "IsaClient.Core/Updater.cs:298 = _progressText"
+  ]
+ },
+ "Downloading {0}%": {
+  "where": [
+   "Language picker window"
+  ],
+  "code": [
+   "IsaClient.Languages/LanguageWindow.cs:288 L10n.F(text)"
+  ]
+ },
+ "Downloading {0}...": {
+  "where": [
+   "Language picker window"
+  ],
+  "code": [
+   "IsaClient.Languages/LanguageWindow.cs:430 L10n.F(text)"
   ]
  },
  "Downloading {0}... {1}%": {
@@ -19177,7 +19222,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:274 MusicDrawing.TextButton(tooltip)"
+   "IsaClient.Languages/LanguageWindow.cs:404 MusicDrawing.TextButton(tooltip)"
   ]
  },
  "Every time": {
@@ -19422,7 +19467,7 @@
    "button"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:256 MusicDrawing.TextButton(label)"
+   "IsaClient.Languages/LanguageWindow.cs:374 MusicDrawing.TextButton(label)"
   ]
  },
  "Export these": {
@@ -22556,6 +22601,17 @@
    "IsaClient.Casino/CasinoWindow.cs:195 CasinoArt.Button(tooltip)"
   ]
  },
+ "Gets a fresh copy from the repository": {
+  "where": [
+   "Language picker window"
+  ],
+  "kind": [
+   "tooltip (shown when the mouse is over something)"
+  ],
+  "code": [
+   "IsaClient.Languages/LanguageWindow.cs:414 MusicDrawing.TextButton(tooltip)"
+  ]
+ },
  "Gets the file into IsaClient/Received/Files.": {
   "where": [
    "Sharing characters, styles, schematics and files as chat cards"
@@ -23837,6 +23893,17 @@
   ],
   "code": [
    "IsaClient.Hub/HubFeedback.cs:83 HubFeedback.Hero(title)"
+  ]
+ },
+ "Help translate": {
+  "where": [
+   "Language picker window"
+  ],
+  "kind": [
+   "button"
+  ],
+  "code": [
+   "IsaClient.Languages/LanguageWindow.cs:392 MusicDrawing.TextButton(label)"
   ]
  },
  "Help: commands and how it works": {
@@ -25397,7 +25464,7 @@
    "button"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:252 MusicDrawing.TextButton(label)"
+   "IsaClient.Languages/LanguageWindow.cs:370 MusicDrawing.TextButton(label)"
   ]
  },
  "Import from file": {
@@ -27015,22 +27082,6 @@
    "IsaClient.WorldTools/MapTools.cs:145 = miscText"
   ]
  },
- "IsaClient Music": {
-  "where": [
-   "Music player (YouTube songs, playlists, mini player)"
-  ],
-  "code": [
-   "IsaClient.Music/AudioPlayer.cs:363 = Name"
-  ]
- },
- "IsaClient Music Worker": {
-  "where": [
-   "Music player (YouTube songs, playlists, mini player)"
-  ],
-  "code": [
-   "IsaClient.Music/MusicPlayer.cs:503 = Name"
-  ]
- },
  "IsaClient Pipe": {
   "where": [
    "Panel > Client settings page",
@@ -27057,22 +27108,6 @@
    "IsaClient.Feedback/ReportBuilder.cs:116 = "
   ]
  },
- "IsaClient Session Read": {
-  "where": [
-   "Bots: extra characters controlled from this client, possession"
-  ],
-  "code": [
-   "IsaClient.MultiClient/ClientConnection.cs:81 = Name"
-  ]
- },
- "IsaClient Session Write": {
-  "where": [
-   "Bots: extra characters controlled from this client, possession"
-  ],
-  "code": [
-   "IsaClient.MultiClient/ClientConnection.cs:86 = Name"
-  ]
- },
  "IsaClient User": {
   "where": [
    "Panel > a player's details",
@@ -27083,30 +27118,6 @@
    "IsaClient.Hub/HubPlayerView.cs:234 L10n.T(text)",
    "IsaClient.Menu/CharacterListItem.cs:329 L10n.T(text)",
    "IsaClient.Menu/FlavorText.cs:72 List.Add(item)"
-  ]
- },
- "IsaClient Video Download": {
-  "where": [
-   "Video player and video to GIF"
-  ],
-  "code": [
-   "IsaClient.Video/RangeCache.cs:120 = Name"
-  ]
- },
- "IsaClient Video Picture": {
-  "where": [
-   "Video player and video to GIF"
-  ],
-  "code": [
-   "IsaClient.Video/VideoPlayback.cs:283 = Name"
-  ]
- },
- "IsaClient Video Sound": {
-  "where": [
-   "Video player and video to GIF"
-  ],
-  "code": [
-   "IsaClient.Video/VideoPlayback.cs:288 = Name"
   ]
  },
  "IsaClient builds it into its own TerraAngel, in place of the TerraAngel pack:": {
@@ -27166,14 +27177,6 @@
    "IsaClient.Core/CommandHelp.cs:53 L10n.T(text)"
   ]
  },
- "IsaClient console": {
-  "where": [
-   "Game Boy Advance emulator window (games, saves, finding games, Pokemon trainer from your character)"
-  ],
-  "code": [
-   "IsaClient.Gba/GbaMachine.cs:167 = Name"
-  ]
- },
  "IsaClient couldn't connect to Steam.\n\nPut the IsaClient executable inside your Terraria folder, next to the original Terraria.exe (for example: Steam\\steamapps\\common\\Terraria), and open it from there.\n\nAlso make sure Steam is open and Terraria is in your library.\n\nRight now it is in:": {
   "where": [
    "Client core: chat commands, their help, updates, startup"
@@ -27190,20 +27193,12 @@
    "IsaClient.Gba/PokemonWindow.cs:570 L10n.T(text)"
   ]
  },
- "IsaClient finder": {
-  "where": [
-   "GBA window > Find games (online search)"
-  ],
-  "code": [
-   "IsaClient.Gba/GbaFinder.cs:307 = Name"
-  ]
- },
  "IsaClient follows the game's language": {
   "where": [
    "Language picker window"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:285 LanguageWindow.Note(text)"
+   "IsaClient.Languages/LanguageWindow.cs:433 LanguageWindow.Note(text)"
   ]
  },
  "IsaClient follows the game's language.": {
@@ -27214,7 +27209,7 @@
    "message in the chat"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:464 ClientChat.Info(text)"
+   "IsaClient.Languages/LanguageWindow.cs:612 ClientChat.Info(text)"
   ]
  },
  "IsaClient for Terraria 1.4.5.8": {
@@ -27301,7 +27296,7 @@
    "Language picker window"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:308 = Title"
+   "IsaClient.Languages/LanguageWindow.cs:456 = Title"
   ]
  },
  "IsaClient language files\r\n\r\nen.json has every text IsaClient shows: the English text on the left, its translation on the right.\r\nTo make a new language: copy en.json, set Code (like \"it\" or \"pl\"), Name (the language's own name), EnglishName\r\nand Flag (a country code like \"it\"), and write the translations on the right. Put the file in IsaClient/Languages\r\n(or use Import in the language window).\r\n\r\nThe other file is the language you use, with every text (empty ones are not translated yet). To fix some\r\ntexts of a language IsaClient has, keep only those lines: your file changes them and leaves the rest.\r\n\r\nKeep {{0}}, {{1}}... (they are filled by the game), commands like .help, and chat tags like [c/FF0000:text].\r\nIn the language window, \"Read the files again\" picks up your changes without restarting.\r\n": {
@@ -27309,7 +27304,7 @@
    "Language picker window"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:438 = ReadMe"
+   "IsaClient.Languages/LanguageWindow.cs:586 = ReadMe"
   ]
  },
  "IsaClient n'a pas pu se connecter à Steam.\n\nPlacez l'exécutable d'IsaClient dans le dossier de votre Terraria, à côté du Terraria.exe d'origine (par exemple : Steam\\steamapps\\common\\Terraria), et lancez-le depuis là.\n\nVérifiez aussi que Steam est ouvert et que Terraria est dans votre bibliothèque.\n\nIl se trouve actuellement ici :": {
@@ -27470,7 +27465,7 @@
    "text on screen"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:160 MusicDrawing.Text(text)"
+   "IsaClient.Languages/LanguageWindow.cs:181 MusicDrawing.Text(text)"
   ]
  },
  "IsaClient's own language": {
@@ -27478,7 +27473,7 @@
    "Language picker window"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:201 = detail"
+   "IsaClient.Languages/LanguageWindow.cs:279 = detail"
   ]
  },
  "IsaClient's own replies and notes.": {
@@ -27505,8 +27500,6 @@
    "AI assistant (.ask) and the AI Plugin Maker"
   ],
   "code": [
-   "IsaClient.Assistant/WebReader.cs:77 = UserAgent",
-   "IsaClient.Assistant/WebSearch.cs:274 = UserAgent",
    "IsaClient.Assistant/WebSearch.cs:356 WebSearch.Fetch(agent)"
   ]
  },
@@ -27563,30 +27556,6 @@
   ],
   "code": [
    "IsaClient.Music/MusicCommands.cs:297 MusicPlayer.Say(text)"
-  ]
- },
- "IsaProxy locate": {
-  "where": [
-   "Networking: proxy/VPN, server detection, rejoin"
-  ],
-  "code": [
-   "IsaClient.Networking/ProxyPool.cs:148 = Name"
-  ]
- },
- "IsaProxy pool": {
-  "where": [
-   "Networking: proxy/VPN, server detection, rejoin"
-  ],
-  "code": [
-   "IsaClient.Networking/ProxyPool.cs:131 = Name"
-  ]
- },
- "IsaProxy test {0}": {
-  "where": [
-   "Networking: proxy/VPN, server detection, rejoin"
-  ],
-  "code": [
-   "IsaClient.Networking/ProxyPool.cs:141 = Name"
   ]
  },
  "IsaProxy: {0}": {
@@ -29663,7 +29632,7 @@
   "code": [
    "IsaClient.Hub/ClientContent.cs:641 CatalogBuilder.Native(title)",
    "IsaClient.Hub/HubAsk.cs:66 HubAsk.Row(label)",
-   "IsaClient.Languages/LanguageWindow.cs:154 L10n.T(text)"
+   "IsaClient.Languages/LanguageWindow.cs:175 L10n.T(text)"
   ]
  },
  "Language changed": {
@@ -29671,7 +29640,7 @@
    "Language picker window"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:285 LanguageWindow.Note(text)"
+   "IsaClient.Languages/LanguageWindow.cs:433 LanguageWindow.Note(text)"
   ]
  },
  "Language files (*.json)|*.json|All files|*.*": {
@@ -29679,7 +29648,7 @@
    "Language picker window"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:309 = Filter"
+   "IsaClient.Languages/LanguageWindow.cs:457 = Filter"
   ]
  },
  "Language files read again": {
@@ -29687,7 +29656,7 @@
    "Language picker window"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:270 LanguageWindow.Note(text)"
+   "IsaClient.Languages/LanguageWindow.cs:388 LanguageWindow.Note(text)"
   ]
  },
  "Language, tone, length, web search, models... and a box to ask right there.": {
@@ -29717,7 +29686,7 @@
    "message in the chat"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:485 ClientChat.Info(text)"
+   "IsaClient.Languages/LanguageWindow.cs:633 ClientChat.Info(text)"
   ]
  },
  "Large": {
@@ -31672,6 +31641,14 @@
    "IsaClient.Gba/PokemonFinder.cs:265 L10n.T(text)"
   ]
  },
+ "Looking for languages...": {
+  "where": [
+   "Language picker window"
+  ],
+  "code": [
+   "IsaClient.Languages/LanguageWindow.cs:214 L10n.T(text)"
+  ]
+ },
  "Looking for songs...": {
   "where": [
    "Music player window"
@@ -31707,13 +31684,16 @@
  },
  "Looking...": {
   "where": [
-   "GBA window > Find games"
+   "GBA window > Find games",
+   "Language picker window"
   ],
   "kind": [
    "button"
   ],
+  "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Gba/PokemonFinder.cs:178 MusicDrawing.TextButton(label)"
+   "IsaClient.Gba/PokemonFinder.cs:178 MusicDrawing.TextButton(label)",
+   "IsaClient.Languages/LanguageWindow.cs:240 MusicDrawing.TextButton(label)"
   ]
  },
  "Looks & Text": {
@@ -31725,6 +31705,17 @@
   ],
   "code": [
    "IsaClient.Hub/HubItemEditor.cs:55 ArrayInitializerExpression"
+  ]
+ },
+ "Looks for new languages and updates the ones you have": {
+  "where": [
+   "Language picker window"
+  ],
+  "kind": [
+   "tooltip (shown when the mouse is over something)"
+  ],
+  "code": [
+   "IsaClient.Languages/LanguageWindow.cs:240 MusicDrawing.TextButton(tooltip)"
   ]
  },
  "Looks right on": {
@@ -34051,38 +34042,6 @@
    "IsaClient.Core/CommandCatalog.cs:326 CommandInfo.Help(summary)"
   ]
  },
- "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36": {
-  "where": [
-   "AI assistant (.ask) and the AI Plugin Maker"
-  ],
-  "code": [
-   "IsaClient.Assistant/WebSearch.cs:47 = UserAgent"
-  ]
- },
- "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36": {
-  "where": [
-   "Music player (YouTube songs, playlists, mini player)"
-  ],
-  "code": [
-   "IsaClient.Music/MusicLinks.cs:121 = UserAgent"
-  ]
- },
- "Mozilla/5.0 (Windows NT 10.0; Win64; x64) IsaClient GBA": {
-  "where": [
-   "GBA window > Find games (online search)"
-  ],
-  "code": [
-   "IsaClient.Gba/GbaFinder.cs:148 = UserAgent"
-  ]
- },
- "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0": {
-  "where": [
-   "Pictures, GIFs and emoticons in the chat"
-  ],
-  "code": [
-   "IsaClient.ChatImages/ImgurClient.cs:20 = UserAgent"
-  ]
- },
  "Mulling": {
   "where": [
    "AI assistant: the playful word shown while it works"
@@ -34107,14 +34066,6 @@
    "IsaClient.Hub/ClientContent.cs:91 CatalogBuilder.Page(title)",
    "IsaClient.Hub/ClientContent.cs:92 CatalogBuilder.Group(title)",
    "IsaClient.Hub/ClientContent.cs:93 CatalogBuilder.Native(title)"
-  ]
- },
- "Multi Paste brush": {
-  "where": [
-   "Multi Paste: bots building with you (messages)"
-  ],
-  "code": [
-   "IsaClient.MultiClient/MultiPaste.cs:325 = Name"
   ]
  },
  "Multi Paste off: you paste alone.": {
@@ -34825,8 +34776,8 @@
    "Language picker window"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:390 = Name",
-   "IsaClient.Languages/LanguageWindow.cs:391 = EnglishName"
+   "IsaClient.Languages/LanguageWindow.cs:538 = Name",
+   "IsaClient.Languages/LanguageWindow.cs:539 = EnglishName"
   ]
  },
  "My pick": {
@@ -36334,6 +36285,14 @@
    "IsaClient.Hub/GameplayContent.cs:121 CatalogBuilder.Row(description)"
   ]
  },
+ "No connection to the languages ({0}): only the ones you have": {
+  "where": [
+   "Language picker window"
+  ],
+  "code": [
+   "IsaClient.Languages/LanguageWindow.cs:218 L10n.F(text)"
+  ]
+ },
  "No connection. Check your internet.": {
   "where": [
    "Bug reports and suggestions"
@@ -37624,7 +37583,7 @@
    "Language picker window"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:273 L10n.T(text)"
+   "IsaClient.Languages/LanguageWindow.cs:403 L10n.T(text)"
   ]
  },
  "Notes:\n": {
@@ -39180,7 +39139,7 @@
    "button"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:262 MusicDrawing.TextButton(label)"
+   "IsaClient.Languages/LanguageWindow.cs:380 MusicDrawing.TextButton(label)"
   ]
  },
  "Open the music window": {
@@ -39638,6 +39597,17 @@
   ],
   "code": [
    "IsaClient.Hub/HubTileSearch.cs:203 HubKit.Button(tooltip)"
+  ]
+ },
+ "Opens the languages repository: every language is one file anyone can improve": {
+  "where": [
+   "Language picker window"
+  ],
+  "kind": [
+   "tooltip (shown when the mouse is over something)"
+  ],
+  "code": [
+   "IsaClient.Languages/LanguageWindow.cs:392 MusicDrawing.TextButton(tooltip)"
   ]
  },
  "Opens the music folder.": {
@@ -41258,7 +41228,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:252 MusicDrawing.TextButton(tooltip)"
+   "IsaClient.Languages/LanguageWindow.cs:370 MusicDrawing.TextButton(tooltip)"
   ]
  },
  "Pick a buff.": {
@@ -45240,7 +45210,7 @@
    "button"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:267 MusicDrawing.TextButton(label)"
+   "IsaClient.Languages/LanguageWindow.cs:385 MusicDrawing.TextButton(label)"
   ]
  },
  "Read the game's code of {0}.{1}": {
@@ -47366,10 +47336,13 @@
  },
  "Retry": {
   "where": [
-   "Client core: chat commands, their help, updates, startup"
+   "Client core: chat commands, their help, updates, startup",
+   "Language picker window"
   ],
+  "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Core/Updater.cs:551 Updater.DrawButton(text)"
+   "IsaClient.Core/Updater.cs:551 Updater.DrawButton(text)",
+   "IsaClient.Languages/LanguageWindow.cs:293 L10n.T(text)"
   ]
  },
  "Reuse delay of the held item.": {
@@ -47998,7 +47971,7 @@
    "Language picker window"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:193 L10n.F(text)"
+   "IsaClient.Languages/LanguageWindow.cs:271 L10n.F(text)"
   ]
  },
  "Same as the item": {
@@ -57068,7 +57041,7 @@
    "Language picker window"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:411 LanguageWindow.Note(text)"
+   "IsaClient.Languages/LanguageWindow.cs:559 LanguageWindow.Note(text)"
   ]
  },
  "Thanks": {
@@ -57146,7 +57119,7 @@
    "Language picker window"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:350 LanguageWindow.Note(text)"
+   "IsaClient.Languages/LanguageWindow.cs:498 LanguageWindow.Note(text)"
   ]
  },
  "That isn't a Game Boy Advance or DS game.": {
@@ -57176,7 +57149,7 @@
    "Language picker window"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:355 LanguageWindow.Note(text)"
+   "IsaClient.Languages/LanguageWindow.cs:503 LanguageWindow.Note(text)"
   ]
  },
  "That save doesn't fit this game": {
@@ -59373,7 +59346,7 @@
    "error message in the chat"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:481 ClientChat.Error(text)"
+   "IsaClient.Languages/LanguageWindow.cs:629 ClientChat.Error(text)"
   ]
  },
  "There is no picture in the clipboard.": {
@@ -62544,16 +62517,18 @@
  "Update": {
   "where": [
    "Panel > Client settings page",
-   "The client's main panel (pages, cards, buttons, settings)"
+   "The client's main panel (pages, cards, buttons, settings)",
+   "Language picker window"
   ],
   "kind": [
    "action word on a panel row's button",
    "button"
   ],
-  "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
+  "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.Hub/ClientContent.cs:455 CatalogBuilder.Row(verb)",
-   "IsaClient.Hub/HubToolkit.cs:387 HubKit.Button(label)"
+   "IsaClient.Hub/HubToolkit.cs:387 HubKit.Button(label)",
+   "IsaClient.Languages/LanguageWindow.cs:307 L10n.T(text)"
   ]
  },
  "Update available!": {
@@ -66572,7 +66547,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:256 MusicDrawing.TextButton(tooltip)"
+   "IsaClient.Languages/LanguageWindow.cs:374 MusicDrawing.TextButton(tooltip)"
   ]
  },
  "Writes in the chat:": {
@@ -68276,7 +68251,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:262 MusicDrawing.TextButton(tooltip)"
+   "IsaClient.Languages/LanguageWindow.cs:380 MusicDrawing.TextButton(tooltip)"
   ]
  },
  "Your lines": {
@@ -69393,14 +69368,6 @@
    "IsaClient.Assistant/GroqClient.cs:185 ReturnStatement"
   ]
  },
- "act:{0}": {
-  "where": [
-   "The client's main panel (pages, cards, buttons, settings)"
-  ],
-  "code": [
-   "IsaClient.Hub/HubToolkit.cs:251 = id"
-  ]
- },
  "after frame": {
   "where": [
    "Plugins and developer tools"
@@ -69568,44 +69535,6 @@
    "IsaClient.Plugins/PluginHost.cs:460 PluginHost.ForEachClientPlugin(what)"
   ]
  },
- "bet:{0}": {
-  "where": [
-   "Casino window: lobby, poker table, blackjack table"
-  ],
-  "note": "Internal id, not shown as text: copy it unchanged.",
-  "code": [
-   "IsaClient.Casino/CasinoWindow.cs:564 CasinoWindow.Fly(from)"
-  ]
- },
- "bj:{0}:0:{1}": {
-  "where": [
-   "Casino window: lobby, poker table, blackjack table"
-  ],
-  "note": "Internal id, not shown as text: copy it unchanged.",
-  "code": [
-   "IsaClient.Casino/CasinoWindow.cs:614 CasinoWindow.Fly(to)"
-  ]
- },
- "bj:{0}:{1}:{2}": {
-  "where": [
-   "Casino window: lobby, poker table, blackjack table"
-  ],
-  "note": "Internal id, not shown as text: copy it unchanged.",
-  "code": [
-   "IsaClient.Casino/CasinoWindow.cs:644 CasinoWindow.Fly(to)",
-   "IsaClient.Casino/CasinoWindow.cs:1332 = key"
-  ]
- },
- "bjbet:{0}:{1}": {
-  "where": [
-   "Casino window: lobby, poker table, blackjack table"
-  ],
-  "note": "Internal id, not shown as text: copy it unchanged.",
-  "code": [
-   "IsaClient.Casino/CasinoWindow.cs:669 CasinoWindow.Fly(to)",
-   "IsaClient.Casino/CasinoWindow.cs:673 CasinoWindow.Fly(from)"
-  ]
- },
  "block too long": {
   "where": [
    "Sharing characters, styles, schematics and files as chat cards"
@@ -69617,50 +69546,6 @@
    "IsaClient.Sharing/ReedSolomon.cs:122 ArgumentException..ctor(message)"
   ]
  },
- "board:{0}": {
-  "where": [
-   "Casino window: lobby, poker table, blackjack table"
-  ],
-  "note": "Internal id, not shown as text: copy it unchanged.",
-  "code": [
-   "IsaClient.Casino/CasinoWindow.cs:576 CasinoWindow.Fly(to)",
-   "IsaClient.Casino/CasinoWindow.cs:898 CasinoWindow.Arrived(slot)",
-   "IsaClient.Casino/CasinoWindow.cs:900 CasinoWindow.FlipOf(slot)"
-  ]
- },
- "bot #{0} {1} idx={2} state={3} spawned={4} pos={5} mount={6} pixie={7} set={8} step={9} remote={10} status={11} life={12}/{13} hostile={14} god={15} dead={16} aura={17} spam={18} buffs={19}": {
-  "where": [
-   "Client core: chat commands, their help, updates, startup"
-  ],
-  "code": [
-   "IsaClient.Core/TestHarness.cs:141 TestHarness.Log(text)"
-  ]
- },
- "bot:{0}": {
-  "where": [
-   "Panel > Bots page"
-  ],
-  "code": [
-   "IsaClient.Hub/HubBots.cs:300 = id",
-   "IsaClient.Hub/HubBots.cs:425 = id"
-  ]
- },
- "bots:char:{0}": {
-  "where": [
-   "Panel > Bots page"
-  ],
-  "code": [
-   "IsaClient.Hub/HubBots.cs:818 = id"
-  ]
- },
- "bots:profile:{0}:{1}": {
-  "where": [
-   "Panel > Bots page"
-  ],
-  "code": [
-   "IsaClient.Hub/HubBots.cs:975 = id"
-  ]
- },
  "bottom": {
   "where": [
    "Panel > Rainbow letter maker"
@@ -69669,108 +69554,12 @@
    "IsaClient.Hub/HubRainbow.cs:505 L10n.T(text)"
   ]
  },
- "br:c:{0}": {
-  "where": [
-   "Panel > Bots > Connection (proxies for bots)"
-  ],
-  "code": [
-   "IsaClient.Hub/HubBotRoutes.cs:288 = id"
-  ]
- },
- "br:mode:{0}": {
-  "where": [
-   "Panel > Bots > Connection (proxies for bots)"
-  ],
-  "code": [
-   "IsaClient.Hub/HubBotRoutes.cs:209 = id"
-  ]
- },
- "br:p:{0}": {
-  "where": [
-   "Panel > Bots > Connection (proxies for bots)"
-  ],
-  "code": [
-   "IsaClient.Hub/HubBotRoutes.cs:350 = id"
-  ]
- },
  "brushes, copy/paste, schematics, pictures, paint, packet rates": {
   "where": [
    "Chat commands: section names in .help"
   ],
   "code": [
    "IsaClient.Core/CommandSection.cs:25 CommandSection..ctor(summary)"
-  ]
- },
- "bs:card:{0}": {
-  "where": [
-   "Panel > Bots > Sets"
-  ],
-  "code": [
-   "IsaClient.Hub/HubBotSets.cs:150 = id"
-  ]
- },
- "bs:ch:{0}:{1}": {
-  "where": [
-   "Panel > Bots > Sets"
-  ],
-  "code": [
-   "IsaClient.Hub/HubBotSets.cs:518 = id"
-  ]
- },
- "bs:icon:{0}:{1}": {
-  "where": [
-   "Panel > Bots > Sets"
-  ],
-  "code": [
-   "IsaClient.Hub/HubBotSets.cs:331 = id"
-  ]
- },
- "bs:m:{0}:{1}": {
-  "where": [
-   "Panel > Bots > Sets"
-  ],
-  "code": [
-   "IsaClient.Hub/HubBotSets.cs:407 = id"
-  ]
- },
- "bs:o:again:{0}": {
-  "where": [
-   "Panel > Bots > Sets"
-  ],
-  "code": [
-   "IsaClient.Hub/HubBotSets.cs:276 Argument"
-  ]
- },
- "bs:o:ai:{0}": {
-  "where": [
-   "Panel > Bots > Sets"
-  ],
-  "code": [
-   "IsaClient.Hub/HubBotSets.cs:279 Argument"
-  ]
- },
- "bs:o:fight:{0}": {
-  "where": [
-   "Panel > Bots > Sets"
-  ],
-  "code": [
-   "IsaClient.Hub/HubBotSets.cs:278 Argument"
-  ]
- },
- "bs:o:follow:{0}": {
-  "where": [
-   "Panel > Bots > Sets"
-  ],
-  "code": [
-   "IsaClient.Hub/HubBotSets.cs:277 Argument"
-  ]
- },
- "bs:srv:{0}:{1}:{2}": {
-  "where": [
-   "Panel > Bots > Sets"
-  ],
-  "code": [
-   "IsaClient.Hub/HubBotSets.cs:380 = id"
   ]
  },
  "buffers at 0x{0}": {
@@ -69881,14 +69670,6 @@
    "IsaClient.Assistant/PluginMaker/AiModels.cs:489 ReturnStatement"
   ]
  },
- "card:{0}": {
-  "where": [
-   "The client's main panel (pages, cards, buttons, settings)"
-  ],
-  "code": [
-   "IsaClient.Hub/HubCards.cs:19 = id"
-  ]
- },
  "casino::Double": {
   "where": [
    "Casino window: lobby, poker table, blackjack table"
@@ -69962,20 +69743,36 @@
    "IsaClient.Hub/HubMyItems.cs:160 = id"
   ]
  },
- "chat: {0}": {
-  "where": [
-   "Client core: chat commands, their help, updates, startup"
-  ],
-  "code": [
-   "IsaClient.Core/TestHarness.cs:117 TestHarness.Log(text)"
-  ]
- },
  "chat{0}": {
   "where": [
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
    "IsaClient.MultiClient/MultiClientPanel.cs:554 Argument"
+  ]
+ },
+ "checked just now": {
+  "where": [
+   "Language picker window"
+  ],
+  "code": [
+   "IsaClient.Languages/LanguageWindow.cs:251 L10n.T(text)"
+  ]
+ },
+ "checked {0} h ago": {
+  "where": [
+   "Language picker window"
+  ],
+  "code": [
+   "IsaClient.Languages/LanguageWindow.cs:257 L10n.F(text)"
+  ]
+ },
+ "checked {0} min ago": {
+  "where": [
+   "Language picker window"
+  ],
+  "code": [
+   "IsaClient.Languages/LanguageWindow.cs:255 L10n.F(text)"
   ]
  },
  "chess::Black": {
@@ -70073,14 +69870,6 @@
   ],
   "code": [
    "IsaClient.Hub/ClientContent.cs:671 = Keywords"
-  ]
- },
- "compare A({0},{1}) B({2},{3}) {4}x{5}: blocks={6} walls={7} different={8}": {
-  "where": [
-   "Client core: chat commands, their help, updates, startup"
-  ],
-  "code": [
-   "IsaClient.Core/TestHarness.cs:393 TestHarness.Log(text)"
   ]
  },
  "compiled, failed to load": {
@@ -70247,14 +70036,6 @@
    "IsaClient.Assistant/AskEngine.cs:153 AssistantException..ctor(message)"
   ]
  },
- "count rect ({0},{1})-({2},{3}) type {4}: tiles={5} walls={6} anyActive={7}": {
-  "where": [
-   "Client core: chat commands, their help, updates, startup"
-  ],
-  "code": [
-   "IsaClient.Core/TestHarness.cs:413 TestHarness.Log(text)"
-  ]
- },
  "countries": {
   "where": [
    "Panel > Proxy / VPN page"
@@ -70299,31 +70080,12 @@
    "IsaClient.Assistant/AskVision.cs:102 = url"
   ]
  },
- "dealer:{0}": {
-  "where": [
-   "Casino window: lobby, poker table, blackjack table"
-  ],
-  "note": "Internal id, not shown as text: copy it unchanged.",
-  "code": [
-   "IsaClient.Casino/CasinoWindow.cs:620 CasinoWindow.Fly(to)",
-   "IsaClient.Casino/CasinoWindow.cs:651 CasinoWindow.Fly(to)",
-   "IsaClient.Casino/CasinoWindow.cs:1285 = key"
-  ]
- },
  "default": {
   "where": [
    "Movement: noclip, free camera, teleports, travel, NPC brain"
   ],
   "code": [
    "IsaClient.Movement/Noclip.cs:31 = text"
-  ]
- },
- "del:{0}": {
-  "where": [
-   "Music player window"
-  ],
-  "code": [
-   "IsaClient.Music/MusicPlayerWindow.cs:1803 = _confirm"
   ]
  },
  "delete": {
@@ -70379,14 +70141,6 @@
   ],
   "code": [
    "IsaClient.Music/YtDlp.cs:128 MusicPlayer.Say(text)"
-  ]
- },
- "deno:{0}": {
-  "where": [
-   "Music player (YouTube songs, playlists, mini player)"
-  ],
-  "code": [
-   "IsaClient.Music/YtDlp.cs:235 List.Add(item)"
   ]
  },
  "dis": {
@@ -70473,14 +70227,6 @@
    "IsaClient.Networking/ProxyPool.cs:58 = Name"
   ]
  },
- "dropped item 757 at {0}": {
-  "where": [
-   "Client core: chat commands, their help, updates, startup"
-  ],
-  "code": [
-   "IsaClient.Core/TestHarness.cs:149 TestHarness.Log(text)"
-  ]
- },
  "ds homebrew": {
   "where": [
    "GBA window > Find games (online search)"
@@ -70550,14 +70296,6 @@
   ],
   "code": [
    "IsaClient.Building/Placement.cs:207 ClientChat.Info(text)"
-  ]
- },
- "error running '{0}': {1}": {
-  "where": [
-   "Client core: chat commands, their help, updates, startup"
-  ],
-  "code": [
-   "IsaClient.Core/TestHarness.cs:85 TestHarness.Log(text)"
   ]
  },
  "error {0}": {
@@ -70704,30 +70442,6 @@
    "IsaClient.Menu/RenderMenu.cs:159 FullbrightLighting.HandleCommand(text)"
   ]
  },
- "fb:card:{0}": {
-  "where": [
-   "Panel > Report a bug page"
-  ],
-  "code": [
-   "IsaClient.Hub/HubFeedback.cs:449 = id"
-  ]
- },
- "fb:kind:{0}": {
-  "where": [
-   "Panel > Report a bug page"
-  ],
-  "code": [
-   "IsaClient.Hub/HubFeedback.cs:170 = id"
-  ]
- },
- "field:{0}": {
-  "where": [
-   "Bots: extra characters controlled from this client, possession"
-  ],
-  "code": [
-   "IsaClient.MultiClient/MultiClientPanel.cs:384 = fid"
-  ]
- },
  "fight nearby enemies with the weapon on their hotbar (slot 1 first).": {
   "where": [
    "Bots: extra characters controlled from this client, possession"
@@ -70737,14 +70451,6 @@
   ],
   "code": [
    "IsaClient.MultiClient/MultiClientManager.cs:1370 MultiClientManager.Say(text)"
-  ]
- },
- "file:{0}": {
-  "where": [
-   "Music player (YouTube songs, playlists, mini player)"
-  ],
-  "code": [
-   "IsaClient.Music/MusicLibrary.cs:234 = key"
   ]
  },
  "files up to {0} MB": {
@@ -70837,14 +70543,6 @@
   ],
   "code": [
    "IsaClient.Gba/GbaFinder.cs:727 ArrayInitializerExpression"
-  ]
- },
- "game:{0}": {
-  "where": [
-   "GBA emulator window"
-  ],
-  "code": [
-   "IsaClient.Gba/PokemonWindow.cs:1386 = ask"
   ]
  },
  "gba rom": {
@@ -71067,30 +70765,12 @@
    "IsaClient.Gameplay/AutoClicker.cs:75 SwitchExpressionArm"
   ]
  },
- "hole:{0}:{1}": {
-  "where": [
-   "Casino window: lobby, poker table, blackjack table"
-  ],
-  "note": "Internal id, not shown as text: copy it unchanged.",
-  "code": [
-   "IsaClient.Casino/CasinoWindow.cs:550 CasinoWindow.Fly(to)",
-   "IsaClient.Casino/CasinoWindow.cs:925 = key"
-  ]
- },
  "hookzof SOCKS5": {
   "where": [
    "Networking: proxy/VPN, server detection, rejoin"
   ],
   "code": [
    "IsaClient.Networking/ProxyPool.cs:61 = Name"
-  ]
- },
- "hostile npcs={0}": {
-  "where": [
-   "Client core: chat commands, their help, updates, startup"
-  ],
-  "code": [
-   "IsaClient.Core/TestHarness.cs:143 TestHarness.Log(text)"
   ]
  },
  "idle": {
@@ -71143,6 +70823,17 @@
   ],
   "code": [
    "IsaClient.MultiClient/MultiClientPanel.cs:921 MultiClientPanel.Toggle(hint)"
+  ]
+ },
+ "index.json has no languages": {
+  "where": [
+   "Language picker window"
+  ],
+  "kind": [
+   "error message (can be shown to the player)"
+  ],
+  "code": [
+   "IsaClient.Languages/LanguageRepo.cs:213 InvalidDataException..ctor(message)"
   ]
  },
  "infinite": {
@@ -71600,14 +71291,6 @@
    "IsaClient.Core/CommandSection.cs:23 CommandSection..ctor(summary)"
   ]
  },
- "me idx={0} pos={1} inv0={2} killaura={3} life={4} pvp={5} players={6}": {
-  "where": [
-   "Client core: chat commands, their help, updates, startup"
-  ],
-  "code": [
-   "IsaClient.Core/TestHarness.cs:144 TestHarness.Log(text)"
-  ]
- },
  "mediatype:software AND (subject:gba OR title:gba OR subject:\"game boy advance\" OR title:\"game boy advance\" OR subject:\"gameboy advance\" OR title:\"gameboy advance\")": {
   "where": [
    "GBA window > Find games (online search)"
@@ -71644,14 +71327,6 @@
   ],
   "code": [
    "IsaClient.Assistant/AiAssistant.cs:392 ClientChat.Info(text)"
-  ]
- },
- "menu:{0}": {
-  "where": [
-   "Music player window"
-  ],
-  "code": [
-   "IsaClient.Music/MusicPlayerWindow.cs:2131 = HoveredControl"
   ]
  },
  "messages": {
@@ -71740,14 +71415,6 @@
    "IsaClient.Feedback/ReportSender.cs:49 = ContentType"
   ]
  },
- "multipaste enabled={0} here={1} me={2} ready={3} running={4}": {
-  "where": [
-   "Client core: chat commands, their help, updates, startup"
-  ],
-  "code": [
-   "IsaClient.Core/TestHarness.cs:347 TestHarness.Log(text)"
-  ]
- },
  "nadie mas": {
   "where": [
    "AI assistant (.ask) and the AI Plugin Maker"
@@ -71762,14 +71429,6 @@
   ],
   "code": [
    "IsaClient.Plugins/DevTools/ForkBuilder.cs:352 = "
-  ]
- },
- "nav:{0}": {
-  "where": [
-   "The client's main panel (pages, cards, buttons, settings)"
-  ],
-  "code": [
-   "IsaClient.Hub/ClientHub.cs:530 = id"
   ]
  },
  "needed to come back after playing as a session on another server (applies from your next join)": {
@@ -71988,6 +71647,17 @@
    "IsaClient.Video/VideoPlayback.cs:686 MediaInterop.Check(what)"
   ]
  },
+ "no source": {
+  "where": [
+   "Language picker window"
+  ],
+  "kind": [
+   "error message (can be shown to the player)"
+  ],
+  "code": [
+   "IsaClient.Languages/LanguageRepo.cs:385 IOException..ctor(message)"
+  ]
+ },
  "no working proxy found yet": {
   "where": [
    "Bots: extra characters controlled from this client, possession"
@@ -72115,6 +71785,17 @@
   ],
   "code": [
    "IsaClient.Transfer/ImageTransfer.cs:189 InvalidOperationException..ctor(message)"
+  ]
+ },
+ "not a language file": {
+  "where": [
+   "Language picker window"
+  ],
+  "kind": [
+   "error message (can be shown to the player)"
+  ],
+  "code": [
+   "IsaClient.Languages/LanguageRepo.cs:299 InvalidDataException..ctor(message)"
   ]
  },
  "not a web page ({0})": {
@@ -72454,14 +72135,6 @@
    "IsaClient.Core/GeneralCommands.cs:430 ClientChat.Info(text)"
   ]
  },
- "opt:{0}": {
-  "where": [
-   "Bots: extra characters controlled from this client, possession"
-  ],
-  "code": [
-   "IsaClient.MultiClient/MultiClientPanel.cs:954 Argument"
-  ]
- },
  "optional": {
   "where": [
    "The client's main panel (pages, cards, buttons, settings)"
@@ -72527,28 +72200,12 @@
    "IsaClient.Net.Pipe/PipeSession.cs:321 IOException..ctor(message)"
   ]
  },
- "pick:{0}": {
-  "where": [
-   "Panel > item editor"
-  ],
-  "code": [
-   "IsaClient.Hub/HubItemEditor.cs:1333 HubItemEditor.Before(control)"
-  ]
- },
  "piggy bank, safe, forges, stylist, reforge, Journey menu": {
   "where": [
    "Chat commands: section names in .help"
   ],
   "code": [
    "IsaClient.Core/CommandSection.cs:37 CommandSection..ctor(summary)"
-  ]
- },
- "place:{0}": {
-  "where": [
-   "Panel > item editor"
-  ],
-  "code": [
-   "IsaClient.Hub/HubItemEditor.cs:1418 HubItemEditor.Before(control)"
   ]
  },
  "play songs and links, queue, volume, music window": {
@@ -72565,22 +72222,6 @@
   ],
   "code": [
    "IsaClient.Core/CommandSection.cs:29 CommandSection..ctor(summary)"
-  ]
- },
- "player {0}: {1}": {
-  "where": [
-   "Client core: chat commands, their help, updates, startup"
-  ],
-  "code": [
-   "IsaClient.Core/TestHarness.cs:216 TestHarness.Log(text)"
-  ]
- },
- "player:{0}": {
-  "where": [
-   "Panel > Players page"
-  ],
-  "code": [
-   "IsaClient.Hub/HubPlayers.cs:200 = id"
   ]
  },
  "playful with a touch of humor, but always accurate": {
@@ -72654,28 +72295,12 @@
    "IsaClient.Plugins/PluginOverlay.cs:150 DevToolsInstaller.Ensure(reason)"
   ]
  },
- "pos={0} sel={1} A={2} B={3} paste={4} copied={5} tshock={6} noclip={7} maptp={8} panel={9} concurrentPastes={10} fills={11} queued={12} brushQueue={13}": {
-  "where": [
-   "Client core: chat commands, their help, updates, startup"
-  ],
-  "code": [
-   "IsaClient.Core/TestHarness.cs:297 TestHarness.Log(text)"
-  ]
- },
  "precise and expert, with exact numbers and names": {
   "where": [
    "AI assistant (.ask) and the AI Plugin Maker"
   ],
   "code": [
    "IsaClient.Assistant/AskAssistant.cs:30 Argument"
-  ]
- },
- "profile:{0}": {
-  "where": [
-   "The client's main panel (pages, cards, buttons, settings)"
-  ],
-  "code": [
-   "IsaClient.Hub/HubToolkit.cs:367 = id"
   ]
  },
  "proxifly (all)": {
@@ -72692,46 +72317,6 @@
   ],
   "code": [
    "IsaClient.Net.Pipe/PipeSession.cs:460 PipeSession.Log(s)"
-  ]
- },
- "pvp {0}": {
-  "where": [
-   "Client core: chat commands, their help, updates, startup"
-  ],
-  "code": [
-   "IsaClient.Core/TestHarness.cs:126 TestHarness.Log(text)"
-  ]
- },
- "pvphit {0}": {
-  "where": [
-   "Client core: chat commands, their help, updates, startup"
-  ],
-  "code": [
-   "IsaClient.Core/TestHarness.cs:133 TestHarness.Log(text)"
-  ]
- },
- "px:c:{0}:{1}": {
-  "where": [
-   "Panel > Proxy / VPN page"
-  ],
-  "code": [
-   "IsaClient.Hub/HubProxy.cs:341 = id"
-  ]
- },
- "px:m:{0}": {
-  "where": [
-   "Panel > Proxy / VPN page"
-  ],
-  "code": [
-   "IsaClient.Hub/HubProxy.cs:484 = id"
-  ]
- },
- "px:src:{0}": {
-  "where": [
-   "Panel > Proxy / VPN page"
-  ],
-  "code": [
-   "IsaClient.Hub/HubProxy.cs:589 = id"
   ]
  },
  "q={0}&kl={1}&kp={2}": {
@@ -73106,22 +72691,6 @@
    "IsaClient.Hub/HubPluginMaker.cs:980 = state"
   ]
  },
- "shot failed: {0}": {
-  "where": [
-   "Client core: chat commands, their help, updates, startup"
-  ],
-  "code": [
-   "IsaClient.Core/TestHarness.cs:485 TestHarness.Log(text)"
-  ]
- },
- "shot saved: {0}": {
-  "where": [
-   "Client core: chat commands, their help, updates, startup"
-  ],
-  "code": [
-   "IsaClient.Core/TestHarness.cs:481 TestHarness.Log(text)"
-  ]
- },
  "shown": {
   "where": [
    "Chat tools: colors, links, translation, secret chat, player list"
@@ -73225,15 +72794,6 @@
    "IsaClient.Core/CommandSection.cs:17 CommandSection..ctor(summary)"
   ]
  },
- "stack:{0}": {
-  "where": [
-   "Casino window: lobby, poker table, blackjack table"
-  ],
-  "note": "Internal id, not shown as text: copy it unchanged.",
-  "code": [
-   "IsaClient.Casino/CasinoWindow.cs:587 CasinoWindow.Fly(to)"
-  ]
- },
  "status::Crafting": {
   "where": [
    "AI assistant: the playful word shown while it works",
@@ -73242,7 +72802,7 @@
   "kind": [
    "one value of a list (an option, a name, a state)"
   ],
-  "note": "A playful word shown while the AI works, like \"Tinkering...\" (Spanish: \"Fabricando\").",
+  "note": "A playful word shown while the AI works, like \"Tinkering\". IsaClient adds the \"...\" itself: don't add dots (Spanish: \"Fabricando\").",
   "code": [
    "IsaClient.Assistant/AskStatus.cs:23 ArrayInitializerExpression",
    "IsaClient.Hub/HubPluginMaker.cs:92 ArrayInitializerExpression"
@@ -73286,14 +72846,6 @@
   ],
   "code": [
    "IsaClient.Menu/CreditsScreen.cs:50 Argument"
-  ]
- },
- "tab:{0}:{1}": {
-  "where": [
-   "The client's main panel (pages, cards, buttons, settings)"
-  ],
-  "code": [
-   "IsaClient.Hub/ClientHub.cs:627 = id"
   ]
  },
  "tetris::Double": {
@@ -73463,6 +73015,17 @@
   "code": [
    "IsaClient.Transfer/ImageTransfer.cs:226 InvalidDataException..ctor(message)",
    "IsaClient.Transfer/ImageTransfer.cs:320 InvalidDataException..ctor(message)"
+  ]
+ },
+ "the file doesn't match the index yet": {
+  "where": [
+   "Language picker window"
+  ],
+  "kind": [
+   "error message (can be shown to the player)"
+  ],
+  "code": [
+   "IsaClient.Languages/LanguageRepo.cs:376 InvalidDataException..ctor(message)"
   ]
  },
  "the file is cut short": {
@@ -73822,38 +73385,6 @@
    "IsaClient.Hub/ClientContent.cs:69 = Keywords"
   ]
  },
- "tile {0},{1}: active={2} type={3} wall={4} liquid={5} ltype={6} color={7} wallColor={8} fx={9} fy={10}": {
-  "where": [
-   "Client core: chat commands, their help, updates, startup"
-  ],
-  "code": [
-   "IsaClient.Core/TestHarness.cs:304 TestHarness.Log(text)"
-  ]
- },
- "tile {0},{1}=null": {
-  "where": [
-   "Client core: chat commands, their help, updates, startup"
-  ],
-  "code": [
-   "IsaClient.Core/TestHarness.cs:304 TestHarness.Log(text)"
-  ]
- },
- "tile:{0}": {
-  "where": [
-   "Panel > Home page"
-  ],
-  "code": [
-   "IsaClient.Hub/HubHome.cs:188 = id"
-  ]
- },
- "tiles:{0}": {
-  "where": [
-   "The client's main panel (pages, cards, buttons, settings)"
-  ],
-  "code": [
-   "IsaClient.Hub/HubToolkit.cs:290 = id"
-  ]
- },
  "timed out.": {
   "where": [
    "Music player (YouTube songs, playlists, mini player)"
@@ -73985,14 +73516,6 @@
    "IsaClient.Core/GeneralCommands.cs:201 ClientChat.Info(text)"
   ]
  },
- "unknown command: {0}": {
-  "where": [
-   "Client core: chat commands, their help, updates, startup"
-  ],
-  "code": [
-   "IsaClient.Core/TestHarness.cs:417 TestHarness.Log(text)"
-  ]
- },
  "unknown error": {
   "where": [
    "Plugins and developer tools"
@@ -74108,23 +73631,7 @@
    "Language picker window"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:202 L10n.T(text)"
-  ]
- },
- "world {0}: {1}": {
-  "where": [
-   "Client core: chat commands, their help, updates, startup"
-  ],
-  "code": [
-   "IsaClient.Core/TestHarness.cs:220 TestHarness.Log(text)"
-  ]
- },
- "world: {0}": {
-  "where": [
-   "Client core: chat commands, their help, updates, startup"
-  ],
-  "code": [
-   "IsaClient.Core/TestHarness.cs:208 TestHarness.Log(text)"
+   "IsaClient.Languages/LanguageWindow.cs:303 L10n.T(text)"
   ]
  },
  "write everything in lowercase": {
@@ -74247,7 +73754,7 @@
    "Language picker window"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:202 L10n.T(text)"
+   "IsaClient.Languages/LanguageWindow.cs:299 L10n.T(text)"
   ]
  },
  "your key": {
@@ -75206,6 +74713,14 @@
    "IsaClient.Menu/BuffPicker.cs:314 ClientChat.Error(text)"
   ]
  },
+ "{0} could not be downloaded: {1}": {
+  "where": [
+   "Language picker window"
+  ],
+  "code": [
+   "IsaClient.Languages/LanguageRepo.cs:332 L10n.F(text)"
+  ]
+ },
  "{0} couldn't answer: {1}": {
   "where": [
    "AI assistant (.ask) and the AI Plugin Maker"
@@ -75650,7 +75165,7 @@
    "Language picker window"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:368 L10n.F(text)"
+   "IsaClient.Languages/LanguageWindow.cs:516 L10n.F(text)"
   ]
  },
  "{0} invites everyone to {1}": {
@@ -75924,6 +75439,14 @@
    "IsaClient.Casino/CasinoWindow.cs:1525 L10n.F(text)"
   ]
  },
+ "{0} is ready": {
+  "where": [
+   "Language picker window"
+  ],
+  "code": [
+   "IsaClient.Languages/LanguageRepo.cs:319 L10n.F(text)"
+  ]
+ },
  "{0} is shocked by {1}!": {
   "where": [
    "Chat tools: colors, links, translation, secret chat, player list"
@@ -76099,6 +75622,22 @@
    "IsaClient.Community/ChatActions.cs:41 L10n.F(text)"
   ]
  },
+ "{0} languages (offline: the list you had)": {
+  "where": [
+   "Language picker window"
+  ],
+  "code": [
+   "IsaClient.Languages/LanguageWindow.cs:223 L10n.F(text)"
+  ]
+ },
+ "{0} languages from the IsaClient repository": {
+  "where": [
+   "Language picker window"
+  ],
+  "code": [
+   "IsaClient.Languages/LanguageWindow.cs:228 L10n.F(text)"
+  ]
+ },
  "{0} laughs at {1}!": {
   "where": [
    "Chat tools: colors, links, translation, secret chat, player list"
@@ -76145,14 +75684,6 @@
   ],
   "code": [
    "IsaClient.Community/ChatActions.cs:59 L10n.F(text)"
-  ]
- },
- "{0} life {1} inv0 {2}x{3}": {
-  "where": [
-   "Client core: chat commands, their help, updates, startup"
-  ],
-  "code": [
-   "IsaClient.Core/TestHarness.cs:141 Interpolation"
   ]
  },
  "{0} lines": {
@@ -76977,6 +76508,14 @@
    "IsaClient.Music/MiniPlayer.cs:104 List.Add(item)"
   ]
  },
+ "{0} updated": {
+  "where": [
+   "Language picker window"
+  ],
+  "code": [
+   "IsaClient.Languages/LanguageRepo.cs:319 L10n.F(text)"
+  ]
+ },
  "{0} used its free tokens for today (back in {1})": {
   "where": [
    "AI assistant (.ask) and the AI Plugin Maker"
@@ -77309,7 +76848,7 @@
    "Language picker window"
   ],
   "code": [
-   "IsaClient.Languages/LanguageWindow.cs:201 L10n.F(text)"
+   "IsaClient.Languages/LanguageWindow.cs:279 L10n.F(text)"
   ]
  },
  "{0}'s body": {
@@ -77391,14 +76930,6 @@
   ],
   "code": [
    "IsaClient.Assistant/WebSearch.cs:368 = "
-  ]
- },
- "{0},{1},{2} dye {3},{4},{5}": {
-  "where": [
-   "Client core: chat commands, their help, updates, startup"
-  ],
-  "code": [
-   "IsaClient.Core/TestHarness.cs:351 Interpolation"
   ]
  },
  "{0}. Click: next character, right click: back": {
