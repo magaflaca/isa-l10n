@@ -55,14 +55,11 @@ def main():
             continue
         path = os.path.join(PACKS, name)
         raw = open(path, "rb").read()
-        # Served as committed (LF): hashed the same way, so IsaClient's check of the download matches.
-        if b"
-" in raw or raw.startswith(b"ï»¿"):
-            raw = raw.replace(b"
-", b"
-")
-            if raw.startswith(b"ï»¿"):
-                raw = raw[3:]
+        # Served as committed (LF, no BOM): hashed the same way, so IsaClient's check of the download matches.
+        clean = raw[3:] if raw.startswith(bytes([0xEF, 0xBB, 0xBF])) else raw
+        clean = clean.replace(bytes([13, 10]), bytes([10]))
+        if clean != raw:
+            raw = clean
             with open(path, "wb") as f:
                 f.write(raw)
         try:
