@@ -340,7 +340,7 @@
    "text on screen"
   ],
   "code": [
-   "IsaClient.Hub/HubMultiPaste.cs:118 HubKit.Text(text)"
+   "IsaClient.Hub/HubMultiPaste.cs:153 HubKit.Text(text)"
   ]
  },
  "  (on now)": {
@@ -599,7 +599,7 @@
    "Panel > Experimental > Multi Paste (bots building with you)"
   ],
   "code": [
-   "IsaClient.Hub/HubMultiPaste.cs:161 HubBotSets.Stepper(tip)"
+   "IsaClient.Hub/HubMultiPaste.cs:196 HubBotSets.Stepper(tip)"
   ]
  },
  "  ·  password saved": {
@@ -1013,7 +1013,7 @@
    "Panel > Experimental > Multi Paste (bots building with you)"
   ],
   "code": [
-   "IsaClient.Hub/HubMultiPaste.cs:68 = line"
+   "IsaClient.Hub/HubMultiPaste.cs:69 = line"
   ]
  },
  " Autoplay will pick related songs.": {
@@ -1134,7 +1134,7 @@
   "code": [
    "IsaClient.Hub/HubBotRoutes.cs:168 = hint",
    "IsaClient.Hub/HubBotSets.cs:61 MultiClientManager.Announce(text)",
-   "IsaClient.MultiClient/MultiPaste.cs:183 MultiClientManager.Announce(text)"
+   "IsaClient.MultiClient/MultiPaste.cs:201 MultiClientManager.Announce(text)"
   ]
  },
  " bot did it.": {
@@ -1153,7 +1153,7 @@
    "Panel > Experimental > Multi Paste (bots building with you)"
   ],
   "code": [
-   "IsaClient.Hub/HubMultiPaste.cs:68 = line"
+   "IsaClient.Hub/HubMultiPaste.cs:69 = line"
   ]
  },
  " bot.": {
@@ -1161,7 +1161,7 @@
    "Multi Paste: bots building with you (messages)"
   ],
   "code": [
-   "IsaClient.MultiClient/MultiPaste.cs:490 MultiClientManager.Announce(text)"
+   "IsaClient.MultiClient/MultiPaste.cs:510 MultiClientManager.Announce(text)"
   ]
  },
  " bot: ": {
@@ -1182,7 +1182,7 @@
   "code": [
    "IsaClient.Hub/HubBotRoutes.cs:168 = hint",
    "IsaClient.Hub/HubBotSets.cs:61 MultiClientManager.Announce(text)",
-   "IsaClient.MultiClient/MultiPaste.cs:183 MultiClientManager.Announce(text)"
+   "IsaClient.MultiClient/MultiPaste.cs:201 MultiClientManager.Announce(text)"
   ]
  },
  " bots did it.": {
@@ -1201,7 +1201,7 @@
    "Panel > Experimental > Multi Paste (bots building with you)"
   ],
   "code": [
-   "IsaClient.Hub/HubMultiPaste.cs:68 = line"
+   "IsaClient.Hub/HubMultiPaste.cs:69 = line"
   ]
  },
  " bots.": {
@@ -1209,7 +1209,7 @@
    "Multi Paste: bots building with you (messages)"
   ],
   "code": [
-   "IsaClient.MultiClient/MultiPaste.cs:490 MultiClientManager.Announce(text)"
+   "IsaClient.MultiClient/MultiPaste.cs:510 MultiClientManager.Announce(text)"
   ]
  },
  " bots: ": {
@@ -2089,7 +2089,7 @@
    "Multi Paste: bots building with you (messages)"
   ],
   "code": [
-   "IsaClient.MultiClient/MultiPaste.cs:183 MultiClientManager.Announce(text)"
+   "IsaClient.MultiClient/MultiPaste.cs:201 MultiClientManager.Announce(text)"
   ]
  },
  ", building": {
@@ -2356,7 +2356,7 @@
    "Panel > Experimental > Multi Paste (bots building with you)"
   ],
   "code": [
-   "IsaClient.Hub/HubMultiPaste.cs:68 = line"
+   "IsaClient.Hub/HubMultiPaste.cs:69 = line"
   ]
  },
  ". Commands and [tags] are never translated.": {
@@ -2395,7 +2395,7 @@
    "Panel > Experimental > Multi Paste (bots building with you)"
   ],
   "code": [
-   "IsaClient.Hub/HubMultiPaste.cs:68 = line"
+   "IsaClient.Hub/HubMultiPaste.cs:69 = line"
   ]
  },
  "... (cut at line {0} of {1}: ask for from_line {2})": {
@@ -2942,7 +2942,7 @@
    "IsaClient.Hub/ClientContent.cs:731 ClientContent.Flag(description)"
   ]
  },
- "A Nintendo DS inside Terraria: bring your own games (.gba, .nds or .zip). In Pokémon FireRed, LeafGreen and Emerald you play as your Terraria character. Saves, save slots and it goes on where you left it. Just for fun: no scores.": {
+ "A Game Boy Advance & Nintendo DS inside Terraria: bring your own games (.gba, .nds or .zip). In Pokémon FireRed, LeafGreen and Emerald you play as your Terraria character. Saves, save slots and it goes on where you left it. Just for fun: no scores.": {
   "where": [
    "Panel > Games page"
   ],
@@ -7085,6 +7085,17 @@
    "IsaClient.Video/VideoWindow.cs:833 MusicDrawing.BareIcon(tooltip)"
   ]
  },
+ "Back to 230 (Witch's Broom)": {
+  "where": [
+   "Panel > Experimental > Multi Paste (bots building with you)"
+  ],
+  "kind": [
+   "tooltip (shown when the mouse is over something)"
+  ],
+  "code": [
+   "IsaClient.Hub/HubMultiPaste.cs:108 HubKit.Button(tooltip)"
+  ]
+ },
  "Back to My Character": {
   "where": [
    "In-game cheat menu and main menu additions"
@@ -8460,7 +8471,7 @@
    "Panel > Experimental > Multi Paste (bots building with you)"
   ],
   "code": [
-   "IsaClient.Hub/HubMultiPaste.cs:131 HubBotSets.Sub(title)"
+   "IsaClient.Hub/HubMultiPaste.cs:166 HubBotSets.Sub(title)"
   ]
  },
  "Bots: extra clients on any server. Click to open.": {
@@ -8708,7 +8719,7 @@
    "Multi Paste: bots building with you (messages)"
   ],
   "code": [
-   "IsaClient.MultiClient/MultiPaste.cs:409 PasteJob.Error(text)"
+   "IsaClient.MultiClient/MultiPaste.cs:427 PasteJob.Error(text)"
   ]
  },
  "Brush that places raw tile data (type, active, frame). For advanced use.": {
@@ -9266,7 +9277,7 @@
    "button"
   ],
   "code": [
-   "IsaClient.Hub/HubMultiPaste.cs:119 HubKit.Button(label)"
+   "IsaClient.Hub/HubMultiPaste.cs:154 HubKit.Button(label)"
   ]
  },
  "Call {0}": {
@@ -15026,7 +15037,7 @@
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.Hub/HubBots.cs:359 HubKit.Chip(text)",
-   "IsaClient.MultiClient/MultiPaste.cs:141 ReturnStatement"
+   "IsaClient.MultiClient/MultiPaste.cs:159 ReturnStatement"
   ]
  },
  "Deal": {
@@ -15266,7 +15277,7 @@
   "where": [
    "The client's main panel (pages, cards, buttons, settings)",
    "Panel > Games page",
-   "Video player and video to GIF"
+   "Panel > Experimental > Multi Paste (bots building with you)"
   ],
   "kind": [
    "button"
@@ -15276,7 +15287,7 @@
    "IsaClient.Hub/HubAiSetup.cs:151 HubKit.Button(label)",
    "IsaClient.Hub/HubColorPicker.cs:219 HubKit.Button(label)",
    "IsaClient.Hub/HubGames.cs:1041 HubKit.Button(label)",
-   "IsaClient.Video/VideoSource.cs:499 ReturnStatement"
+   "IsaClient.Hub/HubMultiPaste.cs:108 HubKit.Button(label)"
   ]
  },
  "Default ({0})": {
@@ -15303,7 +15314,7 @@
    "Panel > Experimental > Multi Paste (bots building with you)"
   ],
   "code": [
-   "IsaClient.Hub/HubMultiPaste.cs:88 HubBotSets.Sub(title)"
+   "IsaClient.Hub/HubMultiPaste.cs:123 HubBotSets.Sub(title)"
   ]
  },
  "Defeated Boss 2": {
@@ -16414,7 +16425,7 @@
    "Multi Paste: bots building with you (messages)"
   ],
   "code": [
-   "IsaClient.MultiClient/MultiPaste.cs:147 ReturnStatement"
+   "IsaClient.MultiClient/MultiPaste.cs:165 ReturnStatement"
   ]
  },
  "Disables all collision and gives you free movement.": {
@@ -16777,7 +16788,7 @@
    "Multi Paste: bots building with you (messages)"
   ],
   "code": [
-   "IsaClient.MultiClient/MultiPaste.cs:145 ReturnStatement"
+   "IsaClient.MultiClient/MultiPaste.cs:163 ReturnStatement"
   ]
  },
  "Don't Dig Up": {
@@ -17771,7 +17782,7 @@
    "Panel > Experimental > Multi Paste (bots building with you)"
   ],
   "code": [
-   "IsaClient.Hub/HubMultiPaste.cs:151 HubBotSets.Sub(title)"
+   "IsaClient.Hub/HubMultiPaste.cs:186 HubBotSets.Sub(title)"
   ]
  },
  "Each file read, edit, build or search is a step.": {
@@ -19104,7 +19115,7 @@
    "Panel > Experimental > Multi Paste (bots building with you)"
   ],
   "code": [
-   "IsaClient.Hub/HubMultiPaste.cs:144 HubBotSets.Stepper(title)"
+   "IsaClient.Hub/HubMultiPaste.cs:179 HubBotSets.Stepper(title)"
   ]
  },
  "Every character of yours becomes a member": {
@@ -20871,7 +20882,7 @@
    "Panel > Experimental > Multi Paste (bots building with you)"
   ],
   "code": [
-   "IsaClient.Hub/HubMultiPaste.cs:131 HubBotSets.Sub(hint)"
+   "IsaClient.Hub/HubMultiPaste.cs:166 HubBotSets.Sub(hint)"
   ]
  },
  "For servers that ignore RequestSection: how many drones ask at once (each makes the server send what's around it).": {
@@ -22111,6 +22122,17 @@
   ],
   "code": [
    "IsaClient.Gba/PokemonWindow.cs:348 = title"
+  ]
+ },
+ "Game Boy Advance & Nintendo DS": {
+  "where": [
+   "Panel > Games page"
+  ],
+  "kind": [
+   "text on screen"
+  ],
+  "code": [
+   "IsaClient.Hub/HubGames.cs:470 HubKit.Text(text)"
   ]
  },
  "Game Boy Colors": {
@@ -28122,7 +28144,7 @@
    "Panel > Experimental > Multi Paste (bots building with you)"
   ],
   "code": [
-   "IsaClient.Hub/HubMultiPaste.cs:88 HubBotSets.Sub(hint)"
+   "IsaClient.Hub/HubMultiPaste.cs:123 HubBotSets.Sub(hint)"
   ]
  },
  "Its downloads are for other systems ({0}).": {
@@ -28163,7 +28185,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Hub/HubMultiPaste.cs:119 HubKit.Button(tooltip)"
+   "IsaClient.Hub/HubMultiPaste.cs:154 HubKit.Button(tooltip)"
   ]
  },
  "Its own .pl, and how it is": {
@@ -28171,7 +28193,7 @@
    "Panel > Experimental > Multi Paste (bots building with you)"
   ],
   "code": [
-   "IsaClient.Hub/HubMultiPaste.cs:151 HubBotSets.Sub(hint)"
+   "IsaClient.Hub/HubMultiPaste.cs:186 HubBotSets.Sub(hint)"
   ]
  },
  "Its own colors.": {
@@ -28416,7 +28438,7 @@
   "code": [
    "IsaClient.Hub/HubPlayers.cs:263 HubPlayers.Badge(text)",
    "IsaClient.Hub/HubPlayerView.cs:157 HubPlayerView.Badge(text)",
-   "IsaClient.MultiClient/MultiPaste.cs:129 ReturnStatement"
+   "IsaClient.MultiClient/MultiPaste.cs:147 ReturnStatement"
   ]
  },
  "Joining {0}'s game...": {
@@ -34073,7 +34095,7 @@
    "Multi Paste: bots building with you (messages)"
   ],
   "code": [
-   "IsaClient.MultiClient/MultiPaste.cs:160 MultiClientManager.Announce(text)"
+   "IsaClient.MultiClient/MultiPaste.cs:178 MultiClientManager.Announce(text)"
   ]
  },
  "Multi Paste on: your building is shared out ({0} ready now{1}).": {
@@ -34081,7 +34103,7 @@
    "Multi Paste: bots building with you (messages)"
   ],
   "code": [
-   "IsaClient.MultiClient/MultiPaste.cs:183 MultiClientManager.Announce(text)"
+   "IsaClient.MultiClient/MultiPaste.cs:201 MultiClientManager.Announce(text)"
   ]
  },
  "Multi Paste works on a server: join one first.": {
@@ -34089,7 +34111,7 @@
    "Multi Paste: bots building with you (messages)"
   ],
   "code": [
-   "IsaClient.MultiClient/MultiPaste.cs:165 MultiClientManager.AnnounceError(text)"
+   "IsaClient.MultiClient/MultiPaste.cs:183 MultiClientManager.AnnounceError(text)"
   ]
  },
  "Multi Paste: the last {0} is still going. Wait for it (or cancel it).": {
@@ -34097,7 +34119,7 @@
    "Multi Paste: bots building with you (messages)"
   ],
   "code": [
-   "IsaClient.MultiClient/MultiPaste.cs:213 MultiClientManager.AnnounceError(text)"
+   "IsaClient.MultiClient/MultiPaste.cs:231 MultiClientManager.AnnounceError(text)"
   ]
  },
  "Multi Paste: the set \"{0}\" goes to {1}, not here. Its bots weren't called; the bots here paste with you.": {
@@ -34105,7 +34127,7 @@
    "Multi Paste: bots building with you (messages)"
   ],
   "code": [
-   "IsaClient.MultiClient/MultiPaste.cs:175 MultiClientManager.AnnounceError(text)"
+   "IsaClient.MultiClient/MultiPaste.cs:193 MultiClientManager.AnnounceError(text)"
   ]
  },
  "Multi Paste: {0} cancelled.": {
@@ -34113,7 +34135,7 @@
    "Multi Paste: bots building with you (messages)"
   ],
   "code": [
-   "IsaClient.MultiClient/MultiPaste.cs:659 MultiClientManager.Announce(text)"
+   "IsaClient.MultiClient/MultiPaste.cs:761 MultiClientManager.Announce(text)"
   ]
  },
  "Multi Paste: {0} done, {1} strips in {2} s.": {
@@ -34121,7 +34143,7 @@
    "Multi Paste: bots building with you (messages)"
   ],
   "code": [
-   "IsaClient.MultiClient/MultiPaste.cs:659 MultiClientManager.Announce(text)"
+   "IsaClient.MultiClient/MultiPaste.cs:761 MultiClientManager.Announce(text)"
   ]
  },
  "Multi Paste: {0} {1} in {2} strips, {3}": {
@@ -34129,7 +34151,7 @@
    "Multi Paste: bots building with you (messages)"
   ],
   "code": [
-   "IsaClient.MultiClient/MultiPaste.cs:490 MultiClientManager.Announce(text)"
+   "IsaClient.MultiClient/MultiPaste.cs:510 MultiClientManager.Announce(text)"
   ]
  },
  "Multi-line chat with selection, copy and paste.": {
@@ -35711,17 +35733,15 @@
  "Nintendo DS": {
   "where": [
    "GBA window > Find games (online search)",
-   "Nintendo DS emulator window",
-   "Panel > Games page"
+   "Nintendo DS emulator window"
   ],
   "kind": [
    "text on screen"
   ],
-  "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
+  "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.Gba/GbaFinder.cs:976 ArrowExpressionClause",
-   "IsaClient.Gba/PokemonWindow.Ds.cs:429 MusicDrawing.RawText(text)",
-   "IsaClient.Hub/HubGames.cs:470 HubKit.Text(text)"
+   "IsaClient.Gba/PokemonWindow.Ds.cs:429 MusicDrawing.RawText(text)"
   ]
  },
  "Nintendo DS  ·  {0}  ·  {1}": {
@@ -36173,7 +36193,7 @@
    "Panel > Experimental > Multi Paste (bots building with you)"
   ],
   "code": [
-   "IsaClient.Hub/HubMultiPaste.cs:155 HubBotSets.Hint(text)"
+   "IsaClient.Hub/HubMultiPaste.cs:190 HubBotSets.Hint(text)"
   ]
  },
  "No bots. .bot add [count] [name] joins the server you are on.": {
@@ -36833,7 +36853,7 @@
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.Hub/HubBotSets.cs:175 HubKit.Text(text)",
-   "IsaClient.Hub/HubMultiPaste.cs:116 = where"
+   "IsaClient.Hub/HubMultiPaste.cs:151 = where"
   ]
  },
  "No sessions yet.": {
@@ -37263,7 +37283,7 @@
    "Panel > Experimental > Multi Paste (bots building with you)"
   ],
   "code": [
-   "IsaClient.Hub/HubMultiPaste.cs:91 Argument"
+   "IsaClient.Hub/HubMultiPaste.cs:126 Argument"
   ]
  },
  "None loaded": {
@@ -37301,7 +37321,7 @@
    "Panel > Experimental > Multi Paste (bots building with you)"
   ],
   "code": [
-   "IsaClient.Hub/HubMultiPaste.cs:155 HubBotSets.Hint(text)"
+   "IsaClient.Hub/HubMultiPaste.cs:190 HubBotSets.Hint(text)"
   ]
  },
  "None of those characters has a rainbow letter. Make one in the Rainbow page (Experimental).": {
@@ -37996,7 +38016,7 @@
    "IsaClient.Feedback/ReportBuilder.cs:55 ReturnStatement",
    "IsaClient.Gba/PokemonWindow.cs:778 MusicDrawing.TextButton(label)",
    "IsaClient.Hub/HubAsk.cs:76 Argument",
-   "IsaClient.Hub/HubMultiPaste.cs:72 = title"
+   "IsaClient.Hub/HubMultiPaste.cs:73 = title"
   ]
  },
  "Off (normal): the panel opens where you left it.": {
@@ -38307,7 +38327,7 @@
    "Multi Paste: bots building with you (messages)"
   ],
   "code": [
-   "IsaClient.MultiClient/MultiPaste.cs:133 ReturnStatement"
+   "IsaClient.MultiClient/MultiPaste.cs:151 ReturnStatement"
   ]
  },
  "On or off.": {
@@ -38418,7 +38438,7 @@
    "Panel > Experimental > Multi Paste (bots building with you)"
   ],
   "code": [
-   "IsaClient.Hub/HubMultiPaste.cs:67 = title"
+   "IsaClient.Hub/HubMultiPaste.cs:68 = title"
   ]
  },
  "On: {0} ({1} working {2}).": {
@@ -40161,7 +40181,7 @@
    "Panel > Experimental > Multi Paste (bots building with you)"
   ],
   "code": [
-   "IsaClient.Hub/HubMultiPaste.cs:133 HubBotSets.Chip(label)"
+   "IsaClient.Hub/HubMultiPaste.cs:168 HubBotSets.Chip(label)"
   ]
  },
  "Packet Maximum": {
@@ -40177,7 +40197,7 @@
    "Panel > Experimental > Multi Paste (bots building with you)"
   ],
   "code": [
-   "IsaClient.Hub/HubMultiPaste.cs:138 HubBotSets.Chip(label)"
+   "IsaClient.Hub/HubMultiPaste.cs:173 HubBotSets.Chip(label)"
   ]
  },
  "Packet Mode": {
@@ -40859,7 +40879,7 @@
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.Hub/HubBots.cs:343 HubKit.Chip(text)",
-   "IsaClient.MultiClient/MultiPaste.cs:125 ReturnStatement"
+   "IsaClient.MultiClient/MultiPaste.cs:143 ReturnStatement"
   ]
  },
  "Pasting chests...": {
@@ -40899,7 +40919,7 @@
    "Panel > Experimental > Multi Paste (bots building with you)"
   ],
   "code": [
-   "IsaClient.Hub/HubMultiPaste.cs:61 = title"
+   "IsaClient.Hub/HubMultiPaste.cs:62 = title"
   ]
  },
  "Pasting works like dropping the file on the game.": {
@@ -45327,7 +45347,7 @@
   "code": [
    "IsaClient.Casino/CasinoWindow.cs:1400 L10n.T(text)",
    "IsaClient.ChatImages/ChatAttachments.cs:128 = Status",
-   "IsaClient.MultiClient/MultiPaste.cs:147 ReturnStatement",
+   "IsaClient.MultiClient/MultiPaste.cs:165 ReturnStatement",
    "IsaClient.Music/MusicPlayerWindow.cs:1453 = Sub"
   ]
  },
@@ -48907,7 +48927,7 @@
    "IsaClient.Hub/ClientContent.cs:186 = Verb",
    "IsaClient.Hub/HubBots.cs:547 HubKit.Button(label)",
    "IsaClient.Hub/HubBotSets.cs:634 Argument",
-   "IsaClient.MultiClient/ClientSession.cs:2069 BinaryWriter.Write(value)"
+   "IsaClient.MultiClient/ClientSession.cs:2232 BinaryWriter.Write(value)"
   ]
  },
  "Say One Line": {
@@ -58674,7 +58694,7 @@
    "Panel > Experimental > Multi Paste (bots building with you)"
   ],
   "code": [
-   "IsaClient.Hub/HubMultiPaste.cs:144 HubBotSets.Stepper(tip)"
+   "IsaClient.Hub/HubMultiPaste.cs:179 HubBotSets.Stepper(tip)"
   ]
  },
  "The same for all your characters: players with IsaClient see it, the scores use it and reports include it. .isaid new makes another one.": {
@@ -59281,6 +59301,17 @@
   ],
   "code": [
    "IsaClient.Hub/HubBotSets.cs:934 HubKit.Text(text)"
+  ]
+ },
+ "Their buff while Multi Paste is on": {
+  "where": [
+   "Panel > Experimental > Multi Paste (bots building with you)"
+  ],
+  "kind": [
+   "text on screen"
+  ],
+  "code": [
+   "IsaClient.Hub/HubMultiPaste.cs:104 HubKit.Text(text)"
   ]
  },
  "Their message waits a few seconds, until the picture is up and checked.": {
@@ -61164,7 +61195,7 @@
    "Panel > Experimental > Multi Paste (bots building with you)"
   ],
   "code": [
-   "IsaClient.Hub/HubMultiPaste.cs:73 = line"
+   "IsaClient.Hub/HubMultiPaste.cs:74 = line"
   ]
  },
  "Turn it on to hide your IP from the servers you join.": {
@@ -61185,7 +61216,7 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/HubMultiPaste.cs:78 HubKit.Button(label)",
+   "IsaClient.Hub/HubMultiPaste.cs:79 HubKit.Button(label)",
    "IsaClient.MultiClient/MultiClientPanel.cs:963 MultiClientPanel.OptionRow(button)"
   ]
  },
@@ -61211,7 +61242,7 @@
   ],
   "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/HubMultiPaste.cs:78 HubKit.Button(label)",
+   "IsaClient.Hub/HubMultiPaste.cs:79 HubKit.Button(label)",
    "IsaClient.Hub/HubPipe.cs:56 HubKit.Button(label)",
    "IsaClient.MultiClient/MultiClientPanel.cs:963 MultiClientPanel.OptionRow(button)"
   ]
@@ -62376,7 +62407,7 @@
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.Hub/HubBotSets.cs:174 HubKit.Text(text)",
-   "IsaClient.Hub/HubMultiPaste.cs:92 Argument"
+   "IsaClient.Hub/HubMultiPaste.cs:127 Argument"
   ]
  },
  "Unpick them all": {
@@ -67378,7 +67409,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Hub/HubMultiPaste.cs:78 HubKit.Button(tooltip)"
+   "IsaClient.Hub/HubMultiPaste.cs:79 HubKit.Button(tooltip)"
   ]
  },
  "You play as it": {
@@ -67386,7 +67417,7 @@
    "Multi Paste: bots building with you (messages)"
   ],
   "code": [
-   "IsaClient.MultiClient/MultiPaste.cs:137 ReturnStatement"
+   "IsaClient.MultiClient/MultiPaste.cs:155 ReturnStatement"
   ]
  },
  "You route messages for a coding agent that makes Terraria plugins inside the game. Read the latest user message (and the short context) and answer ONLY a JSON object:\n{{\"route\": \"quick\" or \"work\", \"plugin\": \"<existing plugin folder name it is about, or empty>\", \"title\": \"<3-6 word title of the task>\"}}\n- \"quick\": greetings, thanks, small talk, questions about how something works that need no files read or written.\n- \"work\": anything that creates, changes, fixes, inspects or builds a plugin, or needs to look at code or the game's API.\n- plugin: only one of the listed plugins, written exactly as listed; empty when it's a new plugin or none.": {
@@ -67905,7 +67936,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Hub/HubMultiPaste.cs:78 HubKit.Button(tooltip)"
+   "IsaClient.Hub/HubMultiPaste.cs:79 HubKit.Button(tooltip)"
   ]
  },
  "Your bots paste with you on TShock, each its own strip": {
@@ -69909,7 +69940,7 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:728 = StatusText"
+   "IsaClient.MultiClient/ClientSession.cs:754 = StatusText"
   ]
  },
  "connected": {
@@ -69952,7 +69983,7 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:703 = StatusText"
+   "IsaClient.MultiClient/ClientSession.cs:729 = StatusText"
   ]
  },
  "connection lost": {
@@ -69960,7 +69991,7 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:361 ClientSession.OnClosed(reason)"
+   "IsaClient.MultiClient/ClientSession.cs:387 ClientSession.OnClosed(reason)"
   ]
  },
  "converting {0} (a TerraAngel build for .NET 10)": {
@@ -70191,7 +70222,7 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:801 = StatusText",
+   "IsaClient.MultiClient/ClientSession.cs:827 = StatusText",
    "IsaClient.MultiClient/Possession.cs:484 ClientSession.MarkGone(reason)"
   ]
  },
@@ -70678,7 +70709,7 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:721 = StatusText"
+   "IsaClient.MultiClient/ClientSession.cs:747 = StatusText"
   ]
  },
  "help, panel, settings, text color, command prefix, abbreviations": {
@@ -70797,8 +70828,8 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:391 = StatusText",
-   "IsaClient.MultiClient/ClientSession.cs:2285 = StatusText"
+   "IsaClient.MultiClient/ClientSession.cs:417 = StatusText",
+   "IsaClient.MultiClient/ClientSession.cs:2457 = StatusText"
   ]
  },
  "in game (you)": {
@@ -70806,7 +70837,7 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:339 = StatusText"
+   "IsaClient.MultiClient/ClientSession.cs:365 = StatusText"
   ]
  },
  "in game (you, idle)": {
@@ -70814,7 +70845,7 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:391 = StatusText"
+   "IsaClient.MultiClient/ClientSession.cs:417 = StatusText"
   ]
  },
  "in your world: hotbar slot 1 if it is a weapon, else the first weapon on the hotbar (tools never)": {
@@ -71034,7 +71065,7 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:2092 ClientSession.Disconnect(reason)"
+   "IsaClient.MultiClient/ClientSession.cs:2255 ClientSession.Disconnect(reason)"
   ]
  },
  "kill aura, butcher, projectiles, spawn and control NPCs": {
@@ -71633,7 +71664,7 @@
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.MultiClient/MultiClientManager.cs:1467 ClientChat.Notice(text)",
-   "IsaClient.MultiClient/MultiPaste.cs:175 MultiClientManager.AnnounceError(text)"
+   "IsaClient.MultiClient/MultiPaste.cs:193 MultiClientManager.AnnounceError(text)"
   ]
  },
  "no sound": {
@@ -72488,7 +72519,7 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:743 ClientConnection.Close(reason)"
+   "IsaClient.MultiClient/ClientSession.cs:769 ClientConnection.Close(reason)"
   ]
  },
  "recv complete: {0} B, crc {1}": {
@@ -72529,7 +72560,7 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:716 ClientConnection.Close(reason)"
+   "IsaClient.MultiClient/ClientSession.cs:742 ClientConnection.Close(reason)"
   ]
  },
  "requesting tiles": {
@@ -72537,7 +72568,7 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:2262 = StatusText"
+   "IsaClient.MultiClient/ClientSession.cs:2434 = StatusText"
   ]
  },
  "requesting world": {
@@ -72545,7 +72576,7 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:2240 = StatusText"
+   "IsaClient.MultiClient/ClientSession.cs:2412 = StatusText"
   ]
  },
  "reset": {
@@ -72644,7 +72675,7 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:2202 = StatusText"
+   "IsaClient.MultiClient/ClientSession.cs:2374 = StatusText"
   ]
  },
  "server": {
@@ -72660,7 +72691,7 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:2105 ClientSession.Disconnect(reason)"
+   "IsaClient.MultiClient/ClientSession.cs:2268 ClientSession.Disconnect(reason)"
   ]
  },
  "servers": {
@@ -73687,7 +73718,7 @@
    "Multi Paste: bots building with you (messages)"
   ],
   "code": [
-   "IsaClient.MultiClient/MultiPaste.cs:490 MultiClientManager.Announce(text)"
+   "IsaClient.MultiClient/MultiPaste.cs:510 MultiClientManager.Announce(text)"
   ]
  },
  "you and your bots": {
@@ -73727,7 +73758,7 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:365 = StatusText",
+   "IsaClient.MultiClient/ClientSession.cs:391 = StatusText",
    "IsaClient.MultiClient/MultiClientManager.cs:1587 ReturnStatement"
   ]
  },
@@ -74171,7 +74202,7 @@
    "text on screen"
   ],
   "code": [
-   "IsaClient.Hub/HubMultiPaste.cs:118 HubKit.Text(text)"
+   "IsaClient.Hub/HubMultiPaste.cs:153 HubKit.Text(text)"
   ]
  },
  "{0}  ·  {1} tiles away": {
@@ -77107,7 +77138,7 @@
    "Panel > Experimental > Multi Paste (bots building with you)"
   ],
   "code": [
-   "IsaClient.Hub/HubMultiPaste.cs:62 = line"
+   "IsaClient.Hub/HubMultiPaste.cs:63 = line"
   ]
  },
  "{0}: AI {1}.": {
@@ -77151,6 +77182,14 @@
   ],
   "code": [
    "IsaClient.MultiClient/BotSets.cs:411 MultiClientManager.Announce(text)"
+  ]
+ },
+ "{0}: everyone sees it on them (a mount's buff puts them on the mount); 0 = none": {
+  "where": [
+   "Panel > Experimental > Multi Paste (bots building with you)"
+  ],
+  "code": [
+   "IsaClient.Hub/HubMultiPaste.cs:106 L10n.F(text)"
   ]
  },
  "{0}: everyone sees it on them while they are pixies": {
