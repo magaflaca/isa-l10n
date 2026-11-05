@@ -1,7 +1,7 @@
 {
  "format": 1,
- "updated": "2026-11-04T06:11:53Z",
- "texts": 7517,
+ "updated": "2026-11-05T06:56:28Z",
+ "texts": 7616,
  "languages": [
   {
    "code": "zh-Hans",
@@ -10,12 +10,12 @@
    "flag": "cn",
    "author": "IsaClient community",
    "file": "packs/zh-Hans.json",
-   "sha256": "1fdd293349f66de38e4fb880e3feec9bfe6e4a794f93fcacb4715d4bf48ff793",
-   "bytes": 601767,
-   "translated": 7487,
-   "total": 7517,
-   "percent": 99.6,
-   "updated": "2026-11-04T06:11:53Z"
+   "sha256": "1581355c0e2c2cfdea8c61a2c6d24532ef89c0b6e4e7c771fd2c9f4c6f57bac6",
+   "bytes": 600877,
+   "translated": 7483,
+   "total": 7616,
+   "percent": 98.3,
+   "updated": "2026-11-05T06:56:28Z"
   },
   {
    "code": "fr",
@@ -24,12 +24,12 @@
    "flag": "fr",
    "author": "IsaClient community",
    "file": "packs/fr.json",
-   "sha256": "06305078b55b01f2e14ebe87bb28a02a592d8499a5aeaf2b7dbf6c74f9c7a9fa",
-   "bytes": 653797,
-   "translated": 7487,
-   "total": 7517,
-   "percent": 99.6,
-   "updated": "2026-11-04T06:11:53Z"
+   "sha256": "9d996ab42314f594fb502d50d671f02f27d892a3ad54ab8e82ff92643aa62344",
+   "bytes": 652880,
+   "translated": 7483,
+   "total": 7616,
+   "percent": 98.3,
+   "updated": "2026-11-05T06:56:28Z"
   },
   {
    "code": "de",
@@ -38,12 +38,12 @@
    "flag": "de",
    "author": "IsaClient community",
    "file": "packs/de.json",
-   "sha256": "5f5fb5bf4f8253c97e048dd3cb3f94285b53a2269648431c17a95b9a43b6e7e4",
-   "bytes": 649577,
-   "translated": 7487,
-   "total": 7517,
-   "percent": 99.6,
-   "updated": "2026-11-04T06:11:53Z"
+   "sha256": "3106c57df7b98cf6a97bba7ff09ebfb9d2c220e146f115523c3c9835699df021",
+   "bytes": 648661,
+   "translated": 7483,
+   "total": 7616,
+   "percent": 98.3,
+   "updated": "2026-11-05T06:56:28Z"
   },
   {
    "code": "ja",
@@ -52,12 +52,12 @@
    "flag": "jp",
    "author": "IsaClient community",
    "file": "packs/ja.json",
-   "sha256": "72559ddba26ec8635a3a2eb205696be8c0cdd486256d4b88b0dd0f7dc13ba652",
-   "bytes": 720150,
-   "translated": 7487,
-   "total": 7517,
-   "percent": 99.6,
-   "updated": "2026-11-04T06:11:53Z"
+   "sha256": "73970648d028a11340012bba121e835aa091ef712e77ff4ee3d858e0375ffa17",
+   "bytes": 719054,
+   "translated": 7483,
+   "total": 7616,
+   "percent": 98.3,
+   "updated": "2026-11-05T06:56:28Z"
   },
   {
    "code": "pt-BR",
@@ -66,12 +66,12 @@
    "flag": "br",
    "author": "IsaClient community",
    "file": "packs/pt-BR.json",
-   "sha256": "49e86f119ac6f2a3df6b907f853e711e1b7656cb8a7f9c95797fd78d181dbab0",
-   "bytes": 628580,
-   "translated": 7487,
-   "total": 7517,
-   "percent": 99.6,
-   "updated": "2026-11-04T06:11:53Z"
+   "sha256": "501f206705d05772505ddde9210e22f1f41ab1c5cf71f8ba9415f21885cd4e34",
+   "bytes": 627667,
+   "translated": 7483,
+   "total": 7616,
+   "percent": 98.3,
+   "updated": "2026-11-05T06:56:28Z"
   },
   {
    "code": "ru",
@@ -80,12 +80,12 @@
    "flag": "ru",
    "author": "IsaClient community",
    "file": "packs/ru.json",
-   "sha256": "41d8b8cb13bb859797687c6f1a4bf676b8ff02e959f526047af88df9d49a85b6",
-   "bytes": 823849,
-   "translated": 7487,
-   "total": 7517,
-   "percent": 99.6,
-   "updated": "2026-11-04T06:11:53Z"
+   "sha256": "f3f5bbec85672699610520778376f7bc5bc0b805f34b39510cf7c1e000b62fa1",
+   "bytes": 822597,
+   "translated": 7483,
+   "total": 7616,
+   "percent": 98.3,
+   "updated": "2026-11-05T06:56:28Z"
   },
   {
    "code": "es",
@@ -94,12 +94,12 @@
    "flag": "es",
    "author": "IsaClient community",
    "file": "packs/es.json",
-   "sha256": "c240d7f1a1f71b02b09359af7270d99eb7ca0a5cfa2777dbc7b779e0b701ebef",
-   "bytes": 631302,
-   "translated": 7487,
-   "total": 7517,
-   "percent": 99.6,
-   "updated": "2026-11-04T06:11:53Z"
+   "sha256": "dd639cfe255e5cd9f6d3aa606eebd428fc4e8c871b37584514715c83e065acca",
+   "bytes": 630365,
+   "translated": 7483,
+   "total": 7616,
+   "percent": 98.3,
+   "updated": "2026-11-05T06:56:28Z"
   }
  ]
 }

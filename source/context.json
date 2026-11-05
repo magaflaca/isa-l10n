@@ -1501,7 +1501,7 @@
   ],
   "note": "Poker: after two starting cards of the same suit, e.g. \"A K suited\" (with the leading space).",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1116 L10n.T(text)"
+   "IsaClient.Casino/CasinoWindow.cs:1204 L10n.T(text)"
   ]
  },
  " {0} left out: bot limit {1}.": {
@@ -1992,7 +1992,7 @@
    "Casino window: lobby, poker table, blackjack table"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1476 L10n.F(text)"
+   "IsaClient.Casino/CasinoWindow.cs:1564 L10n.F(text)"
   ]
  },
  "+{0} sent!": {
@@ -2788,6 +2788,17 @@
    "IsaClient.WorldTools/WorldInfo.cs:241 ReturnStatement"
   ]
  },
+ "1st 12": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "kind": [
+   "one value of a list (an option, a name, a state)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:1098 ArrayInitializerExpression"
+  ]
+ },
  "2 min": {
   "where": [
    "Chess (game against a player or the computer)"
@@ -2807,12 +2818,34 @@
    "IsaClient.MultiClient/MultiClientPanel.cs:689 MultiClientPanel.Section(title)"
   ]
  },
+ "2nd 12": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "kind": [
+   "one value of a list (an option, a name, a state)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:1098 ArrayInitializerExpression"
+  ]
+ },
  "3. How many": {
   "where": [
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
    "IsaClient.MultiClient/MultiClientPanel.cs:742 MultiClientPanel.Section(title)"
+  ]
+ },
+ "3rd 12": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "kind": [
+   "one value of a list (an option, a name, a state)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:1098 ArrayInitializerExpression"
   ]
  },
  "4 min": {
@@ -3045,7 +3078,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:982 CasinoArt.Button(tooltip)"
+   "IsaClient.Casino/CasinoWindow.cs:1070 CasinoArt.Button(tooltip)"
   ]
  },
  "A copied picture (or picture files copied in Explorer) is attached when you paste in the chat.": {
@@ -3398,7 +3431,7 @@
    "Casino window: lobby, poker table, blackjack table"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:385 L10n.F(text)"
+   "IsaClient.Casino/CasinoWindow.cs:473 L10n.F(text)"
   ]
  },
  "A tile was null when sending data. Or you entered the game menu.": {
@@ -3467,7 +3500,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:543 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:551 CommandRegistry.Describe(summary)"
   ]
  },
  "AFK AI {0}{1}": {
@@ -4373,7 +4406,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:573 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:581 CommandRegistry.Describe(summary)"
   ]
  },
  "Adds the ID of Items, Item Prefixes, NPCs, and Buffs to their names.": {
@@ -4617,9 +4650,9 @@
   ],
   "note": "Poker term (Texas Hold'em): use the word poker players use in your language, not the everyday word. To bet all your chips (often kept as \"All in\"; Spanish: \"All in\" / \"Todo\").",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1064 L10n.T(text)",
-   "IsaClient.Casino/CasinoWindow.cs:1209 L10n.T(text)",
-   "IsaClient.Casino/CasinoWindow.cs:1216 CasinoArt.Button(label)",
+   "IsaClient.Casino/CasinoWindow.cs:1152 L10n.T(text)",
+   "IsaClient.Casino/CasinoWindow.cs:1297 L10n.T(text)",
+   "IsaClient.Casino/CasinoWindow.cs:1304 CasinoArt.Button(label)",
    "IsaClient.Casino/PokerTable.cs:62 ReturnStatement"
   ]
  },
@@ -4708,6 +4741,17 @@
    "IsaClient.Building/Selection.cs:1240 ClientChat.Info(text)"
   ]
  },
+ "All your chips back": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "kind": [
+   "tooltip (shown when the mouse is over something)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:443 CasinoArt.Button(tooltip)"
+  ]
+ },
  "All your projectiles will now be reflected.": {
   "where": [
    "Gameplay cheats and tools (combat, items, player, auto clicker...)"
@@ -4771,7 +4815,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:380 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:388 CommandInfo.Help(summary)"
   ]
  },
  "Allows you to ignore or force conveyer belt behavior.\nNormal - Unchanged.\nIgnored - You will ignore conveyer belts.\nForce Clockwise/Counter-Clockwise - All tiles act like the specified conveyer belt.": {
@@ -4827,6 +4871,15 @@
   ],
   "code": [
    "IsaClient.Menu/PlayerMenu.cs:420 SwitchExpressionArm"
+  ]
+ },
+ "Alone until you join a server": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:342 L10n.T(text)",
+   "IsaClient.Casino/BetsWindow.cs:357 L10n.T(text)"
   ]
  },
  "Already coying tiles, please wait for the operation to finish.": {
@@ -5162,7 +5215,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:929 HubGames.SwitchRow(title)"
+   "IsaClient.Hub/HubGames.cs:943 HubGames.SwitchRow(title)"
   ]
  },
  "Always searches": {
@@ -5374,7 +5427,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:527 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:535 CommandRegistry.Describe(summary)"
   ]
  },
  "Animations": {
@@ -5437,7 +5490,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:978 CasinoArt.Button(tooltip)"
+   "IsaClient.Casino/CasinoWindow.cs:1066 CasinoArt.Button(tooltip)"
   ]
  },
  "Another round (you swap who starts)": {
@@ -5664,7 +5717,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:220 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:228 CommandInfo.Help(summary)"
   ]
  },
  "Any": {
@@ -5755,7 +5808,7 @@
    "text on screen"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:965 HubKit.Text(text)"
+   "IsaClient.Hub/HubGames.cs:979 HubKit.Text(text)"
   ]
  },
  "Any language": {
@@ -5837,7 +5890,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:218 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:226 CommandInfo.Help(summary)"
   ]
  },
  "Anything you want to tell the developers.": {
@@ -6163,7 +6216,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:500 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:508 CommandInfo.Help(summary)"
   ]
  },
  "Ask in the chat with .ask <question>: game data, news, prices, how-tos... It searches the web, reads the best pages and answers only from them, with numbered sources. Answers are shown only to you.": {
@@ -6347,6 +6400,14 @@
    "IsaClient.Hub/ClientContent.cs:143 ClientContent.Flag(title)"
   ]
  },
+ "At the table": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:489 L10n.T(text)"
+  ]
+ },
  "Ateoz": {
   "where": [
    "In-game cheat menu and main menu additions"
@@ -6474,14 +6535,17 @@
  },
  "Auto": {
   "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)",
    "GBA emulator window",
    "Panel > Plugin Maker page"
   ],
   "kind": [
+   "button",
    "one value of a list (an option, a name, a state)"
   ],
-  "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
+  "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
+   "IsaClient.Casino/BetsWindow.cs:954 CasinoArt.Button(label)",
    "IsaClient.Gba/PokemonWindow.cs:1059 ArrayInitializerExpression",
    "IsaClient.Hub/HubPluginMaker.cs:141 HubPluginMaker.Chip(text)",
    "IsaClient.Hub/HubPluginMaker.cs:974 HubPluginMaker.ModelRow(label)"
@@ -6758,7 +6822,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:260 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:268 CommandInfo.Help(summary)"
   ]
  },
  "Auto reuse, turn while using, hold to use.": {
@@ -6977,7 +7041,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:569 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:577 CommandRegistry.Describe(summary)"
   ]
  },
  "Average": {
@@ -7012,7 +7076,7 @@
    "Casino window: lobby, poker table, blackjack table"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1064 L10n.T(text)"
+   "IsaClient.Casino/CasinoWindow.cs:1152 L10n.T(text)"
   ]
  },
  "Axe Power": {
@@ -7035,6 +7099,14 @@
    "IsaClient.Hub/HubItemEditor.cs:623 HubItemEditor.Number(label)"
   ]
  },
+ "BIG WIN!": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:778 L10n.T(text)"
+  ]
+ },
  "BLACKJACK PAYS 3 TO 2": {
   "where": [
    "Casino window: lobby, poker table, blackjack table"
@@ -7044,7 +7116,7 @@
   ],
   "note": "Printed on the blackjack table felt, like real casino tables (keep it uppercase).",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1279 CasinoArt.Print(text)"
+   "IsaClient.Casino/CasinoWindow.cs:1367 CasinoArt.Print(text)"
   ]
  },
  "BMP Files": {
@@ -7057,20 +7129,20 @@
  },
  "Back": {
   "where": [
+   "Casino window: lobby, poker table, blackjack table",
    "GBA emulator window",
    "Panel > character editor",
-   "Panel > item editor",
-   "In-game cheat menu and main menu additions"
+   "Panel > item editor"
   ],
   "kind": [
    "button"
   ],
   "note": "Shown in 4 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
+   "IsaClient.Casino/CasinoWindow.cs:237 CasinoArt.Button(label)",
    "IsaClient.Gba/PokemonWindow.cs:906 MusicDrawing.TextButton(label)",
    "IsaClient.Hub/HubCharacterEditor.cs:226 HubKit.Button(label)",
-   "IsaClient.Hub/HubItemEditor.cs:1238 HubKit.Button(label)",
-   "IsaClient.Menu/CharacterWindow.cs:198 UiKit.Button(label)"
+   "IsaClient.Hub/HubItemEditor.cs:1238 HubKit.Button(label)"
   ]
  },
  "Back 10 seconds": {
@@ -7153,6 +7225,17 @@
    "IsaClient.Hub/HubRainbow.cs:374 HubKit.Button(label)"
   ]
  },
+ "Back to the games (chips not played yet come back)": {
+  "where": [
+   "Casino window: lobby, poker table, blackjack table"
+  ],
+  "kind": [
+   "tooltip (shown when the mouse is over something)"
+  ],
+  "code": [
+   "IsaClient.Casino/CasinoWindow.cs:237 CasinoArt.Button(tooltip)"
+  ]
+ },
  "Back to the letter as it's saved.": {
   "where": [
    "Panel > Rainbow letter maker"
@@ -7194,7 +7277,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:1041 HubKit.Button(tooltip)"
+   "IsaClient.Hub/HubGames.cs:1055 HubKit.Button(tooltip)"
   ]
  },
  "Back to the table": {
@@ -7337,6 +7420,15 @@
   ],
   "code": [
    "IsaClient.Menu/CosmeticMenu.cs:132 SwitchExpressionArm"
+  ]
+ },
+ "Be the first at the table": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:342 L10n.T(text)",
+   "IsaClient.Casino/BetsWindow.cs:357 L10n.T(text)"
   ]
  },
  "Beach": {
@@ -7527,10 +7619,13 @@
  },
  "Bet": {
   "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)",
    "Casino: poker table (Texas Hold'em) actions and messages"
   ],
   "note": "Poker/Blackjack: to put chips (Spanish: \"Apostar\").",
   "code": [
+   "IsaClient.Casino/BetsWindow.cs:929 L10n.T(text)",
+   "IsaClient.Casino/BetsWindow.cs:930 L10n.T(text)",
    "IsaClient.Casino/PokerTable.cs:58 ReturnStatement"
   ]
  },
@@ -7540,7 +7635,7 @@
   ],
   "note": "Casino: bet {0} chips.",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1209 L10n.F(text)"
+   "IsaClient.Casino/CasinoWindow.cs:1297 L10n.F(text)"
   ]
  },
  "Bet {0}  ·  {1}s": {
@@ -7548,7 +7643,39 @@
    "Casino window: lobby, poker table, blackjack table"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1448 L10n.F(text)"
+   "IsaClient.Casino/CasinoWindow.cs:1536 L10n.F(text)"
+  ]
+ },
+ "Bet {0} at a time": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:397 L10n.F(text)"
+  ]
+ },
+ "Bet: {0}": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:454 L10n.F(text)"
+  ]
+ },
+ "Bets": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)",
+   "Casino window: lobby, poker table, blackjack table"
+  ],
+  "kind": [
+   "small label on screen"
+  ],
+  "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:199 L10n.T(text)",
+   "IsaClient.Casino/CasinoWindow.cs:219 CasinoWindow.Tab(label)",
+   "IsaClient.Casino/CasinoWindow.cs:361 CasinoWindow.Line(label)",
+   "IsaClient.Casino/CasinoWindow.cs:371 Argument"
   ]
  },
  "Bets from": {
@@ -7560,7 +7687,7 @@
   ],
   "note": "Blackjack: label before the minimum bet of the table.",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:416 CasinoWindow.Choice(label)"
+   "IsaClient.Casino/CasinoWindow.cs:504 CasinoWindow.Choice(label)"
   ]
  },
  "Bets {0} to {1}": {
@@ -7568,7 +7695,7 @@
    "Casino window: lobby, poker table, blackjack table"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:171 L10n.F(text)"
+   "IsaClient.Casino/CasinoWindow.cs:209 L10n.F(text)"
   ]
  },
  "Better Chat Box": {
@@ -7696,6 +7823,7 @@
  },
  "Black": {
   "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)",
    "Saved items library and item sharing"
   ],
   "kind": [
@@ -7703,6 +7831,8 @@
   ],
   "note": "A color name (the chess pieces are chess::Black).",
   "code": [
+   "IsaClient.Casino/BetsWindow.cs:1107 Argument",
+   "IsaClient.Casino/BetsWindow.cs:1231 L10n.T(text)",
    "IsaClient.Items/ItemMark.cs:122 ArrayInitializerExpression"
   ]
  },
@@ -7735,10 +7865,10 @@
   ],
   "note": "Card game name (usually kept as \"Blackjack\").",
   "code": [
-   "IsaClient.Casino/CasinoNet.cs:418 L10n.T(text)",
-   "IsaClient.Casino/CasinoWindow.cs:170 = title",
-   "IsaClient.Casino/CasinoWindow.cs:288 CasinoWindow.Line(label)",
-   "IsaClient.Casino/CasinoWindow.cs:298 Argument"
+   "IsaClient.Casino/CasinoNet.cs:424 L10n.T(text)",
+   "IsaClient.Casino/CasinoWindow.cs:208 = title",
+   "IsaClient.Casino/CasinoWindow.cs:360 CasinoWindow.Line(label)",
+   "IsaClient.Casino/CasinoWindow.cs:371 Argument"
   ]
  },
  "Blackjack  {0}+": {
@@ -7746,7 +7876,7 @@
    "Casino window: lobby, poker table, blackjack table"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:456 = what"
+   "IsaClient.Casino/CasinoWindow.cs:544 = what"
   ]
  },
  "Blend Tiles": {
@@ -7769,7 +7899,7 @@
   ],
   "note": "Poker term (Texas Hold'em): use the word poker players use in your language, not the everyday word. The forced bets (Spanish: \"Ciegas\").",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:377 CasinoWindow.Choice(label)"
+   "IsaClient.Casino/CasinoWindow.cs:465 CasinoWindow.Choice(label)"
   ]
  },
  "Blinds {0}/{1}": {
@@ -7778,7 +7908,7 @@
   ],
   "note": "Poker term (Texas Hold'em): use the word poker players use in your language, not the everyday word. Small blind / big blind amounts.",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:165 L10n.F(text)"
+   "IsaClient.Casino/CasinoWindow.cs:203 L10n.F(text)"
   ]
  },
  "Block & Wall Speed": {
@@ -7924,7 +8054,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:128 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:136 CommandInfo.Help(summary)"
   ]
  },
  "Blocks the instrument sounds of players that spam them for a few seconds.": {
@@ -7968,7 +8098,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:314 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:322 CommandInfo.Help(summary)"
   ]
  },
  "Blocks you can walk through (actuated).": {
@@ -8052,7 +8182,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:932 = Name"
+   "IsaClient.Hub/HubGames.cs:946 = Name"
   ]
  },
  "Boards": {
@@ -8064,7 +8194,7 @@
   ],
   "note": "Casino: button that opens the rankings (leaderboards). Not wooden boards.",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:326 CasinoArt.Button(label)"
+   "IsaClient.Casino/CasinoWindow.cs:414 CasinoArt.Button(label)"
   ]
  },
  "Body": {
@@ -8105,7 +8235,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:408 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:416 CommandInfo.Help(summary)"
   ]
  },
  "Bomb filler: fills the selected area with bombs (.btype, .bamount).": {
@@ -8116,7 +8246,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:410 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:418 CommandInfo.Help(summary)"
   ]
  },
  "Bomb type set to {0}": {
@@ -8730,7 +8860,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:394 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:402 CommandInfo.Help(summary)"
   ]
  },
  "Brushes": {
@@ -9056,8 +9186,8 @@
   ],
   "note": "Blackjack term: use the word blackjack players use in your language, not the everyday word. Over 21, the hand loses (Spanish: \"Te pasaste\" / \"Pasado\").",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1300 L10n.T(text)",
-   "IsaClient.Casino/CasinoWindow.cs:1346 L10n.T(text)"
+   "IsaClient.Casino/CasinoWindow.cs:1388 L10n.T(text)",
+   "IsaClient.Casino/CasinoWindow.cs:1434 L10n.T(text)"
   ]
  },
  "Bust if you hit": {
@@ -9069,7 +9199,7 @@
   ],
   "note": "Blackjack: label of a gauge, the chance of going over 21 if you take a card.",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1520 CasinoWindow.Odds(label)"
+   "IsaClient.Casino/CasinoWindow.cs:1608 CasinoWindow.Odds(label)"
   ]
  },
  "Butcher Friendly NPCs": {
@@ -9143,7 +9273,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:186 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:194 CommandInfo.Help(summary)"
   ]
  },
  "Buy {0} chips": {
@@ -9151,8 +9281,8 @@
    "Casino window: lobby, poker table, blackjack table"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1133 L10n.F(text)",
-   "IsaClient.Casino/CasinoWindow.cs:1455 L10n.F(text)"
+   "IsaClient.Casino/CasinoWindow.cs:1221 L10n.F(text)",
+   "IsaClient.Casino/CasinoWindow.cs:1543 L10n.F(text)"
   ]
  },
  "By ": {
@@ -9213,7 +9343,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:320 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:328 CommandInfo.Help(summary)"
   ]
  },
  "Cactus": {
@@ -9286,7 +9416,7 @@
   ],
   "note": "Poker term (Texas Hold'em): use the word poker players use in your language, not the everyday word. Button: match the bet, paying {0} chips (Spanish: \"Igualar {0}\" / \"Ver {0}\").",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1167 L10n.F(text)"
+   "IsaClient.Casino/CasinoWindow.cs:1255 L10n.F(text)"
   ]
  },
  "Calling back {0} to {1}:{2}.": {
@@ -9574,6 +9704,20 @@
    "IsaClient.Building/PasteEngine.cs:669 PasteJob.Error(text)"
   ]
  },
+ "Cards": {
+  "where": [
+   "Casino window: lobby, poker table, blackjack table",
+   "Panel > Games page"
+  ],
+  "kind": [
+   "button"
+  ],
+  "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
+  "code": [
+   "IsaClient.Casino/CasinoWindow.cs:218 CasinoWindow.Tab(label)",
+   "IsaClient.Hub/HubGames.cs:540 HubKit.Button(label)"
+  ]
+ },
  "Caru": {
   "where": [
    "In-game cheat menu and main menu additions"
@@ -9592,7 +9736,7 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:175 L10n.T(text)",
+   "IsaClient.Casino/CasinoWindow.cs:213 L10n.T(text)",
    "IsaClient.Hub/HubGames.cs:522 HubKit.Text(text)"
   ]
  },
@@ -9694,6 +9838,14 @@
   ],
   "code": [
    "IsaClient.Menu/MenuListItem.cs:157 SwitchExpressionArm"
+  ]
+ },
+ "Chance": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:1520 L10n.T(text)"
   ]
  },
  "Change": {
@@ -9960,7 +10112,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:424 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:432 CommandInfo.Help(summary)"
   ]
  },
  "Changes when you change the game's language": {
@@ -9979,7 +10131,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:388 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:396 CommandInfo.Help(summary)"
   ]
  },
  "Changes your character's name.": {
@@ -9990,7 +10142,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:286 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:294 CommandInfo.Help(summary)"
   ]
  },
  "Changes your skin variant (clothes and body); 10 and 11 are mannequins.": {
@@ -10001,7 +10153,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:340 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:348 CommandInfo.Help(summary)"
   ]
  },
  "Changing it keeps the stats you changed by hand.": {
@@ -10269,7 +10421,7 @@
   ],
   "note": "Poker: pass without betting (Spanish: \"Pasar\"). Not the chess check: that one is \"Check!\".",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1167 L10n.T(text)",
+   "IsaClient.Casino/CasinoWindow.cs:1255 L10n.T(text)",
    "IsaClient.Casino/PokerTable.cs:54 ReturnStatement"
   ]
  },
@@ -10347,7 +10499,7 @@
   "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.Games/Chess.cs:25 = Name",
-   "IsaClient.Games/Scores.cs:269 L10n.T(text)",
+   "IsaClient.Games/Scores.cs:272 L10n.T(text)",
    "IsaClient.Hub/ClientContent.cs:391 CatalogBuilder.Find(title)"
   ]
  },
@@ -10356,7 +10508,7 @@
    "Mini games: rankings (boards) and best scores"
   ],
   "code": [
-   "IsaClient.Games/Scores.cs:567 L10n.F(text)"
+   "IsaClient.Games/Scores.cs:572 L10n.F(text)"
   ]
  },
  "Chess with IsaClient players or the computer (bot): invite a player or everyone, answer the last invitation, or leave your game. Also in the panel: Games.": {
@@ -10367,7 +10519,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:100 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:108 CommandInfo.Help(summary)"
   ]
  },
  "Chess, Tic Tac Toe, Tetris, Snake and Pokémon: with IsaClient players or the computer": {
@@ -10424,7 +10576,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:636 L10n.T(text)"
+   "IsaClient.Hub/HubGames.cs:642 L10n.T(text)"
   ]
  },
  "Chips won (or lost) at Poker, with the computer and with players. Hands won, lost and split.": {
@@ -10432,7 +10584,15 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:634 L10n.T(text)"
+   "IsaClient.Hub/HubGames.cs:640 L10n.T(text)"
+  ]
+ },
+ "Chips won (or lost) on the slot machine, the Roulette and the races.": {
+  "where": [
+   "Panel > Games page"
+  ],
+  "code": [
+   "IsaClient.Hub/HubGames.cs:644 L10n.T(text)"
   ]
  },
  "Choose a server": {
@@ -10465,7 +10625,7 @@
    "button"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:1032 HubKit.Button(label)"
+   "IsaClient.Hub/HubGames.cs:1046 HubKit.Button(label)"
   ]
  },
  "Choose the ROM first.": {
@@ -10706,19 +10866,19 @@
  },
  "Clear": {
   "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)",
    "Panel > Client settings page",
-   "Panel > Bots > Connection (proxies for bots)",
-   "Panel > Report a bug page"
+   "Panel > Bots > Connection (proxies for bots)"
   ],
   "kind": [
    "button"
   ],
   "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
+   "IsaClient.Casino/BetsWindow.cs:443 CasinoArt.Button(label)",
    "IsaClient.Hub/ClientContent.cs:698 = Verb",
    "IsaClient.Hub/ClientContent.cs:706 = Verb",
-   "IsaClient.Hub/HubBotRoutes.cs:325 HubKit.Button(label)",
-   "IsaClient.Hub/HubFeedback.cs:226 HubKit.Button(label)"
+   "IsaClient.Hub/HubBotRoutes.cs:325 HubKit.Button(label)"
   ]
  },
  "Clear Copied Tiles": {
@@ -10857,7 +11017,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:565 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:573 CommandRegistry.Describe(summary)"
   ]
  },
  "Clears what the AI remembers of the chat (.ai forget).": {
@@ -10888,6 +11048,14 @@
   ],
   "code": [
    "IsaClient.Gba/PokemonWindow.cs:1604 PokemonWindow.PageHeader(sub)"
+  ]
+ },
+ "Click a number, a line between two, a corner or an outside bet. Right click takes it off.": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:1235 L10n.T(text)"
   ]
  },
  "Click a set to edit it.": {
@@ -11209,6 +11377,14 @@
   ],
   "code": [
    "IsaClient.Hub/ClientContent.cs:437 CatalogBuilder.Row(description)"
+  ]
+ },
+ "Click to sit at the table": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/CasinoNews.cs:243 L10n.T(text)"
   ]
  },
  "Click to swap Corruption and Crimson (for you only).": {
@@ -11654,7 +11830,7 @@
   ],
   "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:187 MusicDrawing.BareIcon(tooltip)",
+   "IsaClient.Casino/CasinoWindow.cs:227 MusicDrawing.BareIcon(tooltip)",
    "IsaClient.ChatImages/ImageViewer.cs:317 KeyValuePair..ctor(value)",
    "IsaClient.Core/Updater.cs:556 Updater.DrawButton(text)",
    "IsaClient.Core/Updater.cs:691 Updater.DrawCentered(text)"
@@ -11807,7 +11983,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:187 MusicDrawing.BareIcon(tooltip)"
+   "IsaClient.Casino/CasinoWindow.cs:227 MusicDrawing.BareIcon(tooltip)"
   ]
  },
  "Closest enemy": {
@@ -11986,7 +12162,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:494 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:502 CommandInfo.Help(summary)"
   ]
  },
  "Colored Chat": {
@@ -12030,7 +12206,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:238 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:246 CommandInfo.Help(summary)"
   ]
  },
  "Colored lightning strikes all around you (the game's own 1.4.5 lightning: every player sees it). Same as .thor.": {
@@ -14267,7 +14443,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:120 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:128 CommandInfo.Help(summary)"
   ]
  },
  "Craft as if you had every material.": {
@@ -14874,7 +15050,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:366 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:374 CommandInfo.Help(summary)"
   ]
  },
  "Custom: {0}x{1}": {
@@ -14977,7 +15153,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:525 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:533 CommandRegistry.Describe(summary)"
   ]
  },
  "Damage set to {0}": {
@@ -15049,7 +15225,7 @@
   ],
   "note": "Casino: start the next hand, the dealer gives the cards (Spanish: \"Repartir\").",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1502 CasinoArt.Button(label)"
+   "IsaClient.Casino/CasinoWindow.cs:1590 CasinoArt.Button(label)"
   ]
  },
  "Dealer busts": {
@@ -15061,7 +15237,7 @@
   ],
   "note": "Blackjack: label of a gauge, the chance the dealer goes over 21.",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1521 CasinoWindow.Odds(label)"
+   "IsaClient.Casino/CasinoWindow.cs:1609 CasinoWindow.Odds(label)"
   ]
  },
  "Dealt by the Moon Lord": {
@@ -15069,7 +15245,7 @@
    "Casino window: lobby, poker table, blackjack table"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:176 L10n.T(text)"
+   "IsaClient.Casino/CasinoWindow.cs:214 L10n.T(text)"
   ]
  },
  "Death Cosmetics for Others": {
@@ -15286,7 +15462,7 @@
   "code": [
    "IsaClient.Hub/HubAiSetup.cs:151 HubKit.Button(label)",
    "IsaClient.Hub/HubColorPicker.cs:219 HubKit.Button(label)",
-   "IsaClient.Hub/HubGames.cs:1041 HubKit.Button(label)",
+   "IsaClient.Hub/HubGames.cs:1055 HubKit.Button(label)",
    "IsaClient.Hub/HubMultiPaste.cs:108 HubKit.Button(label)"
   ]
  },
@@ -15945,7 +16121,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:176 CommandInfo.Help(summary)",
+   "IsaClient.Core/CommandCatalog.cs:184 CommandInfo.Help(summary)",
    "IsaClient.Hub/WorldContent.cs:125 CatalogBuilder.Row(description)"
   ]
  },
@@ -15987,7 +16163,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:174 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:182 CommandInfo.Help(summary)"
   ]
  },
  "Deletes the set (asks first)": {
@@ -16173,7 +16349,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:160 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:168 CommandInfo.Help(summary)"
   ]
  },
  "Deutsch": {
@@ -16750,7 +16926,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:144 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:152 CommandInfo.Help(summary)"
   ]
  },
  "Doesn't Take Damage: {0}": {
@@ -16859,7 +17035,7 @@
   "code": [
    "IsaClient.Gba/PokemonWindow.cs:1661 MusicDrawing.TextButton(label)",
    "IsaClient.Hub/HubColorPicker.cs:212 HubKit.Button(label)",
-   "IsaClient.Hub/HubGames.cs:1032 HubKit.Button(label)"
+   "IsaClient.Hub/HubGames.cs:1046 HubKit.Button(label)"
   ]
  },
  "Done.{0}": {
@@ -16894,7 +17070,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1540 CasinoArt.Button(tooltip)"
+   "IsaClient.Casino/CasinoWindow.cs:1628 CasinoArt.Button(tooltip)"
   ]
  },
  "Double-click to apply this preset to every item you carry that it has an item mod for.": {
@@ -17158,7 +17334,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:464 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:472 CommandInfo.Help(summary)"
   ]
  },
  "Downloads every list again and tests what is new": {
@@ -17180,7 +17356,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:546 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:554 CommandRegistry.Describe(summary)"
   ]
  },
  "Downloads the world you are on to Terraria/Worlds (reveals the map first).": {
@@ -17191,7 +17367,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:545 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:553 CommandRegistry.Describe(summary)"
   ]
  },
  "Downscale images before converting them (e.g. 1000x1000 at 10% = 100x100).\nUse .picscale <percent> for decimals.": {
@@ -17434,7 +17610,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:256 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:264 CommandInfo.Help(summary)"
   ]
  },
  "Draws the hitbox of each NPC. Color coded as follows:\nRed: Hostile NPC\nDark Red: Hostile NPC, deals damage, does not recieve damage\nOrange: Hostile NPC, deals no damage\nLime Green: Friendly NPC": {
@@ -17648,6 +17824,17 @@
    "IsaClient.Hub/WorldContent.cs:276 CatalogBuilder.Pair(title)"
   ]
  },
+ "Duke Hoofron": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "kind": [
+   "one value of a list (an option, a name, a state)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsGames.cs:253 ArrayInitializerExpression"
+  ]
+ },
  "Dungeon": {
   "where": [
    "Panel > colors / theme",
@@ -17785,6 +17972,14 @@
    "IsaClient.Hub/HubMultiPaste.cs:186 HubBotSets.Sub(title)"
   ]
  },
+ "Each chip gives back {0}": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:1563 L10n.F(text)"
+  ]
+ },
  "Each file read, edit, build or search is a step.": {
   "where": [
    "Panel > Plugin Maker page"
@@ -17891,6 +18086,17 @@
    "IsaClient.Games/Snake.cs:878 L10n.T(text)"
   ]
  },
+ "Eater of Hay": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "kind": [
+   "one value of a list (an option, a name, a state)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsGames.cs:253 ArrayInitializerExpression"
+  ]
+ },
  "Eater of Worlds": {
   "where": [
    "In-game cheat menu and main menu additions"
@@ -17919,7 +18125,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:324 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:332 CommandInfo.Help(summary)"
   ]
  },
  "Echo blocks and echo-coated blocks are always visible.": {
@@ -18170,7 +18376,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:806 HubKit.RawText(text)"
+   "IsaClient.Hub/HubGames.cs:820 HubKit.RawText(text)"
   ]
  },
  "Elo rating from games against players; everyone starts at {0}. The computer doesn't count.": {
@@ -18178,7 +18384,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:626 L10n.F(text)"
+   "IsaClient.Hub/HubGames.cs:632 L10n.F(text)"
   ]
  },
  "Emerald": {
@@ -18235,7 +18441,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:110 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:118 CommandInfo.Help(summary)"
   ]
  },
  "Empties the form": {
@@ -18873,7 +19079,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:440 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:448 CommandInfo.Help(summary)"
   ]
  },
  "Erase packet rate for World Edit.": {
@@ -18884,7 +19090,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:416 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:424 CommandInfo.Help(summary)"
   ]
  },
  "Erase selection error!\n{0}": {
@@ -19028,6 +19234,17 @@
    "IsaClient.Assistant/AiAssistant.cs:583 ReturnStatement"
   ]
  },
+ "Even": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)",
+   "Casino window: lobby, poker table, blackjack table"
+  ],
+  "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:1106 Argument",
+   "IsaClient.Casino/CasinoWindow.cs:406 Argument"
+  ]
+ },
  "Events": {
   "where": [
    "Panel > World page"
@@ -19047,7 +19264,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:390 CasinoArt.Button(tooltip)"
+   "IsaClient.Casino/CasinoWindow.cs:478 CasinoArt.Button(tooltip)"
   ]
  },
  "Every IsaClient player here gets the invitation; the first who accepts plays.": {
@@ -19167,7 +19384,7 @@
    "Casino window: lobby, poker table, blackjack table"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:286 CasinoWindow.Line(tip)"
+   "IsaClient.Casino/CasinoWindow.cs:358 CasinoWindow.Line(tip)"
   ]
  },
  "Every prefix the item can roll.": {
@@ -19310,7 +19527,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:638 L10n.T(text)"
+   "IsaClient.Hub/HubGames.cs:646 L10n.T(text)"
   ]
  },
  "Everything you turn on shows up here, so you can turn it off quickly.": {
@@ -19326,7 +19543,7 @@
    "Casino window: lobby, poker table, blackjack table"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1216 L10n.F(text)"
+   "IsaClient.Casino/CasinoWindow.cs:1304 L10n.F(text)"
   ]
  },
  "Evil and hallowed blocks glow.": {
@@ -19623,7 +19840,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:542 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:550 CommandRegistry.Describe(summary)"
   ]
  },
  "Extra data when pointing at a creature.": {
@@ -19656,7 +19873,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:172 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:180 CommandInfo.Help(summary)"
   ]
  },
  "Extra information while selecting and pasting.": {
@@ -19667,7 +19884,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:474 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:482 CommandInfo.Help(summary)"
   ]
  },
  "Extra item information in tooltips.": {
@@ -19678,7 +19895,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:170 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:178 CommandInfo.Help(summary)"
   ]
  },
  "Extra item information {0}.": {
@@ -19755,7 +19972,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:254 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:262 CommandInfo.Help(summary)"
   ]
  },
  "Extra reach (tiles)": {
@@ -20282,7 +20499,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:312 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:320 CommandInfo.Help(summary)"
   ]
  },
  "Fills the area with the block or wall in your hand.": {
@@ -20304,7 +20521,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:384 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:392 CommandInfo.Help(summary)"
   ]
  },
  "Filters": {
@@ -20377,7 +20594,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:1067 L10n.F(text)"
+   "IsaClient.Hub/HubGames.cs:1081 L10n.F(text)"
   ]
  },
  "Find and test proxies in the background": {
@@ -20405,6 +20622,17 @@
    "IsaClient.Gba/PokemonFinder.cs:131 PokemonWindow.PageHeader(title)"
   ]
  },
+ "Finding the table...": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:209 L10n.T(text)",
+   "IsaClient.Casino/BetsWindow.cs:1216 L10n.T(text)",
+   "IsaClient.Casino/BetsWindow.cs:1445 L10n.T(text)",
+   "IsaClient.Casino/BetsWindow.cs:1513 L10n.T(text)"
+  ]
+ },
  "Finding working proxies...": {
   "where": [
    "Panel > Bots > Connection (proxies for bots)",
@@ -20426,7 +20654,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:184 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:192 CommandInfo.Help(summary)"
   ]
  },
  "Finds where a tile is in the world; true teleports you there.": {
@@ -20437,7 +20665,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:400 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:408 CommandInfo.Help(summary)"
   ]
  },
  "Finish": {
@@ -20499,6 +20727,14 @@
    "IsaClient.Assistant/PluginMaker/PluginTools.cs:44 Argument"
   ]
  },
+ "First two": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:1522 L10n.T(text)"
+  ]
+ },
  "Fishes up that item every time you reel in (no id stops).": {
   "where": [
    "Chat commands: short help of each command (.help)"
@@ -20507,7 +20743,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:272 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:280 CommandInfo.Help(summary)"
   ]
  },
  "Fishing power": {
@@ -20528,6 +20764,14 @@
   "note": "Playing card name (singular), used inside poker hand names like \"Straight, {0} high\".",
   "code": [
    "IsaClient.Casino/Cards.cs:27 ArrayInitializerExpression"
+  ]
+ },
+ "Five lines. Three sevens pay {0} times a line's bet.": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:188 L10n.F(text)"
   ]
  },
  "Fives": {
@@ -20792,8 +21036,8 @@
   ],
   "note": "Poker term (Texas Hold'em): use the word poker players use in your language, not the everyday word. To give up the hand (Spanish: \"Retirarse\" / \"No ir\").",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1064 L10n.T(text)",
-   "IsaClient.Casino/CasinoWindow.cs:1162 CasinoArt.Button(label)",
+   "IsaClient.Casino/CasinoWindow.cs:1152 L10n.T(text)",
+   "IsaClient.Casino/CasinoWindow.cs:1250 CasinoArt.Button(label)",
    "IsaClient.Casino/PokerTable.cs:52 ReturnStatement"
   ]
  },
@@ -21616,7 +21860,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:212 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:220 CommandInfo.Help(summary)"
   ]
  },
  "Free camera movement speed (.freecam <speed>).\nHold LeftShift to go faster and LeftControl to go slower.": {
@@ -21638,7 +21882,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:210 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:218 CommandInfo.Help(summary)"
   ]
  },
  "Free camera: move the view around without moving your character.": {
@@ -21660,7 +21904,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:118 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:126 CommandInfo.Help(summary)"
   ]
  },
  "Free engines from here": {
@@ -21690,7 +21934,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:330 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:338 CommandInfo.Help(summary)"
   ]
  },
  "Free translations by MyMemory. Every install has its own daily quota ({0}); when it runs out another one is used. If a translation fails, the message is sent as you typed it. Command: .translate <from> <to>": {
@@ -21749,7 +21993,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:428 CasinoArt.Button(tooltip)"
+   "IsaClient.Casino/CasinoWindow.cs:516 CasinoArt.Button(tooltip)"
   ]
  },
  "From .copy, a loaded schematic or pixel art.": {
@@ -21792,7 +22036,7 @@
    "small label on screen"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:286 CasinoWindow.Line(label)"
+   "IsaClient.Casino/CasinoWindow.cs:358 CasinoWindow.Line(label)"
   ]
  },
  "From your next connection, it": {
@@ -21811,7 +22055,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1455 CasinoArt.Button(tooltip)"
+   "IsaClient.Casino/CasinoWindow.cs:1543 CasinoArt.Button(tooltip)"
   ]
  },
  "From your wallet (the house gives some when it's empty), and back in the game": {
@@ -21822,7 +22066,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1133 CasinoArt.Button(tooltip)"
+   "IsaClient.Casino/CasinoWindow.cs:1221 CasinoArt.Button(tooltip)"
   ]
  },
  "From {0}": {
@@ -21863,6 +22107,14 @@
    "IsaClient.Hub/WorldContent.cs:293 CatalogBuilder.Row(title)",
    "IsaClient.Menu/WorldInfoMenu.cs:56 CollectionInitializerExpression",
    "IsaClient.Menu/WorldInfoMenu.cs:488 ComplexElementInitializerExpression"
+  ]
+ },
+ "Fruit, bells, diamonds and sevens on five lines. Just you and the machine.": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:332 L10n.T(text)"
   ]
  },
  "Full house, {0} over {1}": {
@@ -21951,7 +22203,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:540 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:548 CommandRegistry.Describe(summary)"
   ]
  },
  "Fullbright: {0}.  (.fb full | off | <percent>)": {
@@ -22154,7 +22406,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:322 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:330 CommandInfo.Help(summary)"
   ]
  },
  "Game Jolt": {
@@ -22590,7 +22842,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:928 HubGames.SwitchRow(title)"
+   "IsaClient.Hub/HubGames.cs:942 HubGames.SwitchRow(title)"
   ]
  },
  "Get more ({0})": {
@@ -22620,7 +22872,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:195 CasinoArt.Button(tooltip)"
+   "IsaClient.Casino/CasinoWindow.cs:246 CasinoArt.Button(tooltip)"
   ]
  },
  "Gets a fresh copy from the repository": {
@@ -22738,7 +22990,7 @@
    "small label on screen"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:289 CasinoWindow.Line(label)"
+   "IsaClient.Casino/CasinoWindow.cs:362 CasinoWindow.Line(label)"
   ]
  },
  "Giphy": {
@@ -22831,7 +23083,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:310 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:318 CommandInfo.Help(summary)"
   ]
  },
  "Gives you a buff for some seconds (-1 = permanent).": {
@@ -22850,7 +23102,7 @@
    "Mini games: rankings (boards) and best scores"
   ],
   "code": [
-   "IsaClient.Games/Scores.cs:263 L10n.T(text)"
+   "IsaClient.Games/Scores.cs:266 L10n.T(text)"
   ]
  },
  "Global Brightness": {
@@ -23122,7 +23374,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:480 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:488 CommandInfo.Help(summary)"
   ]
  },
  "Goes After": {
@@ -23150,6 +23402,17 @@
   ],
   "code": [
    "IsaClient.Assistant/PluginMaker/PluginAgent.cs:109 = Help"
+  ]
+ },
+ "Goes to the horse races: everyone on the server bets on the same race.": {
+  "where": [
+   "Chat commands: short help of each command (.help)"
+  ],
+  "kind": [
+   "help of a chat command (.help)"
+  ],
+  "code": [
+   "IsaClient.Core/CommandCatalog.cs:96 CommandInfo.Help(summary)"
   ]
  },
  "Goes to where you are": {
@@ -23545,7 +23808,7 @@
   ],
   "note": "Poker: button tooltip, bets half the pot.",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1198 Argument"
+   "IsaClient.Casino/CasinoWindow.cs:1286 Argument"
   ]
  },
  "Hallow": {
@@ -23711,6 +23974,17 @@
   ],
   "code": [
    "IsaClient.Assistant/AskStatus.cs:25 ArrayInitializerExpression"
+  ]
+ },
+ "Hay of Cthulhu": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "kind": [
+   "one value of a list (an option, a name, a state)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsGames.cs:253 ArrayInitializerExpression"
   ]
  },
  "Heal": {
@@ -24100,7 +24374,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:222 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:230 CommandInfo.Help(summary)"
   ]
  },
  "Hit": {
@@ -24425,6 +24699,23 @@
    "IsaClient.Menu/MenuListItem.cs:150 SwitchExpressionArm"
   ]
  },
+ "Horse": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:1519 L10n.T(text)"
+  ]
+ },
+ "Horse races": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:195 L10n.T(text)",
+   "IsaClient.Casino/BetsWindow.cs:365 L10n.T(text)"
+  ]
+ },
  "Hostile NPCs are not drawn (bosses and town NPCs are still drawn).": {
   "where": [
    "In-game cheat menu and main menu additions"
@@ -24482,7 +24773,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:933 = Hint"
+   "IsaClient.Hub/HubGames.cs:947 = Hint"
   ]
  },
  "How bots behave.": {
@@ -24640,7 +24931,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:406 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:414 CommandInfo.Help(summary)"
   ]
  },
  "How many chat messages the AI remembers (also ContextMinutes in IsaAI.json).": {
@@ -24738,7 +25029,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:296 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:304 CommandInfo.Help(summary)"
   ]
  },
  "How much dust should be created overall.\n100% is normal, 0% disables dust.\nHold LeftShift to adjust this by 10%.": {
@@ -25286,7 +25577,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:122 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:130 CommandInfo.Help(summary)"
   ]
  },
  "Illuminant Coating on every tile: the art stays visible in the dark.": {
@@ -25908,7 +26199,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:124 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:132 CommandInfo.Help(summary)"
   ]
  },
  "Infinite mana.": {
@@ -25919,7 +26210,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:130 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:138 CommandInfo.Help(summary)"
   ]
  },
  "Infinite reach for mining and placing.": {
@@ -25930,7 +26221,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:266 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:274 CommandInfo.Help(summary)"
   ]
  },
  "Info & Server": {
@@ -26060,7 +26351,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:579 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:587 CommandRegistry.Describe(summary)"
   ]
  },
  "Instant Regen": {
@@ -26130,7 +26421,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:146 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:154 CommandInfo.Help(summary)"
   ]
  },
  "Interface": {
@@ -27468,7 +27759,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:102 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:110 CommandInfo.Help(summary)"
   ]
  },
  "IsaClient's language: {0}": {
@@ -28031,7 +28322,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:334 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:342 CommandInfo.Help(summary)"
   ]
  },
  "Item time needed.": {
@@ -28226,6 +28517,22 @@
    "IsaClient.Gba/GbaFinder.cs:1460 = why"
   ]
  },
+ "JACKPOT!": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:778 L10n.T(text)"
+  ]
+ },
+ "JACKPOT! {0} won {1} chips on the slot machine!": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/CasinoNews.cs:102 L10n.F(text)"
+  ]
+ },
  "JPEG Files": {
   "where": [
    "Building tools: world edit, schematics, paste, pixel art from pictures"
@@ -28272,14 +28579,17 @@
  },
  "Join": {
   "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)",
    "Mini games: Chess, Tic Tac Toe, Tetris, Tetris Versus, Snake, and their rankings",
    "Panel > Games page"
   ],
   "kind": [
    "button"
   ],
-  "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
+  "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
+   "IsaClient.Casino/BetsWindow.cs:347 L10n.T(text)",
+   "IsaClient.Casino/BetsWindow.cs:365 L10n.T(text)",
    "IsaClient.Games/GameOverlay.cs:308 MusicDrawing.TextButton(label)",
    "IsaClient.Hub/HubGames.cs:42 HubKit.Button(label)"
   ]
@@ -28303,8 +28613,8 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:390 CasinoArt.Button(tooltip)",
-   "IsaClient.Casino/CasinoWindow.cs:428 CasinoArt.Button(tooltip)"
+   "IsaClient.Casino/CasinoWindow.cs:478 CasinoArt.Button(tooltip)",
+   "IsaClient.Casino/CasinoWindow.cs:516 CasinoArt.Button(tooltip)"
   ]
  },
  "Join a server first (or use New bot)": {
@@ -28428,6 +28738,14 @@
    "IsaClient.Hub/HubItemEditor.cs:1023 HubKit.Text(text)"
   ]
  },
+ "Join the table": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/CasinoNews.cs:139 L10n.T(text)"
+  ]
+ },
  "Joining": {
   "where": [
    "Panel > Players page",
@@ -28492,7 +28810,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:478 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:486 CommandInfo.Help(summary)"
   ]
  },
  "Journey Menu": {
@@ -28547,7 +28865,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:567 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:575 CommandRegistry.Describe(summary)"
   ]
  },
  "Jungle": {
@@ -28628,7 +28946,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:423 CasinoArt.Button(tooltip)"
+   "IsaClient.Casino/CasinoWindow.cs:511 CasinoArt.Button(tooltip)"
   ]
  },
  "Keep": {
@@ -29007,7 +29325,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:194 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:202 CommandInfo.Help(summary)"
   ]
  },
  "Keeps playing related songs when the queue ends.": {
@@ -29029,7 +29347,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:570 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:578 CommandRegistry.Describe(summary)"
   ]
  },
  "Keeps removing all projectiles automatically.": {
@@ -29040,7 +29358,18 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:270 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:278 CommandInfo.Help(summary)"
+  ]
+ },
+ "Keeps spinning until you stop it or the chips run out": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "kind": [
+   "tooltip (shown when the mouse is over something)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:954 CasinoArt.Button(tooltip)"
   ]
  },
  "Keeps the chat history when you leave a world or server (.keepchat).": {
@@ -29105,7 +29434,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:142 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:150 CommandInfo.Help(summary)"
   ]
  },
  "Keeps your chat history when you change worlds or servers.": {
@@ -29116,7 +29445,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:106 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:114 CommandInfo.Help(summary)"
   ]
  },
  "Kept": {
@@ -29405,7 +29734,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:228 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:236 CommandInfo.Help(summary)"
   ]
  },
  "Kills every friendly creature, town NPCs too.": {
@@ -29427,7 +29756,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:190 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:198 CommandInfo.Help(summary)"
   ]
  },
  "Kills every hostile creature all the time.": {
@@ -29471,7 +29800,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:188 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:196 CommandInfo.Help(summary)"
   ]
  },
  "Kills the town NPCs.": {
@@ -29482,7 +29811,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:192 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:200 CommandInfo.Help(summary)"
   ]
  },
  "Kills you. The death can be by a player (p), NPC (n), projectile (pr), other (o) or have no message (e).": {
@@ -29493,7 +29822,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:304 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:312 CommandInfo.Help(summary)"
   ]
  },
  "King": {
@@ -29554,7 +29883,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:528 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:536 CommandRegistry.Describe(summary)"
   ]
  },
  "Knockback set to {0}": {
@@ -29723,7 +30052,7 @@
   "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.Hub/ClientContent.cs:725 ArrayInitializerExpression",
-   "IsaClient.Hub/HubGames.cs:934 ArrayInitializerExpression",
+   "IsaClient.Hub/HubGames.cs:948 ArrayInitializerExpression",
    "IsaClient.Menu/PlayerFileDropDialog.cs:316 = size"
   ]
  },
@@ -29768,6 +30097,14 @@
   ],
   "code": [
    "IsaClient.Hub/HubProxy.cs:134 ReturnStatement"
+  ]
+ },
+ "Last winners": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:1580 L10n.T(text)"
   ]
  },
  "Later": {
@@ -29879,7 +30216,7 @@
   ],
   "note": "Casino: stand up and go back to the lobby.",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:195 CasinoArt.Button(label)"
+   "IsaClient.Casino/CasinoWindow.cs:246 CasinoArt.Button(label)"
   ]
  },
  "Leave the game": {
@@ -29939,7 +30276,7 @@
    "Casino window: lobby, poker table, blackjack table"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1064 L10n.T(text)"
+   "IsaClient.Casino/CasinoWindow.cs:1152 L10n.T(text)"
   ]
  },
  "Left": {
@@ -30229,7 +30566,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:196 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:204 CommandInfo.Help(summary)"
   ]
  },
  "Lets other IsaClient users see that you use IsaClient (the I in their Player List).": {
@@ -30240,7 +30577,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:156 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:164 CommandInfo.Help(summary)"
   ]
  },
  "Lets other IsaClient users see that you use IsaClient (the I statue in their Player List).\nzMod and vanilla clients never see it. Saved in your settings.": {
@@ -30400,7 +30737,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:538 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:546 CommandRegistry.Describe(summary)"
   ]
  },
  "Light": {
@@ -30556,7 +30893,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:226 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:234 CommandInfo.Help(summary)"
   ]
  },
  "Line": {
@@ -30577,6 +30914,7 @@
  },
  "Lines": {
   "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)",
    "Tetris window",
    "The client's main panel (pages, cards, buttons, settings)"
   ],
@@ -30584,8 +30922,9 @@
    "small label on screen",
    "text on screen"
   ],
-  "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
+  "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
+   "IsaClient.Casino/BetsWindow.cs:904 L10n.T(text)",
    "IsaClient.Games/Tetris.cs:317 Tetris.Stat(label)",
    "IsaClient.Hub/HubToolkit.cs:194 HubKit.Text(text)"
   ]
@@ -30729,7 +31068,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:198 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:206 CommandInfo.Help(summary)"
   ]
  },
  "Links this character in the chat line.": {
@@ -30863,7 +31202,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:442 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:450 CommandInfo.Help(summary)"
   ]
  },
  "Liquid packet rate for World Edit.": {
@@ -30874,7 +31213,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:418 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:426 CommandInfo.Help(summary)"
   ]
  },
  "Liquid: {0}, Amount: {1}/255": {
@@ -30947,7 +31286,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:154 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:162 CommandInfo.Help(summary)"
   ]
  },
  "Lists updated {0}. Each proxy is tested with a real connection that carries Terraria's first packet, twice, and again every few minutes.": {
@@ -30969,7 +31308,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:574 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:582 CommandRegistry.Describe(summary)"
   ]
  },
  "Lists your plugins.": {
@@ -31275,7 +31614,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:578 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:586 CommandRegistry.Describe(summary)"
   ]
  },
  "Loads a .tilemap from the Terraria Pixel Art Generator to paste it (a name is looked up in Documents/My Games/Terraria/TerraAngel/Imagenes).": {
@@ -31286,7 +31625,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:468 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:476 CommandInfo.Help(summary)"
   ]
  },
  "Loads a .tilemap saved by the Terraria Pixel Art Generator (\"Guardar TileMap\") to paste it and compare. You can also drop it on the game window.": {
@@ -31308,7 +31647,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:454 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:462 CommandInfo.Help(summary)"
   ]
  },
  "Loads it to paste (left click in the world).": {
@@ -31347,7 +31686,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:490 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:498 CommandInfo.Help(summary)"
   ]
  },
  "Local Server (Hosting)": {
@@ -31458,7 +31797,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:200 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:208 CommandInfo.Help(summary)"
   ]
  },
  "Lock-on leads moving targets: it predicts their path and aims where your shot meets them.": {
@@ -31502,7 +31841,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:372 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:380 CommandInfo.Help(summary)"
   ]
  },
  "Login": {
@@ -31792,7 +32131,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:571 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:579 CommandRegistry.Describe(summary)"
   ]
  },
  "Lose All (Vanilla)": {
@@ -31804,6 +32143,14 @@
   ],
   "code": [
    "IsaClient.Gameplay/PlayerCheats.cs:453 SwitchExpressionArm"
+  ]
+ },
+ "Lost": {
+  "where": [
+   "Casino window: lobby, poker table, blackjack table"
+  ],
+  "code": [
+   "IsaClient.Casino/CasinoWindow.cs:406 Argument"
   ]
  },
  "Low FPS Rescue": {
@@ -31922,6 +32269,17 @@
   ],
   "code": [
    "IsaClient.Core/GeneralCommands.cs:348 ClientChat.Info(text)"
+  ]
+ },
+ "Lucky Slime": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "kind": [
+   "one value of a list (an option, a name, a state)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsGames.cs:253 ArrayInitializerExpression"
   ]
  },
  "Lucy": {
@@ -32121,7 +32479,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:274 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:282 CommandInfo.Help(summary)"
   ]
  },
  "Lucy's Mood": {
@@ -32495,7 +32853,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:224 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:232 CommandInfo.Help(summary)"
   ]
  },
  "Makes the Creative Shock debuff not disallow building and mining.": {
@@ -32539,7 +32897,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:386 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:394 CommandInfo.Help(summary)"
   ]
  },
  "Makes you invisible for that many ticks (-1 = forever).": {
@@ -32550,7 +32908,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:284 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:292 CommandInfo.Help(summary)"
   ]
  },
  "Making a GIF...": {
@@ -32609,7 +32967,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:539 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:547 CommandRegistry.Describe(summary)"
   ]
  },
  "Manually Started Lantern Night": {
@@ -32713,7 +33071,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:332 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:340 CommandInfo.Help(summary)"
   ]
  },
  "Map lighting for tiles outside the normal world border set to {0}": {
@@ -32735,7 +33093,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:552 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:560 CommandRegistry.Describe(summary)"
   ]
  },
  "Map reveal with section requests only (no fallback to the legacy method).": {
@@ -32746,7 +33104,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:548 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:556 CommandRegistry.Describe(summary)"
   ]
  },
  "Map reveal with the legacy method.": {
@@ -32757,7 +33115,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:549 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:557 CommandRegistry.Describe(summary)"
   ]
  },
  "Map reveal with the raw drone packet (1.4.5.8 layout, then the older one).": {
@@ -32768,7 +33126,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:550 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:558 CommandRegistry.Describe(summary)"
   ]
  },
  "Map reveal with the raw drone packet in the pre-1.4.5.8 layout.": {
@@ -32779,7 +33137,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:551 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:559 CommandRegistry.Describe(summary)"
   ]
  },
  "Map saving failed: {0}": {
@@ -32801,7 +33159,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:428 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:436 CommandInfo.Help(summary)"
   ]
  },
  "Marble": {
@@ -33082,7 +33440,7 @@
   "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.Hub/ClientContent.cs:725 ArrayInitializerExpression",
-   "IsaClient.Hub/HubGames.cs:934 ArrayInitializerExpression",
+   "IsaClient.Hub/HubGames.cs:948 ArrayInitializerExpression",
    "IsaClient.Menu/PlayerFileDropDialog.cs:316 = size"
   ]
  },
@@ -33267,7 +33625,7 @@
   ],
   "note": "Poker: button that sets the smallest raise allowed (short, like \"Min\").",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1497 CasinoArt.Button(label)"
+   "IsaClient.Casino/CasinoWindow.cs:1585 CasinoArt.Button(label)"
   ]
  },
  "Mine": {
@@ -33665,6 +34023,17 @@
    "IsaClient.Hub/WorldContent.cs:279 CatalogBuilder.Pair(title)"
   ]
  },
+ "Moon Lord's Pride": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "kind": [
+   "one value of a list (an option, a name, a state)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsGames.cs:253 ArrayInitializerExpression"
+  ]
+ },
  "Moon Phase": {
   "where": [
    "Panel > World page",
@@ -33877,7 +34246,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:426 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:434 CommandInfo.Help(summary)"
   ]
  },
  "Move": {
@@ -33969,7 +34338,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:126 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:134 CommandInfo.Help(summary)"
   ]
  },
  "Move through water, lava and honey as if they weren't there.": {
@@ -34039,7 +34408,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:328 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:336 CommandInfo.Help(summary)"
   ]
  },
  "Moves the letter to the middle, sideways (up and down stays).": {
@@ -34061,7 +34430,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:326 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:334 CommandInfo.Help(summary)"
   ]
  },
  "Mulling": {
@@ -34524,7 +34893,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:580 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:588 CommandRegistry.Describe(summary)"
   ]
  },
  "Music swapped to Otherworldly music!": {
@@ -34557,7 +34926,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:568 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:576 CommandRegistry.Describe(summary)"
   ]
  },
  "Music, sound and ambience off; again to bring your volumes back.": {
@@ -34872,6 +35241,14 @@
   "code": [
    "IsaClient.Hub/WorldContent.cs:236 WorldContent.Data(rows)",
    "IsaClient.Menu/WorldInfoMenu.cs:61 CollectionInitializerExpression"
+  ]
+ },
+ "NICE WIN!": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:778 L10n.T(text)"
   ]
  },
  "NPC Brain": {
@@ -35366,7 +35743,7 @@
    "Mini games: rankings (boards) and best scores"
   ],
   "code": [
-   "IsaClient.Games/Scores.cs:449 L10n.F(text)"
+   "IsaClient.Games/Scores.cs:454 L10n.F(text)"
   ]
  },
  "New best in {0}: {1}! You're #{2} of {3}.": {
@@ -35374,7 +35751,7 @@
    "Mini games: rankings (boards) and best scores"
   ],
   "code": [
-   "IsaClient.Games/Scores.cs:453 L10n.F(text)"
+   "IsaClient.Games/Scores.cs:458 L10n.F(text)"
   ]
  },
  "New best!  #{0} of {1}": {
@@ -35696,6 +36073,14 @@
   ],
   "code": [
    "IsaClient.Hub/HubPlayerView.cs:127 HubKit.IconButton(tooltip)"
+  ]
+ },
+ "Next round soon": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:479 L10n.T(text)"
   ]
  },
  "Next song": {
@@ -36144,6 +36529,14 @@
    "IsaClient.Video/VideoPlayback.cs:723 MediaInterop.Check(what)"
   ]
  },
+ "No bets yet": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:454 L10n.T(text)"
+  ]
+ },
  "No bot '{0}'.": {
   "where": [
    "Bots: extra characters controlled from this client, possession"
@@ -36544,7 +36937,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:138 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:146 CommandInfo.Help(summary)"
   ]
  },
  "No lines of yours yet: .lucy add <text>.": {
@@ -36647,6 +37040,15 @@
    "IsaClient.Assistant/PluginMaker/PluginAgent.cs:1256 PluginAgent.Note(text)"
   ]
  },
+ "No more bets": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:479 L10n.T(text)",
+   "IsaClient.Casino/BetsWindow.cs:1225 L10n.T(text)"
+  ]
+ },
  "No more cards": {
   "where": [
    "Casino window: lobby, poker table, blackjack table"
@@ -36655,7 +37057,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1535 CasinoArt.Button(tooltip)"
+   "IsaClient.Casino/CasinoWindow.cs:1623 CasinoArt.Button(tooltip)"
   ]
  },
  "No nicknames yet: it only answers to your character's name.": {
@@ -36667,6 +37069,14 @@
   ],
   "code": [
    "IsaClient.Hub/HubAiNames.cs:85 HubKit.Text(text)"
+  ]
+ },
+ "No numbers yet": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:1206 L10n.T(text)"
   ]
  },
  "No other player matches '{0}'.": {
@@ -37163,7 +37573,7 @@
    "text on screen"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:721 HubKit.Text(text)"
+   "IsaClient.Hub/HubGames.cs:735 HubKit.Text(text)"
   ]
  },
  "Nobody whispered you yet. Use .w <player> <message>.": {
@@ -37253,7 +37663,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:422 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:430 CommandInfo.Help(summary)"
   ]
  },
  "Noisy Rainbow": {
@@ -37340,7 +37750,15 @@
    "Casino window: lobby, poker table, blackjack table"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:445 L10n.T(text)"
+   "IsaClient.Casino/CasinoWindow.cs:533 L10n.T(text)"
+  ]
+ },
+ "None yet": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:1593 L10n.T(text)"
   ]
  },
  "Noodling": {
@@ -38001,6 +38419,14 @@
    "IsaClient.Hub/WorldContent.cs:212 CatalogBuilder.Row(title)"
   ]
  },
+ "Odd": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:1107 Argument"
+  ]
+ },
  "Off": {
   "where": [
    "Bug reports and suggestions",
@@ -38101,7 +38527,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:928 HubGames.SwitchRow(hint)"
+   "IsaClient.Hub/HubGames.cs:942 HubGames.SwitchRow(hint)"
   ]
  },
  "Off: listening only, nothing goes out.": {
@@ -38267,7 +38693,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:450 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:458 CommandInfo.Help(summary)"
   ]
  },
  "Old command, use .savesch.": {
@@ -38278,7 +38704,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:452 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:460 CommandInfo.Help(summary)"
   ]
  },
  "Old themes and fewer special themes": {
@@ -38539,7 +38965,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1530 CasinoArt.Button(tooltip)"
+   "IsaClient.Casino/CasinoWindow.cs:1618 CasinoArt.Button(tooltip)"
   ]
  },
  "One of your characters (its look and items) or a generated one": {
@@ -38560,6 +38986,14 @@
   "code": [
    "IsaClient.Hub/HubBots.cs:757 SwitchExpressionArm",
    "IsaClient.Hub/HubBots.cs:1032 SwitchExpressionArm"
+  ]
+ },
+ "One zero, the same table for everyone on the server: the same ball, everyone's chips on the same felt.": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:347 L10n.T(text)"
   ]
  },
  "Ongoing Manually Started Party": {
@@ -39072,7 +39506,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:214 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:222 CommandInfo.Help(summary)"
   ]
  },
  "Open picture...": {
@@ -39110,7 +39544,7 @@
    "Casino window: lobby, poker table, blackjack table"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:441 L10n.T(text)"
+   "IsaClient.Casino/CasinoWindow.cs:529 L10n.T(text)"
   ]
  },
  "Open the IsaClient panel": {
@@ -39148,7 +39582,15 @@
    "button"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:699 HubKit.Button(label)"
+   "IsaClient.Hub/HubGames.cs:713 HubKit.Button(label)"
+  ]
+ },
+ "Open the chat to click links": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/CasinoNews.cs:243 L10n.T(text)"
   ]
  },
  "Open the languages folder": {
@@ -39201,8 +39643,8 @@
   ],
   "note": "Casino: open your table so other players can join.",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:390 CasinoArt.Button(label)",
-   "IsaClient.Casino/CasinoWindow.cs:428 CasinoArt.Button(label)"
+   "IsaClient.Casino/CasinoWindow.cs:478 CasinoArt.Button(label)",
+   "IsaClient.Casino/CasinoWindow.cs:516 CasinoArt.Button(label)"
   ]
  },
  "Open world": {
@@ -39311,7 +39753,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:514 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:522 CommandInfo.Help(summary)"
   ]
  },
  "Opens Snake. Your best score goes to the board shared by every IsaClient (Games > Scores).": {
@@ -39377,7 +39819,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:508 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:516 CommandInfo.Help(summary)"
   ]
  },
  "Opens and closes this panel.": {
@@ -39399,7 +39841,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:382 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:390 CommandInfo.Help(summary)"
   ]
  },
  "Opens it in the Item Editor (on the workbench). Saving updates it here.": {
@@ -39440,7 +39882,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:482 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:490 CommandInfo.Help(summary)"
   ]
  },
  "Opens the GIF search (any GIF, or anime reactions); the GIF you pick goes with your next message. Also the GIF button on the chat bar.": {
@@ -39473,7 +39915,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:92 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:100 CommandInfo.Help(summary)"
   ]
  },
  "Opens the Goblin Tinkerer's reforge anywhere.": {
@@ -39484,7 +39926,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:350 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:358 CommandInfo.Help(summary)"
   ]
  },
  "Opens the Guide's crafting help anywhere.": {
@@ -39495,7 +39937,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:348 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:356 CommandInfo.Help(summary)"
   ]
  },
  "Opens the Player List (I and Z badges show IsaClient and zMod users).": {
@@ -39506,7 +39948,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:152 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:160 CommandInfo.Help(summary)"
   ]
  },
  "Opens the Snake window. Works anywhere, even alone.": {
@@ -39531,18 +39973,7 @@
    "IsaClient.Hub/HubGames.cs:376 HubKit.Button(tooltip)"
   ]
  },
- "Opens the casino window. Works anywhere, even alone.": {
-  "where": [
-   "Panel > Games page"
-  ],
-  "kind": [
-   "tooltip (shown when the mouse is over something)"
-  ],
-  "code": [
-   "IsaClient.Hub/HubGames.cs:540 HubKit.Button(tooltip)"
-  ]
- },
- "Opens the casino: Poker (Texas Hold'em) and Blackjack dealt by the Moon Lord, alone with the computer or at a table with other IsaClient players. Your chips come from your rank in the other games; what you win or lose goes to the Poker and Blackjack boards and the global one.": {
+ "Opens the casino's Bets: the slot machine, the Roulette and the horse races, with the same chips.": {
   "where": [
    "Chat commands: short help of each command (.help)"
   ],
@@ -39553,6 +39984,17 @@
    "IsaClient.Core/CommandCatalog.cs:90 CommandInfo.Help(summary)"
   ]
  },
+ "Opens the casino: Poker (Texas Hold'em) and Blackjack dealt by the Moon Lord, alone with the computer or at a table with other IsaClient players. Your chips come from your rank in the other games; what you win or lose goes to the Poker and Blackjack boards and the global one.": {
+  "where": [
+   "Chat commands: short help of each command (.help)"
+  ],
+  "kind": [
+   "help of a chat command (.help)"
+  ],
+  "code": [
+   "IsaClient.Core/CommandCatalog.cs:98 CommandInfo.Help(summary)"
+  ]
+ },
  "Opens the dresser (clothes) window anywhere.": {
   "where": [
    "Chat commands: short help of each command (.help)"
@@ -39561,7 +40003,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:344 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:352 CommandInfo.Help(summary)"
   ]
  },
  "Opens the floating mini player.": {
@@ -39572,7 +40014,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:577 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:585 CommandRegistry.Describe(summary)"
   ]
  },
  "Opens the folder with your character files.": {
@@ -39638,7 +40080,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:575 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:583 CommandRegistry.Describe(summary)"
   ]
  },
  "Opens the music player.": {
@@ -39662,7 +40104,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:576 CommandRegistry.Describe(summary)",
+   "IsaClient.Core/CommandCatalog.cs:584 CommandRegistry.Describe(summary)",
    "IsaClient.Hub/HubHome.cs:142 HubKit.Button(tooltip)"
   ]
  },
@@ -39672,6 +40114,17 @@
   ],
   "code": [
    "IsaClient.ChatImages/ImageViewer.cs:347 ReturnStatement"
+  ]
+ },
+ "Opens the slot machine.": {
+  "where": [
+   "Chat commands: short help of each command (.help)"
+  ],
+  "kind": [
+   "help of a chat command (.help)"
+  ],
+  "code": [
+   "IsaClient.Core/CommandCatalog.cs:92 CommandInfo.Help(summary)"
   ]
  },
  "Opens the song in your browser": {
@@ -39693,7 +40146,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:346 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:354 CommandInfo.Help(summary)"
   ]
  },
  "Opens your Defender's Forge anywhere.": {
@@ -39704,7 +40157,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:356 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:364 CommandInfo.Help(summary)"
   ]
  },
  "Opens your Piggy Bank anywhere.": {
@@ -39715,7 +40168,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:352 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:360 CommandInfo.Help(summary)"
   ]
  },
  "Opens your Safe anywhere.": {
@@ -39726,7 +40179,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:354 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:362 CommandInfo.Help(summary)"
   ]
  },
  "Opens your Schematics folder.": {
@@ -39748,7 +40201,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:358 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:366 CommandInfo.Help(summary)"
   ]
  },
  "Operator": {
@@ -40064,7 +40517,7 @@
    "Casino window: lobby, poker table, blackjack table"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1400 L10n.T(text)"
+   "IsaClient.Casino/CasinoWindow.cs:1488 L10n.T(text)"
   ]
  },
  "Out of chips: the house gives you {0} chips. Good luck!": {
@@ -40072,7 +40525,7 @@
    "Casino: your chips (where they come from)"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWallet.cs:159 L10n.F(text)"
+   "IsaClient.Casino/CasinoWallet.cs:210 L10n.F(text)"
   ]
  },
  "Over Whom": {
@@ -40328,7 +40781,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:398 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:406 CommandInfo.Help(summary)"
   ]
  },
  "Paint coating override disabled.": {
@@ -40374,7 +40827,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:420 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:428 CommandInfo.Help(summary)"
   ]
  },
  "Paint that everything you place gets (no id turns it off).": {
@@ -40385,7 +40838,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:396 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:404 CommandInfo.Help(summary)"
   ]
  },
  "Paint with rainbows, rings, diamonds... based on the position.": {
@@ -40775,7 +41228,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:448 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:456 CommandInfo.Help(summary)"
   ]
  },
  "Paste on TShock": {
@@ -41080,7 +41533,15 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:560 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:568 CommandRegistry.Describe(summary)"
+  ]
+ },
+ "Pays {0} to 1": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:1293 L10n.F(text)"
   ]
  },
  "Peace Candle": {
@@ -41202,7 +41663,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:541 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:549 CommandRegistry.Describe(summary)"
   ]
  },
  "Peru": {
@@ -41653,7 +42114,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:458 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:466 CommandInfo.Help(summary)"
   ]
  },
  "Picks the best server anywhere": {
@@ -41675,7 +42136,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:134 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:142 CommandInfo.Help(summary)"
   ]
  },
  "Picture": {
@@ -42122,7 +42583,16 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:537 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:545 CommandRegistry.Describe(summary)"
+  ]
+ },
+ "Place your bets": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:1220 L10n.T(text)",
+   "IsaClient.Casino/BetsWindow.cs:1445 L10n.T(text)"
   ]
  },
  "PlaceDirectObject was called for a non-tile object. ({0}, {1})": {
@@ -42171,7 +42641,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:116 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:124 CommandInfo.Help(summary)"
   ]
  },
  "Places & Layers": {
@@ -42207,7 +42677,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:136 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:144 CommandInfo.Help(summary)"
   ]
  },
  "Places wall": {
@@ -42288,20 +42758,18 @@
  },
  "Play": {
   "where": [
-   "Casino window: lobby, poker table, blackjack table",
-   "GBA window > Find games",
-   "GBA emulator window"
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)",
+   "Casino window: lobby, poker table, blackjack table"
   ],
   "kind": [
-   "button",
-   "one value of a list (an option, a name, a state)"
+   "button"
   ],
-  "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
+  "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:385 CasinoArt.Button(label)",
-   "IsaClient.Casino/CasinoWindow.cs:423 CasinoArt.Button(label)",
-   "IsaClient.Gba/PokemonFinder.cs:499 SwitchExpressionArm",
-   "IsaClient.Gba/PokemonWindow.cs:651 MusicDrawing.TextButton(label)"
+   "IsaClient.Casino/BetsWindow.cs:332 L10n.T(text)",
+   "IsaClient.Casino/BetsWindow.cs:347 L10n.T(text)",
+   "IsaClient.Casino/BetsWindow.cs:365 L10n.T(text)",
+   "IsaClient.Casino/CasinoWindow.cs:473 CasinoArt.Button(label)"
   ]
  },
  "Play In Background": {
@@ -42324,7 +42792,7 @@
   ],
   "code": [
    "IsaClient.Hub/HubGames.cs:426 HubKit.Button(label)",
-   "IsaClient.Hub/HubGames.cs:699 HubKit.Button(label)"
+   "IsaClient.Hub/HubGames.cs:713 HubKit.Button(label)"
   ]
  },
  "Play Tetris": {
@@ -42336,7 +42804,7 @@
   ],
   "code": [
    "IsaClient.Hub/HubGames.cs:376 HubKit.Button(label)",
-   "IsaClient.Hub/HubGames.cs:699 HubKit.Button(label)"
+   "IsaClient.Hub/HubGames.cs:713 HubKit.Button(label)"
   ]
  },
  "Play Tetris while you wait": {
@@ -42360,7 +42828,7 @@
    "text on screen"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:689 HubKit.Text(text)"
+   "IsaClient.Hub/HubGames.cs:703 HubKit.Text(text)"
   ]
  },
  "Play again": {
@@ -42387,7 +42855,7 @@
    "text on screen"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:689 HubKit.Text(text)"
+   "IsaClient.Hub/HubGames.cs:703 HubKit.Text(text)"
   ]
  },
  "Play all": {
@@ -42513,7 +42981,7 @@
   "code": [
    "IsaClient.Hub/ClientContent.cs:389 CatalogBuilder.Page(title)",
    "IsaClient.Hub/ClientContent.cs:390 CatalogBuilder.Find(title)",
-   "IsaClient.Hub/HubGames.cs:699 HubKit.Button(label)"
+   "IsaClient.Hub/HubGames.cs:713 HubKit.Button(label)"
   ]
  },
  "Play in Background": {
@@ -42806,7 +43274,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:180 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:188 CommandInfo.Help(summary)"
   ]
  },
  "Player vitals {0}.": {
@@ -43009,7 +43477,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:555 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:563 CommandRegistry.Describe(summary)"
   ]
  },
  "Plays a song right now.": {
@@ -43020,7 +43488,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:557 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:565 CommandRegistry.Describe(summary)"
   ]
  },
  "Plays an item use animation on yourself that others see.": {
@@ -43031,7 +43499,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:294 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:302 CommandInfo.Help(summary)"
   ]
  },
  "Plays it with the projectile of the weapon the pattern comes from.": {
@@ -43061,7 +43529,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:370 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:378 CommandInfo.Help(summary)"
   ]
  },
  "Plays the Old One's Army intro film.": {
@@ -43072,7 +43540,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:368 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:376 CommandInfo.Help(summary)"
   ]
  },
  "Plays the previous song.": {
@@ -43083,7 +43551,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:559 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:567 CommandRegistry.Describe(summary)"
   ]
  },
  "Please wait for the copying to finish.": {
@@ -43247,7 +43715,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:506 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:514 CommandInfo.Help(summary)"
   ]
  },
  "Plugins are turned off (Settings > Client > Plugins & TerraAngel, or .plugins system on).": {
@@ -43347,18 +43815,29 @@
   ],
   "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Casino/CasinoNet.cs:418 L10n.T(text)",
-   "IsaClient.Casino/CasinoWindow.cs:287 CasinoWindow.Line(label)",
-   "IsaClient.Casino/CasinoWindow.cs:298 Argument",
-   "IsaClient.Games/Scores.cs:275 L10n.T(text)"
+   "IsaClient.Casino/CasinoNet.cs:424 L10n.T(text)",
+   "IsaClient.Casino/CasinoWindow.cs:359 CasinoWindow.Line(label)",
+   "IsaClient.Casino/CasinoWindow.cs:371 Argument",
+   "IsaClient.Games/Scores.cs:278 L10n.T(text)"
   ]
  },
- "Poker (Texas Hold'em) and Blackjack, dealt by the Moon Lord. Alone with the computer or at a table with the IsaClient players here, each one sitting as their Terraria character. Your chips come from your rank in the other games; what you win or lose counts on the boards.": {
+ "Poker and Blackjack dealt by the Moon Lord, and a slot machine, Roulette and horse races. Alone or with the IsaClient players here. Your chips come from your rank in the other games; what you win or lose counts on the boards.": {
   "where": [
    "Panel > Games page"
   ],
   "code": [
    "IsaClient.Hub/HubGames.cs:523 L10n.T(text)"
+  ]
+ },
+ "Poker and Blackjack. Works anywhere, even alone.": {
+  "where": [
+   "Panel > Games page"
+  ],
+  "kind": [
+   "tooltip (shown when the mouse is over something)"
+  ],
+  "code": [
+   "IsaClient.Hub/HubGames.cs:540 HubKit.Button(tooltip)"
   ]
  },
  "Pokémon Emerald ({0})": {
@@ -43462,7 +43941,7 @@
   ],
   "note": "Poker term (Texas Hold'em): use the word poker players use in your language, not the everyday word. The chips everyone bet in this hand (Spanish: \"Bote\"). Here: button that bets the size of the pot.",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1198 Argument"
+   "IsaClient.Casino/CasinoWindow.cs:1286 Argument"
   ]
  },
  "Potion effects for free": {
@@ -43734,7 +44213,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:476 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:484 CommandInfo.Help(summary)"
   ]
  },
  "Progress": {
@@ -43791,7 +44270,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:534 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:542 CommandRegistry.Describe(summary)"
   ]
  },
  "Projectile set to {0} (ID: {1})": {
@@ -43818,7 +44297,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:531 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:539 CommandRegistry.Describe(summary)"
   ]
  },
  "Projectile speed set to {0}": {
@@ -43837,7 +44316,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:530 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:538 CommandRegistry.Describe(summary)"
   ]
  },
  "Projectiles": {
@@ -43863,7 +44342,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:533 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:541 CommandRegistry.Describe(summary)"
   ]
  },
  "Promote": {
@@ -44014,6 +44493,14 @@
    "IsaClient.Networking/ProxyPool.cs:49 = Name"
   ]
  },
+ "Pull to spin": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:840 L10n.T(text)"
+  ]
+ },
  "Pulsate": {
   "where": [
    "Panel > Client settings page"
@@ -44142,7 +44629,7 @@
   ],
   "note": "Blackjack term: use the word blackjack players use in your language, not the everyday word. A tie with the dealer, the bet is returned (Spanish: \"Empate\"). Not \"to push\".",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1354 L10n.T(text)"
+   "IsaClient.Casino/CasinoWindow.cs:1442 L10n.T(text)"
   ]
  },
  "Put any item in armor, accessory, vanity, ammo and coin slots.": {
@@ -44183,7 +44670,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1502 CasinoArt.Button(tooltip)"
+   "IsaClient.Casino/CasinoWindow.cs:1590 CasinoArt.Button(tooltip)"
   ]
  },
  "Put your TerraAngel fork in a folder here (as you edit it), then turn it on in the plugin overlay. README.txt explains it.": {
@@ -44226,7 +44713,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:556 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:564 CommandRegistry.Describe(summary)"
   ]
  },
  "Puts back what was there before the last paste (Ctrl+Z).": {
@@ -44839,7 +45326,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:244 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:252 CommandInfo.Help(summary)"
   ]
  },
  "Rainbow Paint": {
@@ -44924,7 +45411,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:246 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:254 CommandInfo.Help(summary)"
   ]
  },
  "Rainbow font (RainbowLetters XML)|*.xml|All files|*.*": {
@@ -44994,7 +45481,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:242 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:250 CommandInfo.Help(summary)"
   ]
  },
  "Rainbow outline for self {0}.": {
@@ -45053,7 +45540,7 @@
   ],
   "note": "Poker term (Texas Hold'em): use the word poker players use in your language, not the everyday word. Button: raise to {0} chips (Spanish: \"Subir {0}\").",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1209 L10n.F(text)"
+   "IsaClient.Casino/CasinoWindow.cs:1297 L10n.F(text)"
   ]
  },
  "Random": {
@@ -45158,7 +45645,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:630 L10n.T(text)"
+   "IsaClient.Hub/HubGames.cs:636 L10n.T(text)"
   ]
  },
  "Rank points from games against players: 3 a win, 1 a draw. The computer doesn't count.": {
@@ -45166,7 +45653,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:628 L10n.T(text)"
+   "IsaClient.Hub/HubGames.cs:634 L10n.T(text)"
   ]
  },
  "Rapid Position Updates": {
@@ -45345,7 +45832,7 @@
   ],
   "note": "Shown in 4 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1400 L10n.T(text)",
+   "IsaClient.Casino/CasinoWindow.cs:1488 L10n.T(text)",
    "IsaClient.ChatImages/ChatAttachments.cs:128 = Status",
    "IsaClient.MultiClient/MultiPaste.cs:165 ReturnStatement",
    "IsaClient.Music/MusicPlayerWindow.cs:1453 = Sub"
@@ -45368,7 +45855,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:486 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:494 CommandInfo.Help(summary)"
   ]
  },
  "Received": {
@@ -45568,23 +46055,24 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:262 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:270 CommandInfo.Help(summary)"
   ]
  },
  "Red": {
   "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)",
    "Client core: chat commands, their help, updates, startup",
-   "Saved items library and item sharing",
-   "Visual tools: zoom, fullbright, hitboxes, overlays, anti-lag"
+   "Saved items library and item sharing"
   ],
   "kind": [
    "one value of a list (an option, a name, a state)"
   ],
   "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
+   "IsaClient.Casino/BetsWindow.cs:1106 Argument",
+   "IsaClient.Casino/BetsWindow.cs:1231 L10n.T(text)",
    "IsaClient.Core/NamedColors.cs:14 Argument",
-   "IsaClient.Items/ItemMark.cs:122 ArrayInitializerExpression",
-   "IsaClient.Rendering/InfoOverlays.cs:61 List.Add(item)"
+   "IsaClient.Items/ItemMark.cs:122 ArrayInitializerExpression"
   ]
  },
  "Red Balloons": {
@@ -45701,7 +46189,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:338 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:346 CommandInfo.Help(summary)"
   ]
  },
  "Regenerating world using seed '{0}'...": {
@@ -45750,7 +46238,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:306 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:314 CommandInfo.Help(summary)"
   ]
  },
  "Reload": {
@@ -46299,7 +46787,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:178 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:186 CommandInfo.Help(summary)"
   ]
  },
  "Removes all gore on the client-side.": {
@@ -46321,7 +46809,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:182 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:190 CommandInfo.Help(summary)"
   ]
  },
  "Removes blocks, walls and liquids in the area.": {
@@ -46354,7 +46842,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:140 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:148 CommandInfo.Help(summary)"
   ]
  },
  "Removes every favorite (click twice).": {
@@ -46387,7 +46875,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:402 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:410 CommandInfo.Help(summary)"
   ]
  },
  "Removes it from this list": {
@@ -46464,7 +46952,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:564 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:572 CommandRegistry.Describe(summary)"
   ]
  },
  "Removes the goal": {
@@ -46527,7 +47015,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:288 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:296 CommandInfo.Help(summary)"
   ]
  },
  "Render": {
@@ -46647,12 +47135,16 @@
  },
  "Repeat": {
   "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)",
    "Panel > Client settings page"
   ],
   "kind": [
+   "button",
    "panel option name"
   ],
+  "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
+   "IsaClient.Casino/BetsWindow.cs:448 CasinoArt.Button(label)",
    "IsaClient.Hub/ClientContent.cs:441 CatalogBuilder.Row(title)"
   ]
  },
@@ -46786,7 +47278,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:516 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:524 CommandInfo.Help(summary)"
   ]
  },
  "Reports are in the new panel: .menu new": {
@@ -47184,7 +47676,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:132 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:140 CommandInfo.Help(summary)"
   ]
  },
  "Respawned and returned to normal!": {
@@ -47321,7 +47813,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:561 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:569 CommandRegistry.Describe(summary)"
   ]
  },
  "Retries": {
@@ -47373,7 +47865,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:252 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:260 CommandInfo.Help(summary)"
   ]
  },
  "Reuse delay set to {0}": {
@@ -47452,7 +47944,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:547 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:555 CommandRegistry.Describe(summary)"
   ]
  },
  "Revert": {
@@ -47812,7 +48304,7 @@
   ],
   "note": "Casino: how many computer players sit at your table.",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:378 CasinoWindow.Choice(label)"
+   "IsaClient.Casino/CasinoWindow.cs:466 CasinoWindow.Choice(label)"
   ]
  },
  "Rock Layer": {
@@ -47857,7 +48349,16 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:234 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:242 CommandInfo.Help(summary)"
+  ]
+ },
+ "Roulette": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:191 L10n.T(text)",
+   "IsaClient.Casino/BetsWindow.cs:347 L10n.T(text)"
   ]
  },
  "Royal flush": {
@@ -47912,7 +48413,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:510 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:518 CommandInfo.Help(summary)"
   ]
  },
  "Runs the lines once without saving": {
@@ -48769,7 +49270,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:456 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:464 CommandInfo.Help(summary)"
   ]
  },
  "Saves the edited character as a new .plr (nothing is overwritten).": {
@@ -48810,7 +49311,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:376 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:384 CommandInfo.Help(summary)"
   ]
  },
  "Saves the whole font (yours and the built-in letters) as a RainbowLetters XML file.": {
@@ -48870,7 +49371,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:488 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:496 CommandInfo.Help(summary)"
   ]
  },
  "Saving T-Edit Schematics...": {
@@ -49516,7 +50017,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:276 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:284 CommandInfo.Help(summary)"
   ]
  },
  "Searches when needed": {
@@ -50083,7 +50584,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:446 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:454 CommandInfo.Help(summary)"
   ]
  },
  "Self": {
@@ -50452,7 +50953,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:462 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:470 CommandInfo.Help(summary)"
   ]
  },
  "Sends it to the developers": {
@@ -50475,7 +50976,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:104 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:112 CommandInfo.Help(summary)"
   ]
  },
  "Sends the text again and again (.spamchat alone stops). The text can also be a client command.": {
@@ -50505,7 +51006,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:496 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:504 CommandInfo.Help(summary)"
   ]
  },
  "Sends your last message again.": {
@@ -50532,7 +51033,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:316 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:324 CommandInfo.Help(summary)"
   ]
  },
  "Sends your position very often (not vanilla: may look suspicious).": {
@@ -51354,7 +51855,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:236 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:244 CommandInfo.Help(summary)"
   ]
  },
  "Shimmer liquid": {
@@ -51373,7 +51874,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:240 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:248 CommandInfo.Help(summary)"
   ]
  },
  "Shimmered all Town NPCs into their shimmer variants!": {
@@ -51445,7 +51946,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:230 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:238 CommandInfo.Help(summary)"
   ]
  },
  "Shimmers every town NPC.\nLeft Click to shimmer into shimmered variant.\nRight click to shimmer into normal variant.": {
@@ -51467,7 +51968,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:208 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:216 CommandInfo.Help(summary)"
   ]
  },
  "Shimmers the enemies.": {
@@ -51478,7 +51979,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:206 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:214 CommandInfo.Help(summary)"
   ]
  },
  "Shirt": {
@@ -51574,7 +52075,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:532 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:540 CommandRegistry.Describe(summary)"
   ]
  },
  "Shooting": {
@@ -52051,7 +52552,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:302 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:310 CommandInfo.Help(summary)"
   ]
  },
  "Shows how many pastes, fills and conversions are running.": {
@@ -52062,7 +52563,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:430 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:438 CommandInfo.Help(summary)"
   ]
  },
  "Shows information about the tile under the cursor.": {
@@ -52073,7 +52574,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:472 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:480 CommandInfo.Help(summary)"
   ]
  },
  "Shows invisible players.": {
@@ -52084,7 +52585,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:318 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:326 CommandInfo.Help(summary)"
   ]
  },
  "Shows item, NPC and tile IDs in tooltips.": {
@@ -52095,7 +52596,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:168 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:176 CommandInfo.Help(summary)"
   ]
  },
  "Shows network status text on screen.": {
@@ -52106,7 +52607,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:162 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:170 CommandInfo.Help(summary)"
   ]
  },
  "Shows or changes the world difficulty: classic, expert, master or journey.": {
@@ -52117,7 +52618,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:390 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:398 CommandInfo.Help(summary)"
   ]
  },
  "Shows or hides the client's debug messages.": {
@@ -52128,7 +52629,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:290 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:298 CommandInfo.Help(summary)"
   ]
  },
  "Shows other players' life and mana.": {
@@ -52139,7 +52640,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:164 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:172 CommandInfo.Help(summary)"
   ]
  },
  "Shows the C# of a game method (or all overloads of it) as the game has it: to understand what it does before patching it or calling it.": {
@@ -52158,7 +52659,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:292 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:300 CommandInfo.Help(summary)"
   ]
  },
  "Shows the data of the block under the cursor.": {
@@ -52191,7 +52692,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:563 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:571 CommandRegistry.Describe(summary)"
   ]
  },
  "Shows the size of the brush queue and of the copied area.": {
@@ -52202,7 +52703,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:470 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:478 CommandInfo.Help(summary)"
   ]
  },
  "Shows the song that is playing.": {
@@ -52213,7 +52714,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:566 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:574 CommandRegistry.Describe(summary)"
   ]
  },
  "Shows the wires of other players' Grand Design.": {
@@ -52235,7 +52736,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:298 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:306 CommandInfo.Help(summary)"
   ]
  },
  "Shows what you can do with this world.": {
@@ -52265,7 +52766,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:166 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:174 CommandInfo.Help(summary)"
   ]
  },
  "Shows your luck and where it comes from.": {
@@ -52276,7 +52777,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:392 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:400 CommandInfo.Help(summary)"
   ]
  },
  "Shrinks keeping hard pixels (for pixel art). Off: smooth, for photos and drawings.": {
@@ -52377,7 +52878,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:572 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:580 CommandRegistry.Describe(summary)"
   ]
  },
  "Shuffling...": {
@@ -52385,7 +52886,7 @@
    "Casino window: lobby, poker table, blackjack table"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1144 L10n.T(text)"
+   "IsaClient.Casino/CasinoWindow.cs:1232 L10n.T(text)"
   ]
  },
  "Silver": {
@@ -52467,7 +52968,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:336 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:344 CommandInfo.Help(summary)"
   ]
  },
  "Singleplayer ({0})": {
@@ -52495,7 +52996,7 @@
   ],
   "note": "Casino: take a seat at the table.",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:460 CasinoArt.Button(label)"
+   "IsaClient.Casino/CasinoWindow.cs:548 CasinoArt.Button(label)"
   ]
  },
  "Sit out": {
@@ -52507,7 +53008,7 @@
   ],
   "note": "Casino: skip the next hands but keep your seat (poker/casino term).",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1507 CasinoArt.Button(label)"
+   "IsaClient.Casino/CasinoWindow.cs:1595 CasinoArt.Button(label)"
   ]
  },
  "Sit with {0} chips": {
@@ -52515,7 +53016,18 @@
    "Casino window: lobby, poker table, blackjack table"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:460 L10n.F(text)"
+   "IsaClient.Casino/CasinoWindow.cs:548 L10n.F(text)"
+  ]
+ },
+ "Sits you at the Roulette: one table for everyone on the server.": {
+  "where": [
+   "Chat commands: short help of each command (.help)"
+  ],
+  "kind": [
+   "help of a chat command (.help)"
+  ],
+  "code": [
+   "IsaClient.Core/CommandCatalog.cs:94 CommandInfo.Help(summary)"
   ]
  },
  "Six": {
@@ -52528,6 +53040,14 @@
   "note": "Playing card name (singular), used inside poker hand names like \"Straight, {0} high\".",
   "code": [
    "IsaClient.Casino/Cards.cs:27 ArrayInitializerExpression"
+  ]
+ },
+ "Six horses, odds for each one, and a race everyone on the server watches together.": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:365 L10n.T(text)"
   ]
  },
  "Sixes": {
@@ -52568,7 +53088,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:529 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:537 CommandRegistry.Describe(summary)"
   ]
  },
  "Size of the pictures drawn with .drawphoto.": {
@@ -52663,7 +53183,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1507 CasinoArt.Button(tooltip)"
+   "IsaClient.Casino/CasinoWindow.cs:1595 CasinoArt.Button(tooltip)"
   ]
  },
  "Skip to Dawn": {
@@ -52718,7 +53238,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:558 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:566 CommandRegistry.Describe(summary)"
   ]
  },
  "Skip{0}": {
@@ -52822,6 +53342,26 @@
    "IsaClient.Hub/WorldContent.cs:89 CatalogBuilder.Row(description)"
   ]
  },
+ "Slot machine": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:187 L10n.T(text)",
+   "IsaClient.Casino/BetsWindow.cs:332 L10n.T(text)"
+  ]
+ },
+ "Slot machine, Roulette and horse races, with the same chips": {
+  "where": [
+   "Panel > Games page"
+  ],
+  "kind": [
+   "tooltip (shown when the mouse is over something)"
+  ],
+  "code": [
+   "IsaClient.Hub/HubGames.cs:544 HubKit.Button(tooltip)"
+  ]
+ },
  "Slot {0}": {
   "where": [
    "GBA emulator window"
@@ -52888,7 +53428,7 @@
   "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.Hub/ClientContent.cs:725 ArrayInitializerExpression",
-   "IsaClient.Hub/HubGames.cs:934 ArrayInitializerExpression",
+   "IsaClient.Hub/HubGames.cs:948 ArrayInitializerExpression",
    "IsaClient.Menu/PlayerFileDropDialog.cs:316 = size"
   ]
  },
@@ -53165,7 +53705,7 @@
   ],
   "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Games/Scores.cs:273 ReturnStatement",
+   "IsaClient.Games/Scores.cs:276 ReturnStatement",
    "IsaClient.Games/Snake.cs:600 MusicDrawing.RawText(text)",
    "IsaClient.Games/Snake.cs:865 = title",
    "IsaClient.Hub/ClientContent.cs:393 CatalogBuilder.Find(title)"
@@ -53236,7 +53776,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:94 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:102 CommandInfo.Help(summary)"
   ]
  },
  "Snap to the grid (every {0} units): {1}.": {
@@ -53998,7 +54538,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:308 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:316 CommandInfo.Help(summary)"
   ]
  },
  "Spawns an item for you or another player. Put names with spaces in quotes.": {
@@ -54275,6 +54815,18 @@
    "IsaClient.Hub/HubAsk.cs:175 HubKit.Text(text)"
   ]
  },
+ "Spin": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "kind": [
+   "button"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:949 CasinoArt.Button(label)",
+   "IsaClient.Casino/BetsWindow.cs:1185 BetsWindow.SharedBar(goLabel)"
+  ]
+ },
  "Split": {
   "where": [
    "Casino window: lobby, poker table, blackjack table"
@@ -54284,7 +54836,7 @@
   ],
   "note": "Blackjack term: use the word blackjack players use in your language, not the everyday word. Split a pair into two hands (Spanish: \"Separar\" / \"Dividir\").",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1545 CasinoArt.Button(label)"
+   "IsaClient.Casino/CasinoWindow.cs:1633 CasinoArt.Button(label)"
   ]
  },
  "Sprite Art": {
@@ -54358,7 +54910,7 @@
   ],
   "note": "Blackjack term: use the word blackjack players use in your language, not the everyday word. Keep your cards, no more cards (Spanish: \"Plantarse\").",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1535 CasinoArt.Button(label)"
+   "IsaClient.Casino/CasinoWindow.cs:1623 CasinoArt.Button(label)"
   ]
  },
  "Stardust Guardian": {
@@ -54528,6 +55080,14 @@
    "IsaClient.Hub/HubProxy.cs:575 HubKit.Button(label)"
   ]
  },
+ "Start the race": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:1349 BetsWindow.SharedBar(goLabel)"
+  ]
+ },
  "Starting": {
   "where": [
    "Mini games: Chess, Tic Tac Toe, Tetris, Tetris Versus, Snake, and their rankings"
@@ -54654,20 +55214,21 @@
  },
  "Stop": {
   "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)",
    "Panel > Client settings page",
    "Panel > Bots page",
    "Panel > Bots > Sets"
   ],
   "kind": [
-   "action word on a panel row's button",
-   "button"
+   "button",
+   "action word on a panel row's button"
   ],
-  "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
+  "note": "Shown in 4 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
+   "IsaClient.Casino/BetsWindow.cs:954 CasinoArt.Button(label)",
    "IsaClient.Hub/ClientContent.cs:440 CatalogBuilder.Row(verb)",
    "IsaClient.Hub/HubBots.cs:580 HubBots.Do(label)",
-   "IsaClient.Hub/HubBotSets.cs:193 HubKit.Button(label)",
-   "IsaClient.Hub/HubBotSets.cs:803 Argument"
+   "IsaClient.Hub/HubBotSets.cs:193 HubKit.Button(label)"
   ]
  },
  "Stop & Clear Queue": {
@@ -54992,7 +55553,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:562 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:570 CommandRegistry.Describe(summary)"
   ]
  },
  "Stops the network log.": {
@@ -55003,7 +55564,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:554 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:562 CommandRegistry.Describe(summary)"
   ]
  },
  "Stops you freezing on broken (fake) chests.": {
@@ -55359,7 +55920,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:518 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:526 CommandInfo.Help(summary)"
   ]
  },
  "Summon": {
@@ -55567,7 +56128,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:216 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:224 CommandInfo.Help(summary)"
   ]
  },
  "Super Mario Advance 4": {
@@ -55684,7 +56245,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:434 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:442 CommandInfo.Help(summary)"
   ]
  },
  "Suppress Creative Shock Debuff": {
@@ -55883,7 +56444,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:232 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:240 CommandInfo.Help(summary)"
   ]
  },
  "Switch": {
@@ -56123,6 +56684,17 @@
    "IsaClient.Items/ItemTooltip.cs:67 L10n.T(text)"
   ]
  },
+ "Takes back the last chips you put": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "kind": [
+   "tooltip (shown when the mouse is over something)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:438 CasinoArt.Button(tooltip)"
+  ]
+ },
  "Takes down a file you sent with .sendfile.": {
   "where": [
    "Chat commands: short help of each command (.help)"
@@ -56131,7 +56703,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:466 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:474 CommandInfo.Help(summary)"
   ]
  },
  "Takes every stroke out (Undo brings them back).": {
@@ -56161,8 +56733,8 @@
    "Casino window: lobby, poker table, blackjack table"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1106 L10n.T(text)",
-   "IsaClient.Casino/CasinoWindow.cs:1432 L10n.T(text)"
+   "IsaClient.Casino/CasinoWindow.cs:1194 L10n.T(text)",
+   "IsaClient.Casino/CasinoWindow.cs:1520 L10n.T(text)"
   ]
  },
  "Target NPC: {0} ({1})": {
@@ -56280,7 +56852,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:282 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:290 CommandInfo.Help(summary)"
   ]
  },
  "Teleport items work even where the server does not allow them.": {
@@ -56423,7 +56995,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:250 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:258 CommandInfo.Help(summary)"
   ]
  },
  "Teleports you to the world spawn.": {
@@ -56434,7 +57006,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:248 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:256 CommandInfo.Help(summary)"
   ]
  },
  "Teleports you to tile coordinates or to a player (part of the name is enough; quotes for names with spaces).": {
@@ -56445,7 +57017,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:404 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:412 CommandInfo.Help(summary)"
   ]
  },
  "Tell It About the Game": {
@@ -56539,7 +57111,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:158 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:166 CommandInfo.Help(summary)"
   ]
  },
  "Tells you whether you are on a TShock server.": {
@@ -56550,7 +57122,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:492 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:500 CommandInfo.Help(summary)"
   ]
  },
  "Temporarily change the current soundtrack in use until you exit the world.": {
@@ -56893,7 +57465,7 @@
   ],
   "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Games/Scores.cs:265 ReturnStatement",
+   "IsaClient.Games/Scores.cs:268 ReturnStatement",
    "IsaClient.Games/Tetris.cs:289 MusicDrawing.RawText(text)",
    "IsaClient.Games/Tetris.cs:406 = title",
    "IsaClient.Hub/ClientContent.cs:392 CatalogBuilder.Find(title)"
@@ -56917,7 +57489,7 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Games/Scores.cs:271 L10n.T(text)",
+   "IsaClient.Games/Scores.cs:274 L10n.T(text)",
    "IsaClient.Games/TetrisBattle.cs:32 = Name"
   ]
  },
@@ -56994,7 +57566,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:96 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:104 CommandInfo.Help(summary)"
   ]
  },
  "Tetris {0}  ·  Snake {1}  ·  Versus {2}  ·  Chess {3}  ·  Tic Tac Toe {4}  ·  Casino {5}": {
@@ -57002,7 +57574,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:779 L10n.F(text)"
+   "IsaClient.Hub/HubGames.cs:793 L10n.F(text)"
   ]
  },
  "Tetris: top {0} of {1}": {
@@ -57022,8 +57594,8 @@
   ],
   "note": "Poker variant name (usually kept as is).",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:164 = title",
-   "IsaClient.Casino/CasinoWindow.cs:375 MusicDrawing.RawText(text)"
+   "IsaClient.Casino/CasinoWindow.cs:202 = title",
+   "IsaClient.Casino/CasinoWindow.cs:463 MusicDrawing.RawText(text)"
   ]
  },
  "Texas Hold'em  {0}/{1}": {
@@ -57031,7 +57603,7 @@
    "Casino window: lobby, poker table, blackjack table"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:456 = what"
+   "IsaClient.Casino/CasinoWindow.cs:544 = what"
   ]
  },
  "Text": {
@@ -57188,6 +57760,22 @@
    "IsaClient.Hub/HubItemEditor.cs:248 = note"
   ]
  },
+ "That table is closed.": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/CasinoNews.cs:198 L10n.T(text)"
+  ]
+ },
+ "That table is empty now: you start a new one.": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/CasinoNews.cs:185 L10n.T(text)"
+  ]
+ },
  "That video is already on this computer.": {
   "where": [
    "Video player and video to GIF"
@@ -57216,6 +57804,17 @@
   ],
   "code": [
    "IsaClient.Hub/HubAiSetup.cs:55 HubKit.Wrap(text)"
+  ]
+ },
+ "The Bets and global boards": {
+  "where": [
+   "Casino window: lobby, poker table, blackjack table"
+  ],
+  "kind": [
+   "tooltip (shown when the mouse is over something)"
+  ],
+  "code": [
+   "IsaClient.Casino/CasinoWindow.cs:414 CasinoArt.Button(tooltip)"
   ]
  },
  "The Bots window can't open on this screen.": {
@@ -57419,18 +58018,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:108 CommandInfo.Help(summary)"
-  ]
- },
- "The Poker and Blackjack boards": {
-  "where": [
-   "Panel > Games page"
-  ],
-  "kind": [
-   "tooltip (shown when the mouse is over something)"
-  ],
-  "code": [
-   "IsaClient.Hub/HubGames.cs:544 HubKit.Button(tooltip)"
+   "IsaClient.Core/CommandCatalog.cs:116 CommandInfo.Help(summary)"
   ]
  },
  "The Poker, Blackjack and global boards": {
@@ -57441,7 +58029,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:326 CasinoArt.Button(tooltip)"
+   "IsaClient.Casino/CasinoWindow.cs:414 CasinoArt.Button(tooltip)"
   ]
  },
  "The Pokémon head atlas is not in this build": {
@@ -57572,7 +58160,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:929 HubGames.SwitchRow(hint)"
+   "IsaClient.Hub/HubGames.cs:943 HubGames.SwitchRow(hint)"
   ]
  },
  "The board of every IsaClient player you've met": {
@@ -57617,6 +58205,17 @@
    "IsaClient.Hub/HubBotSets.cs:583 HubKit.Button(tooltip)"
   ]
  },
+ "The casino's boards": {
+  "where": [
+   "Panel > Games page"
+  ],
+  "kind": [
+   "tooltip (shown when the mouse is over something)"
+  ],
+  "code": [
+   "IsaClient.Hub/HubGames.cs:548 HubKit.Button(tooltip)"
+  ]
+ },
  "The chance your currently held item has to critically hit.\nHold LeftShift to change this by 10.": {
   "where": [
    "In-game cheat menu and main menu additions"
@@ -57641,7 +58240,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:502 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:510 CommandInfo.Help(summary)"
   ]
  },
  "The chat shows in your language (the game's one by default). Ctrl + right click translates one message.": {
@@ -57821,7 +58420,7 @@
    "Casino window: lobby, poker table, blackjack table"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1525 L10n.T(text)"
+   "IsaClient.Casino/CasinoWindow.cs:1613 L10n.T(text)"
   ]
  },
  "The decompiler isn't installed.": {
@@ -58064,7 +58663,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:264 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:272 CommandInfo.Help(summary)"
   ]
  },
  "The host closed the table.": {
@@ -58072,7 +58671,15 @@
    "Casino: joining and hosting tables with other players"
   ],
   "code": [
-   "IsaClient.Casino/CasinoNet.cs:793 L10n.T(text)"
+   "IsaClient.Casino/CasinoNet.cs:807 L10n.T(text)"
+  ]
+ },
+ "The house takes the bets": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:200 L10n.T(text)"
   ]
  },
  "The image is not on Imgur any more.": {
@@ -58514,7 +59121,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:1029 L10n.T(text)"
+   "IsaClient.Hub/HubGames.cs:1043 L10n.T(text)"
   ]
  },
  "The places show on the full map the next time you open it.": {
@@ -58681,6 +59288,17 @@
    "IsaClient.Feedback/ReportSender.cs:75 SwitchExpressionArm"
   ]
  },
+ "The same bets as last round": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "kind": [
+   "tooltip (shown when the mouse is over something)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:448 CasinoArt.Button(tooltip)"
+  ]
+ },
  "The same crash was already reported today.": {
   "where": [
    "Bug reports and suggestions"
@@ -58829,7 +59447,7 @@
   ],
   "note": "Poker: button tooltip, bets as much as the pot.",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1198 Argument"
+   "IsaClient.Casino/CasinoWindow.cs:1286 Argument"
   ]
  },
  "The size of the super paint brush.\nHold LeftShift to adjust this by 20.": {
@@ -58906,7 +59524,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:504 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:512 CommandInfo.Help(summary)"
   ]
  },
  "The snake of the old phones, with Terraria fruit.": {
@@ -58974,7 +59592,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:436 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:444 CommandInfo.Help(summary)"
   ]
  },
  "The super paint brush only paints this wall (0 = any).": {
@@ -58985,7 +59603,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:438 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:446 CommandInfo.Help(summary)"
   ]
  },
  "The swing itself doesn't hit.": {
@@ -59034,7 +59652,7 @@
    "Casino: joining and hosting tables with other players"
   ],
   "code": [
-   "IsaClient.Casino/CasinoNet.cs:811 L10n.T(text)"
+   "IsaClient.Casino/CasinoNet.cs:825 L10n.T(text)"
   ]
  },
  "The table's host is gone: the table closed.": {
@@ -59042,7 +59660,7 @@
    "Casino: joining and hosting tables with other players"
   ],
   "code": [
-   "IsaClient.Casino/CasinoNet.cs:453 L10n.T(text)"
+   "IsaClient.Casino/CasinoNet.cs:462 L10n.T(text)"
   ]
  },
  "The text is written right where your cursor is, centered on it (off: above you, at the height below).": {
@@ -59080,7 +59698,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:98 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:106 CommandInfo.Help(summary)"
   ]
  },
  "The velocity at which your held item will shoot projectiles at.\nHold LeftShift to adjust this by 20.": {
@@ -59540,6 +60158,14 @@
   ],
   "code": [
    "IsaClient.Hub/HubBotSets.cs:278 Argument"
+  ]
+ },
+ "They run now": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:1349 BetsWindow.SharedBar(goTip)"
   ]
  },
  "They stay connected in the menu and while you are in other worlds": {
@@ -60014,6 +60640,14 @@
    "IsaClient.Hub/HubNpcBrain.cs:145 L10n.T(text)"
   ]
  },
+ "Throw the ball": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:1185 BetsWindow.SharedBar(goTip)"
+  ]
+ },
  "Thrown away": {
   "where": [
    "Visual tools: zoom, fullbright, hitboxes, overlays, anti-lag"
@@ -60040,7 +60674,7 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Games/Scores.cs:267 L10n.T(text)",
+   "IsaClient.Games/Scores.cs:270 L10n.T(text)",
    "IsaClient.Games/TicTacToe.cs:17 = Name"
   ]
  },
@@ -60052,7 +60686,7 @@
    "text on screen"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:964 HubKit.Text(text)"
+   "IsaClient.Hub/HubGames.cs:978 HubKit.Text(text)"
   ]
  },
  "Tic Tac Toe with IsaClient players or the computer (bot): invite a player or everyone, answer the last invitation, or leave your game. Also in the panel: Games.": {
@@ -60285,7 +60919,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:414 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:422 CommandInfo.Help(summary)"
   ]
  },
  "Tile brush: places the held block in a brush of that size. Without a size it turns on or off.": {
@@ -60296,7 +60930,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:432 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:440 CommandInfo.Help(summary)"
   ]
  },
  "Tile information on the mouse cursor {0}.": {
@@ -60329,7 +60963,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:412 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:420 CommandInfo.Help(summary)"
   ]
  },
  "Tile the held item places.": {
@@ -60340,7 +60974,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:535 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:543 CommandRegistry.Describe(summary)"
   ]
  },
  "TileMap Files": {
@@ -60529,6 +61163,14 @@
   ],
   "code": [
    "IsaClient.Music/StreamedTrack.cs:132 Exception..ctor(message)"
+  ]
+ },
+ "To win": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:1521 L10n.T(text)"
   ]
  },
  "Tone": {
@@ -60911,7 +61553,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:498 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:506 CommandInfo.Help(summary)"
   ]
  },
  "Translating": {
@@ -61015,7 +61657,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:378 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:386 CommandInfo.Help(summary)"
   ]
  },
  "Try It": {
@@ -61501,7 +62143,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:484 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:492 CommandInfo.Help(summary)"
   ]
  },
  "Turns off every feature that is on.": {
@@ -61523,7 +62165,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:300 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:308 CommandInfo.Help(summary)"
   ]
  },
  "Turns on the AI assistant while you are away; --nick adds names it answers to.": {
@@ -61534,7 +62176,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:544 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:552 CommandRegistry.Describe(summary)"
   ]
  },
  "Turns the auto clicker off after this many minutes.": {
@@ -61568,7 +62210,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:112 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:120 CommandInfo.Help(summary)"
   ]
  },
  "Turns the items of your old item presets (Terraria/Item Mods) into items here.": {
@@ -61601,7 +62243,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:204 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:212 CommandInfo.Help(summary)"
   ]
  },
  "Turns you into a ghost (.ghost). Turning it off respawns you if you were dead.": {
@@ -61635,7 +62277,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1545 CasinoArt.Button(tooltip)"
+   "IsaClient.Casino/CasinoWindow.cs:1633 CasinoArt.Button(tooltip)"
   ]
  },
  "Two pair, {0} and {1}": {
@@ -61997,6 +62639,7 @@
  },
  "Undo": {
   "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)",
    "Panel > item editor",
    "Panel > Rainbow letter maker",
    "Panel > World page"
@@ -62005,8 +62648,9 @@
    "button",
    "action word on a panel row's button"
   ],
-  "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
+  "note": "Shown in 4 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
+   "IsaClient.Casino/BetsWindow.cs:438 CasinoArt.Button(label)",
    "IsaClient.Hub/HubItemEditor.cs:320 HubKit.Button(label)",
    "IsaClient.Hub/HubRainbow.cs:313 HubKit.Button(label)",
    "IsaClient.Hub/WorldContent.cs:56 CatalogBuilder.Row(verb)"
@@ -62044,7 +62688,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:114 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:122 CommandInfo.Help(summary)"
   ]
  },
  "Undoing paste at X: {0}, Y: {1} ({2}x{3}){4}": {
@@ -62223,7 +62867,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:362 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:370 CommandInfo.Help(summary)"
   ]
  },
  "Unlimited Minions": {
@@ -62267,7 +62911,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:258 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:266 CommandInfo.Help(summary)"
   ]
  },
  "Unlimited snake ropes.": {
@@ -62278,7 +62922,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:360 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:368 CommandInfo.Help(summary)"
   ]
  },
  "Unlock the Expert and Master Mode accessory slots.": {
@@ -62371,7 +63015,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:374 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:382 CommandInfo.Help(summary)"
   ]
  },
  "Unlocks the achievements that only depend on luck or are hard to trigger.": {
@@ -62382,7 +63026,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:268 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:276 CommandInfo.Help(summary)"
   ]
  },
  "Unmute": {
@@ -62543,6 +63187,14 @@
   ],
   "code": [
    "IsaClient.Hub/HubBots.cs:731 HubBots.Step(hint)"
+  ]
+ },
+ "Up to {0} times a line": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:332 L10n.F(text)"
   ]
  },
  "Update": {
@@ -63621,7 +64273,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:526 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:534 CommandRegistry.Describe(summary)"
   ]
  },
  "Use time, animation time, size.": {
@@ -64408,7 +65060,7 @@
    "Casino window: lobby, poker table, blackjack table"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1144 L10n.T(text)"
+   "IsaClient.Casino/CasinoWindow.cs:1232 L10n.T(text)"
   ]
  },
  "Waiting for archive.org": {
@@ -64575,7 +65227,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:444 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:452 CommandInfo.Help(summary)"
   ]
  },
  "Wall of Flesh": {
@@ -64589,6 +65241,17 @@
    "IsaClient.Hub/WorldContent.cs:265 CatalogBuilder.Row(title)"
   ]
  },
+ "Wall of Mane": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "kind": [
+   "one value of a list (an option, a name, a state)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsGames.cs:253 ArrayInitializerExpression"
+  ]
+ },
  "Wall the held item places.": {
   "where": [
    "Chat commands: short help of each command (.help)"
@@ -64597,7 +65260,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:536 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:544 CommandRegistry.Describe(summary)"
   ]
  },
  "Walls": {
@@ -64701,7 +65364,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:512 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:520 CommandInfo.Help(summary)"
   ]
  },
  "Water": {
@@ -64776,7 +65439,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:202 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:210 CommandInfo.Help(summary)"
   ]
  },
  "Wear (your name never changes)": {
@@ -64964,7 +65627,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:460 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:468 CommandInfo.Help(summary)"
   ]
  },
  "What Mediumcore and Hardcore characters drop when they die.": {
@@ -65093,6 +65756,14 @@
   ],
   "code": [
    "IsaClient.Hub/ClientHub.cs:653 HubInput.Hover(tooltip)"
+  ]
+ },
+ "What it pays": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:879 L10n.T(text)"
   ]
  },
  "What it places": {
@@ -65430,7 +66101,7 @@
    "Casino window: lobby, poker table, blackjack table"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:289 CasinoWindow.Line(tip)"
+   "IsaClient.Casino/CasinoWindow.cs:362 CasinoWindow.Line(tip)"
   ]
  },
  "Where": {
@@ -65828,7 +66499,7 @@
   ],
   "note": "Poker: your chance of winning the hand, as a percentage.",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1121 L10n.F(text)"
+   "IsaClient.Casino/CasinoWindow.cs:1209 L10n.F(text)"
   ]
  },
  "Windows": {
@@ -66083,6 +66754,14 @@
   ],
   "code": [
    "IsaClient.Casino/PokerBot.cs:14 ArrayInitializerExpression"
+  ]
+ },
+ "Won": {
+  "where": [
+   "Casino window: lobby, poker table, blackjack table"
+  ],
+  "code": [
+   "IsaClient.Casino/CasinoWindow.cs:406 Argument"
   ]
  },
  "Words of a name, e.g. 'statLife', 'Player Hurt', 'NPC.StrikeNPC', 'ItemID Zenith', 'ImGui Slider'.": {
@@ -66405,7 +67084,7 @@
    "Casino window: lobby, poker table, blackjack table"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1168 L10n.F(text)"
+   "IsaClient.Casino/CasinoWindow.cs:1256 L10n.F(text)"
   ]
  },
  "Wrangling": {
@@ -66548,7 +67227,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:553 CommandRegistry.Describe(summary)"
+   "IsaClient.Core/CommandCatalog.cs:561 CommandRegistry.Describe(summary)"
   ]
  },
  "Writes answers": {
@@ -67215,6 +67894,14 @@
    "IsaClient.Hub/ClientContent.cs:279 CatalogBuilder.Row(description)"
   ]
  },
+ "You got your bet back": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:519 L10n.T(text)"
+  ]
+ },
  "You have your own version: adding it replaces yours.": {
   "where": [
    "Sharing characters, styles, schematics and files as chat cards"
@@ -67228,7 +67915,7 @@
    "Casino: joining and hosting tables with other players"
   ],
   "code": [
-   "IsaClient.Casino/CasinoNet.cs:208 L10n.F(text)"
+   "IsaClient.Casino/CasinoNet.cs:214 L10n.F(text)"
   ]
  },
  "You haven't loaded any schematics nor have you copied any tiles.": {
@@ -67269,6 +67956,14 @@
    "IsaClient.ChatImages/ChatAttachments.cs:643 ClientChat.Error(text)"
   ]
  },
+ "You lost {0}": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:519 L10n.F(text)"
+  ]
+ },
  "You move as that NPC does, by its own AI (it chases the closest player, the one named, the cursor or the closest enemy). Only you see its look on you. More in Experimental > NPC Brain.": {
   "where": [
    "Chat commands: short help of each command (.help)"
@@ -67277,7 +67972,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:278 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:286 CommandInfo.Help(summary)"
   ]
  },
  "You move exactly as a Pixie does (its own AI), on the Pixie mount, with a kill aura of 1 block: after the closest player, or the one named (alone: the cursor); attack goes after the closest enemy instead. Again stops.": {
@@ -67288,7 +67983,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:280 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:288 CommandInfo.Help(summary)"
   ]
  },
  "You need a name for the item.": {
@@ -67433,7 +68128,7 @@
    "Casino: joining and hosting tables with other players"
   ],
   "code": [
-   "IsaClient.Casino/CasinoNet.cs:820 L10n.F(text)"
+   "IsaClient.Casino/CasinoNet.cs:834 L10n.F(text)"
   ]
  },
  "You sent this one: takes it off Imgur, for everyone": {
@@ -67449,7 +68144,7 @@
    "Casino window: lobby, poker table, blackjack table"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1448 L10n.T(text)"
+   "IsaClient.Casino/CasinoWindow.cs:1536 L10n.T(text)"
   ]
  },
  "You still receive: it only listens. Pictures, messages and shared things others send through the pipe reach you; nothing goes out from you.": {
@@ -67609,12 +68304,28 @@
    "IsaClient.Games/GameOverlay.cs:523 L10n.T(text)"
   ]
  },
+ "You won {0}": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:519 L10n.F(text)"
+  ]
+ },
  "You're #{0} of {1}  ·  {2}": {
   "where": [
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:685 L10n.F(text)"
+   "IsaClient.Hub/HubGames.cs:699 L10n.F(text)"
+  ]
+ },
+ "You're alone: the others can join": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:212 L10n.T(text)"
   ]
  },
  "You're drawn as the NPC, moving as it does (only on your screen: others see your character).": {
@@ -67663,7 +68374,7 @@
    "Casino window: lobby, poker table, blackjack table"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:322 L10n.F(text)"
+   "IsaClient.Casino/CasinoWindow.cs:395 L10n.F(text)"
   ]
  },
  "YouTube and video links, inside the game": {
@@ -67778,7 +68489,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:364 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:372 CommandInfo.Help(summary)"
   ]
  },
  "Your IsaClient ID is:": {
@@ -67898,7 +68609,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:632 L10n.T(text)"
+   "IsaClient.Hub/HubGames.cs:638 L10n.T(text)"
   ]
  },
  "Your best Tetris score.": {
@@ -67906,7 +68617,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:624 L10n.T(text)"
+   "IsaClient.Hub/HubGames.cs:630 L10n.T(text)"
   ]
  },
  "Your best {0}  ·  #{1} of {2}": {
@@ -68111,7 +68822,7 @@
    "Casino window: lobby, poker table, blackjack table"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:266 L10n.T(text)"
+   "IsaClient.Casino/CasinoWindow.cs:338 L10n.T(text)"
   ]
  },
  "Your chips at this table": {
@@ -68119,7 +68830,7 @@
    "Casino window: lobby, poker table, blackjack table"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1441 L10n.T(text)"
+   "IsaClient.Casino/CasinoWindow.cs:1529 L10n.T(text)"
   ]
  },
  "Your chips. {0} more are at the table.": {
@@ -68127,7 +68838,7 @@
    "Casino window: lobby, poker table, blackjack table"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:184 L10n.F(text)"
+   "IsaClient.Casino/CasinoWindow.cs:224 L10n.F(text)"
   ]
  },
  "Your color": {
@@ -68195,6 +68906,14 @@
   "code": [
    "IsaClient.Gba/PokemonWindow.cs:804 L10n.T(text)",
    "IsaClient.Gba/PokemonWindow.Ds.cs:482 L10n.T(text)"
+  ]
+ },
+ "Your games": {
+  "where": [
+   "Casino window: lobby, poker table, blackjack table"
+  ],
+  "code": [
+   "IsaClient.Casino/CasinoWindow.cs:404 L10n.T(text)"
   ]
  },
  "Your games: switch or add more": {
@@ -68546,7 +69265,7 @@
    "help of a chat command (.help)"
   ],
   "code": [
-   "IsaClient.Core/CommandCatalog.cs:342 CommandInfo.Help(summary)"
+   "IsaClient.Core/CommandCatalog.cs:350 CommandInfo.Help(summary)"
   ]
  },
  "Your projectiles will no longer be reflected.": {
@@ -68660,7 +69379,7 @@
    "Casino: joining and hosting tables with other players"
   ],
   "code": [
-   "IsaClient.Casino/CasinoNet.cs:230 L10n.F(text)"
+   "IsaClient.Casino/CasinoNet.cs:236 L10n.F(text)"
   ]
  },
  "Yours": {
@@ -68737,6 +69456,14 @@
   ],
   "code": [
    "IsaClient.Gameplay/ItemTools.cs:395 ClientChat.Info(text)"
+  ]
+ },
+ "Zero": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:1231 L10n.T(text)"
   ]
  },
  "Zoologist": {
@@ -69495,6 +70222,22 @@
    "IsaClient.Hub/ClientContent.cs:485 = Keywords"
   ]
  },
+ "at {0} {1} host {2} hosting {3} ads {4}": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:1654 ReturnStatement"
+  ]
+ },
+ "at {0} {1} table {2} host {3} hosting {4} members {5} round {6} {7} left {8} outcome {9} mine {10} others {11} history {12} ads {13} line {14}": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:1664 ReturnStatement"
+  ]
+ },
  "autoclick::Hold": {
   "where": [
    "In-game cheat menu > Player (auto clicker...)"
@@ -69710,7 +70453,7 @@
   ],
   "note": "Blackjack term: use the word blackjack players use in your language, not the everyday word. Double the bet and take exactly one more card (Spanish: \"Doblar\").",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1540 CasinoArt.Button(label)"
+   "IsaClient.Casino/CasinoWindow.cs:1628 CasinoArt.Button(label)"
   ]
  },
  "casino::Hit": {
@@ -69722,7 +70465,7 @@
   ],
   "note": "Blackjack term: use the word blackjack players use in your language, not the everyday word. Ask for one more card (Spanish: \"Pedir\", never \"Golpear\").",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1530 CasinoArt.Button(label)"
+   "IsaClient.Casino/CasinoWindow.cs:1618 CasinoArt.Button(label)"
   ]
  },
  "chat color colour text tag": {
@@ -69860,6 +70603,14 @@
   ],
   "code": [
    "IsaClient.Gba/PokemonWindow.cs:357 L10n.T(text)"
+  ]
+ },
+ "clicked {0}": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/CasinoNews.cs:158 ReturnStatement"
   ]
  },
  "close media": {
@@ -70725,7 +71476,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:797 L10n.F(text)"
+   "IsaClient.Hub/HubGames.cs:811 L10n.F(text)"
   ]
  },
  "hi {0}, are you there?": {
@@ -71483,7 +72234,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:769 L10n.T(text)"
+   "IsaClient.Hub/HubGames.cs:783 L10n.T(text)"
   ]
  },
  "nintendo ds": {
@@ -71602,6 +72353,14 @@
   ],
   "code": [
    "IsaClient.Gba/GbaFinder.cs:1527 ArrayInitializerExpression"
+  ]
+ },
+ "no link in: {0}": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/CasinoNews.cs:161 ReturnStatement"
   ]
  },
  "no longer": {
@@ -72385,6 +73144,14 @@
    "IsaClient.Networking/ProxyPool.cs:59 = Name"
   ]
  },
+ "race return win {0} top two {1} finish matches {2}": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:1709 ReturnStatement"
+  ]
+ },
  "rainbow height": {
   "where": [
    "Panel > Client settings page"
@@ -72619,6 +73386,14 @@
    "IsaClient.Hub/WorldContent.cs:330 = Keywords"
   ]
  },
+ "roulette return {0}": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:1685 ReturnStatement"
+  ]
+ },
  "same name keeps the same UUID": {
   "where": [
    "Bots: extra characters controlled from this client, possession"
@@ -72755,6 +73530,14 @@
   ],
   "code": [
    "IsaClient.Assistant/AiAssistant.cs:576 List.Add(item)"
+  ]
+ },
+ "slots return {0}; {1}; {2}": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:1669 ReturnStatement"
   ]
  },
  "slot{0}": {
@@ -73442,8 +74225,8 @@
    "Casino window: lobby, poker table, blackjack table"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:382 L10n.T(text)",
-   "IsaClient.Casino/CasinoWindow.cs:420 L10n.T(text)"
+   "IsaClient.Casino/CasinoWindow.cs:470 L10n.T(text)",
+   "IsaClient.Casino/CasinoWindow.cs:508 L10n.T(text)"
   ]
  },
  "too big for a picture": {
@@ -73654,7 +74437,7 @@
    "Casino window: lobby, poker table, blackjack table"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:207 L10n.T(text)"
+   "IsaClient.Casino/CasinoWindow.cs:277 L10n.T(text)"
   ]
  },
  "with your changes": {
@@ -73708,7 +74491,7 @@
   "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.Gameplay/ItemTools.cs:241 ClientChat.Info(text)",
-   "IsaClient.Hub/HubGames.cs:783 L10n.T(text)",
+   "IsaClient.Hub/HubGames.cs:797 L10n.T(text)",
    "IsaClient.Hub/HubPlayerView.cs:382 HubKit.Button(tooltip)",
    "IsaClient.Hub/HubPlayerView.cs:510 L10n.T(text)"
   ]
@@ -73833,7 +74616,7 @@
    "Casino window: lobby, poker table, blackjack table"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:209 L10n.T(text)"
+   "IsaClient.Casino/CasinoWindow.cs:279 L10n.T(text)"
   ]
  },
  "yours": {
@@ -74477,6 +75260,22 @@
    "IsaClient.Building/Selection.cs:442 ClientChat.Info(text)"
   ]
  },
+ "{0} [isatable/{1}.{2}.{3}:{4}]": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/CasinoNews.cs:140 = LastLine"
+  ]
+ },
+ "{0} a line": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:880 L10n.F(text)"
+  ]
+ },
  "{0} and the C# console": {
   "where": [
    "Plugins and developer tools"
@@ -74633,6 +75432,14 @@
    "IsaClient.Community/ChatActions.cs:57 L10n.F(text)"
   ]
  },
+ "{0} came to the table.": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsNet.cs:690 L10n.F(text)"
+  ]
+ },
  "{0} can't be used (see the report)": {
   "where": [
    "Plugins and developer tools"
@@ -74679,6 +75486,14 @@
    "IsaClient.Hub/HubGames.cs:532 L10n.F(text)"
   ]
  },
+ "{0} chips, all five lines": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:949 L10n.F(text)"
+  ]
+ },
  "{0} claps for {1}!": {
   "where": [
    "Chat tools: colors, links, translation, secret chat, player list"
@@ -74711,7 +75526,7 @@
    "Casino: joining and hosting tables with other players"
   ],
   "code": [
-   "IsaClient.Casino/CasinoNet.cs:794 L10n.F(text)"
+   "IsaClient.Casino/CasinoNet.cs:808 L10n.F(text)"
   ]
  },
  "{0} core ({1})": {
@@ -74833,7 +75648,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:828 L10n.F(text)"
+   "IsaClient.Hub/HubGames.cs:842 L10n.F(text)"
   ]
  },
  "{0} doesn't exist in {1}.": {
@@ -75103,7 +75918,7 @@
   "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.Hub/HubFeedback.cs:739 ReturnStatement",
-   "IsaClient.Hub/HubGames.cs:826 L10n.F(text)",
+   "IsaClient.Hub/HubGames.cs:840 L10n.F(text)",
    "IsaClient.Hub/HubProxy.cs:744 ReturnStatement"
   ]
  },
@@ -75270,6 +76085,22 @@
    "IsaClient.Community/ChatActions.cs:80 L10n.F(text)"
   ]
  },
+ "{0} is at the Roulette: the table is shared by everyone here.": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/CasinoNews.cs:129 L10n.F(text)"
+  ]
+ },
+ "{0} is at the races: bet on the same horses.": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/CasinoNews.cs:133 L10n.F(text)"
+  ]
+ },
  "{0} is bored of {1}.": {
   "where": [
    "Chat tools: colors, links, translation, secret chat, player list"
@@ -75318,7 +76149,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:1030 L10n.F(text)"
+   "IsaClient.Hub/HubGames.cs:1044 L10n.F(text)"
   ]
  },
  "{0} is following {1}.": {
@@ -75467,7 +76298,7 @@
    "Casino window: lobby, poker table, blackjack table"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1525 L10n.F(text)"
+   "IsaClient.Casino/CasinoWindow.cs:1613 L10n.F(text)"
   ]
  },
  "{0} is ready": {
@@ -75528,7 +76359,7 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:1148 L10n.F(text)",
+   "IsaClient.Casino/CasinoWindow.cs:1236 L10n.F(text)",
    "IsaClient.Community/ChatActions.cs:75 L10n.F(text)"
   ]
  },
@@ -75804,7 +76635,7 @@
   "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.Hub/HubFeedback.cs:735 ReturnStatement",
-   "IsaClient.Hub/HubGames.cs:822 L10n.F(text)",
+   "IsaClient.Hub/HubGames.cs:836 L10n.F(text)",
    "IsaClient.Hub/HubProxy.cs:744 ReturnStatement"
   ]
  },
@@ -75947,12 +76778,12 @@
    "IsaClient.Hub/HubGames.cs:536 L10n.F(text)"
   ]
  },
- "{0} opened a {1} table: join it in the casino (.casino).": {
+ "{0} opened a {1} table ({2}).": {
   "where": [
-   "Casino: joining and hosting tables with other players"
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
   ],
   "code": [
-   "IsaClient.Casino/CasinoNet.cs:785 L10n.F(text)"
+   "IsaClient.Casino/CasinoNews.cs:137 L10n.F(text)"
   ]
  },
  "{0} or {1}, as the game made them": {
@@ -75968,7 +76799,7 @@
    "Mini games: rankings (boards) and best scores"
   ],
   "code": [
-   "IsaClient.Games/Scores.cs:829 L10n.F(text)"
+   "IsaClient.Games/Scores.cs:838 L10n.F(text)"
   ]
  },
  "{0} pats {1}.": {
@@ -76017,7 +76848,15 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:724 L10n.F(text)"
+   "IsaClient.Hub/HubGames.cs:738 L10n.F(text)"
+  ]
+ },
+ "{0} players at this table": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:212 L10n.F(text)"
   ]
  },
  "{0} players on the board. Your turn!": {
@@ -76027,6 +76866,15 @@
   "code": [
    "IsaClient.Hub/HubGames.cs:371 L10n.F(text)",
    "IsaClient.Hub/HubGames.cs:419 L10n.F(text)"
+  ]
+ },
+ "{0} playing now": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:342 L10n.F(text)",
+   "IsaClient.Casino/BetsWindow.cs:357 L10n.F(text)"
   ]
  },
  "{0} pokes everyone.": {
@@ -76074,7 +76922,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:649 L10n.F(text)"
+   "IsaClient.Hub/HubGames.cs:657 L10n.F(text)"
   ]
  },
  "{0} punches the air!": {
@@ -76149,6 +76997,14 @@
    "IsaClient.Community/ChatActions.cs:87 L10n.F(text)"
   ]
  },
+ "{0} s to bet": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:472 L10n.F(text)"
+  ]
+ },
  "{0} salutes {1}!": {
   "where": [
    "Chat tools: colors, links, translation, secret chat, player list"
@@ -76170,7 +77026,7 @@
    "Casino: joining and hosting tables with other players"
   ],
   "code": [
-   "IsaClient.Casino/CasinoNet.cs:946 L10n.F(text)"
+   "IsaClient.Casino/CasinoNet.cs:960 L10n.F(text)"
   ]
  },
  "{0} says nope to {1}.": {
@@ -76686,7 +77542,7 @@
    "Casino: joining and hosting tables with other players"
   ],
   "code": [
-   "IsaClient.Casino/CasinoNet.cs:716 L10n.F(text)"
+   "IsaClient.Casino/CasinoNet.cs:730 L10n.F(text)"
   ]
  },
  "{0} wins.": {
@@ -76695,6 +77551,46 @@
   ],
   "code": [
    "IsaClient.Games/GameOverlay.cs:624 L10n.F(text)"
+  ]
+ },
+ "{0} won a pot of {1} chips at a Poker table!": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/CasinoNews.cs:95 L10n.F(text)"
+  ]
+ },
+ "{0} won {1} chips at Blackjack!": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/CasinoNews.cs:98 L10n.F(text)"
+  ]
+ },
+ "{0} won {1} chips at the Roulette on number {2}!": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/CasinoNews.cs:106 L10n.F(text)"
+  ]
+ },
+ "{0} won {1} chips at the races with {2}!": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/CasinoNews.cs:110 L10n.F(text)"
+  ]
+ },
+ "{0} won {1} chips on the slot machine!": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/CasinoNews.cs:102 L10n.F(text)"
   ]
  },
  "{0} working in {1} {2}": {
@@ -76762,6 +77658,14 @@
   ],
   "code": [
    "IsaClient.Community/ChatActions.cs:58 L10n.F(text)"
+  ]
+ },
+ "{0} {1} free {2}": {
+  "where": [
+   "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
+  ],
+  "code": [
+   "IsaClient.Casino/BetsWindow.cs:1671 ReturnStatement"
   ]
  },
  "{0} {1} in {2} places": {
@@ -76904,7 +77808,7 @@
    "Casino window: lobby, poker table, blackjack table"
   ],
   "code": [
-   "IsaClient.Casino/CasinoWindow.cs:209 L10n.F(text)"
+   "IsaClient.Casino/CasinoWindow.cs:279 L10n.F(text)"
   ]
  },
  "{0}'s turn": {
@@ -77100,9 +78004,9 @@
   ],
   "note": "Internal id, not shown as text: copy it unchanged.",
   "code": [
-   "IsaClient.Casino/CasinoWallet.cs:214 = temp",
+   "IsaClient.Casino/CasinoWallet.cs:273 = temp",
    "IsaClient.Feedback/FeedbackReports.cs:414 = temp",
-   "IsaClient.Games/Scores.cs:949 = temp",
+   "IsaClient.Games/Scores.cs:958 = temp",
    "IsaClient.Gba/DsSupport.cs:219 = tmp"
   ]
  },
@@ -77291,7 +78195,7 @@
    "Mini games: rankings (boards) and best scores"
   ],
   "code": [
-   "IsaClient.Games/Scores.cs:571 L10n.F(text)"
+   "IsaClient.Games/Scores.cs:576 L10n.F(text)"
   ]
  },
  "{0}:typed": {
