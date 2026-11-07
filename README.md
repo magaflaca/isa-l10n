@@ -8,15 +8,15 @@ themselves when this repository changes, and keep working without internet.
 <!-- languages:start -->
 | | Language | Translated | Texts | Updated |
 |---|---|---|---:|---|
-| 🇨🇳 | [简体中文 (Chinese (Simplified))](packs/zh-Hans.json) | ![98%](https://img.shields.io/badge/-98%25-brightgreen?style=flat-square) | 7483 / 7616 | 2026-11-05 |
-| 🇫🇷 | [Français (French)](packs/fr.json) | ![98%](https://img.shields.io/badge/-98%25-brightgreen?style=flat-square) | 7483 / 7616 | 2026-11-05 |
-| 🇩🇪 | [Deutsch (German)](packs/de.json) | ![98%](https://img.shields.io/badge/-98%25-brightgreen?style=flat-square) | 7483 / 7616 | 2026-11-05 |
-| 🇯🇵 | [日本語 (Japanese)](packs/ja.json) | ![98%](https://img.shields.io/badge/-98%25-brightgreen?style=flat-square) | 7483 / 7616 | 2026-11-05 |
-| 🇧🇷 | [Português (Brasil) (Portuguese (Brazil))](packs/pt-BR.json) | ![98%](https://img.shields.io/badge/-98%25-brightgreen?style=flat-square) | 7483 / 7616 | 2026-11-05 |
-| 🇷🇺 | [Русский (Russian)](packs/ru.json) | ![98%](https://img.shields.io/badge/-98%25-brightgreen?style=flat-square) | 7483 / 7616 | 2026-11-05 |
-| 🇪🇸 | [Español (Spanish)](packs/es.json) | ![98%](https://img.shields.io/badge/-98%25-brightgreen?style=flat-square) | 7483 / 7616 | 2026-11-05 |
+| 🇨🇳 | [简体中文 (Chinese (Simplified))](packs/zh-Hans.json) | ![97%](https://img.shields.io/badge/-97%25-brightgreen?style=flat-square) | 7481 / 7708 | 2026-11-07 |
+| 🇫🇷 | [Français (French)](packs/fr.json) | ![97%](https://img.shields.io/badge/-97%25-brightgreen?style=flat-square) | 7481 / 7708 | 2026-11-07 |
+| 🇩🇪 | [Deutsch (German)](packs/de.json) | ![97%](https://img.shields.io/badge/-97%25-brightgreen?style=flat-square) | 7481 / 7708 | 2026-11-07 |
+| 🇯🇵 | [日本語 (Japanese)](packs/ja.json) | ![97%](https://img.shields.io/badge/-97%25-brightgreen?style=flat-square) | 7481 / 7708 | 2026-11-07 |
+| 🇧🇷 | [Português (Brasil) (Portuguese (Brazil))](packs/pt-BR.json) | ![97%](https://img.shields.io/badge/-97%25-brightgreen?style=flat-square) | 7481 / 7708 | 2026-11-07 |
+| 🇷🇺 | [Русский (Russian)](packs/ru.json) | ![97%](https://img.shields.io/badge/-97%25-brightgreen?style=flat-square) | 7481 / 7708 | 2026-11-07 |
+| 🇪🇸 | [Español (Spanish)](packs/es.json) | ![97%](https://img.shields.io/badge/-97%25-brightgreen?style=flat-square) | 7481 / 7708 | 2026-11-07 |
 
-_7616 texts in the newest IsaClient. This table and `index.json` are rebuilt automatically on every change._
+_7708 texts in the newest IsaClient. This table and `index.json` are rebuilt automatically on every change._
 <!-- languages:end -->
 
 ## Help translate
