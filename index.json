@@ -1,7 +1,7 @@
 {
  "format": 1,
  "updated": "2026-11-07T05:45:25Z",
- "texts": 7725,
+ "texts": 7745,
  "languages": [
   {
    "code": "zh-Hans",
@@ -13,8 +13,8 @@
    "sha256": "4af48d8a8860b46e43f25241991e77849e8ede88f03363e561d0e6a491412b5f",
    "bytes": 600530,
    "translated": 7481,
-   "total": 7725,
-   "percent": 96.8,
+   "total": 7745,
+   "percent": 96.6,
    "updated": "2026-11-07T05:45:25Z"
   },
   {
@@ -27,8 +27,8 @@
    "sha256": "42340c43f288fc29607f5642e785e92f1d891305f709607526de3ffdc7611520",
    "bytes": 652525,
    "translated": 7481,
-   "total": 7725,
-   "percent": 96.8,
+   "total": 7745,
+   "percent": 96.6,
    "updated": "2026-11-07T05:45:25Z"
   },
   {
@@ -41,8 +41,8 @@
    "sha256": "c83ebdf4189813f95cf7ba6a0470df98cd58c0455dcfc4e085a5773c95aa0b5e",
    "bytes": 648299,
    "translated": 7481,
-   "total": 7725,
-   "percent": 96.8,
+   "total": 7745,
+   "percent": 96.6,
    "updated": "2026-11-07T05:45:25Z"
   },
   {
@@ -55,8 +55,8 @@
    "sha256": "ec264ee82739de709ef8cb933003e4779be9383ac8c76ffea8a1a0d09c654ee4",
    "bytes": 718650,
    "translated": 7481,
-   "total": 7725,
-   "percent": 96.8,
+   "total": 7745,
+   "percent": 96.6,
    "updated": "2026-11-07T05:45:25Z"
   },
   {
@@ -69,8 +69,8 @@
    "sha256": "5422dadba579baf651d53fe858ca1c3283739f8501a73526219e5ce8f18a1909",
    "bytes": 627323,
    "translated": 7481,
-   "total": 7725,
-   "percent": 96.8,
+   "total": 7745,
+   "percent": 96.6,
    "updated": "2026-11-07T05:45:25Z"
   },
   {
@@ -83,8 +83,8 @@
    "sha256": "066734dc65f8448ab9582cf125864dfd81bbbfba7801e4d88ad2b8495eacfb04",
    "bytes": 822209,
    "translated": 7481,
-   "total": 7725,
-   "percent": 96.8,
+   "total": 7745,
+   "percent": 96.6,
    "updated": "2026-11-07T05:45:25Z"
   },
   {
@@ -97,8 +97,8 @@
    "sha256": "bc109d789581c6a54a2ecddae319aeda9e3afe29843b839fe0cd640788ebcbf9",
    "bytes": 630019,
    "translated": 7481,
-   "total": 7725,
-   "percent": 96.8,
+   "total": 7745,
+   "percent": 96.6,
    "updated": "2026-11-07T05:45:25Z"
   }
  ]
