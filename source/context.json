@@ -870,7 +870,7 @@
    "message in the chat"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:626 ClientChat.Info(text)"
+   "IsaClient.Gameplay/PlayerCheats.cs:640 ClientChat.Info(text)"
   ]
  },
  " (shoots like {0})": {
@@ -4761,7 +4761,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:421 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:427 SwitchExpressionArm"
   ]
  },
  "All over the screen": {
@@ -4860,7 +4860,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:419 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:424 SwitchExpressionArm"
   ]
  },
  "Allows hammering almost any tile into a half block or slope. Most tiles will not save these states.": {
@@ -4871,7 +4871,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:425 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:431 SwitchExpressionArm"
   ]
  },
  "Allows longer chest names.": {
@@ -4904,7 +4904,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:417 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:422 SwitchExpressionArm"
   ]
  },
  "Allows you to open a chest even if it is locked.": {
@@ -4926,7 +4926,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:426 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:432 SwitchExpressionArm"
   ]
  },
  "Allows you to use a grappling hook without being dismounted.": {
@@ -4937,7 +4937,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:420 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:425 SwitchExpressionArm"
   ]
  },
  "Alone until you join a server": {
@@ -5674,7 +5674,7 @@
    "message in the chat"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:590 ClientChat.Info(text)"
+   "IsaClient.Gameplay/PlayerCheats.cs:604 ClientChat.Info(text)"
   ]
  },
  "Anti Debuff": {
@@ -5696,7 +5696,7 @@
    "message in the chat"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:582 ClientChat.Info(text)"
+   "IsaClient.Gameplay/PlayerCheats.cs:596 ClientChat.Info(text)"
   ]
  },
  "Anti-Chat Spam": {
@@ -5830,7 +5830,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:148 CatalogBuilder.Row(title)",
+   "IsaClient.Hub/GameplayContent.cs:149 CatalogBuilder.Row(title)",
    "IsaClient.Menu/PlayerMenu.cs:27 CollectionInitializerExpression"
   ]
  },
@@ -6004,7 +6004,7 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:184 CatalogBuilder.Row(title)",
+   "IsaClient.Hub/GameplayContent.cs:185 CatalogBuilder.Row(title)",
    "IsaClient.Menu/HeldItemMenu.cs:27 CollectionInitializerExpression",
    "IsaClient.Menu/PanelLayout.cs:22 CollectionInitializerExpression"
   ]
@@ -6017,7 +6017,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:184 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:185 CatalogBuilder.Row(description)"
   ]
  },
  "Apply to me": {
@@ -6109,7 +6109,7 @@
    "panel section title"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:76 CatalogBuilder.Group(title)"
+   "IsaClient.Hub/GameplayContent.cs:77 CatalogBuilder.Group(title)"
   ]
  },
  "Armor, accessories, vanity, dyes, equipment slots and all three loadouts.": {
@@ -6597,7 +6597,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:183 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:184 CatalogBuilder.Row(title)"
   ]
  },
  "Auto": {
@@ -6637,7 +6637,7 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:107 CatalogBuilder.Row(title)",
+   "IsaClient.Hub/GameplayContent.cs:108 CatalogBuilder.Row(title)",
    "IsaClient.Menu/MiscMenu.cs:25 CollectionInitializerExpression"
   ]
  },
@@ -6686,8 +6686,8 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:87 CatalogBuilder.Group(title)",
-   "IsaClient.Hub/GameplayContent.cs:88 CatalogBuilder.Row(title)",
+   "IsaClient.Hub/GameplayContent.cs:88 CatalogBuilder.Group(title)",
+   "IsaClient.Hub/GameplayContent.cs:89 CatalogBuilder.Row(title)",
    "IsaClient.Menu/PlayerMenu.cs:27 CollectionInitializerExpression"
   ]
  },
@@ -6757,7 +6757,7 @@
    "In-game cheat menu > Player (auto clicker...)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:350 ParenthesizedLambdaExpression"
+   "IsaClient.Menu/PlayerMenu.cs:355 ParenthesizedLambdaExpression"
   ]
  },
  "Auto Clicker Stops After: {0}": {
@@ -6765,7 +6765,7 @@
    "In-game cheat menu > Player (auto clicker...)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:365 ParenthesizedLambdaExpression"
+   "IsaClient.Menu/PlayerMenu.cs:370 ParenthesizedLambdaExpression"
   ]
  },
  "Auto Clicker Timer": {
@@ -6867,7 +6867,7 @@
    "panel section subtitle"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:86 CatalogBuilder.Section(subtitle)"
+   "IsaClient.Hub/GameplayContent.cs:87 CatalogBuilder.Section(subtitle)"
   ]
  },
  "Auto clicker. Alone it turns on or off; the options set the mode, speed and buttons.": {
@@ -6900,7 +6900,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:162 CatalogBuilder.Find(description)"
+   "IsaClient.Hub/GameplayContent.cs:163 CatalogBuilder.Find(description)"
   ]
  },
  "Auto swing": {
@@ -6913,7 +6913,7 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:162 CatalogBuilder.Find(title)",
+   "IsaClient.Hub/GameplayContent.cs:163 CatalogBuilder.Find(title)",
    "IsaClient.Hub/HubItemEditor.cs:557 HubItemEditor.Toggle(label)"
   ]
  },
@@ -7674,7 +7674,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:118 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:119 CatalogBuilder.Row(title)"
   ]
  },
  "Best {0}  ·  #{1} of {2}": {
@@ -7869,7 +7869,7 @@
    "panel section subtitle"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:124 CatalogBuilder.Group(hint)"
+   "IsaClient.Hub/GameplayContent.cs:125 CatalogBuilder.Group(hint)"
   ]
  },
  "Biome Sight": {
@@ -8717,7 +8717,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:131 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:132 CatalogBuilder.Row(title)"
   ]
  },
  "Bouncy Surfaces": {
@@ -9053,7 +9053,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:437 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:443 SwitchExpressionArm"
   ]
  },
  "Buffs that replace each other stay together: all the Well Fed tiers, every flask... (also in Cheats > Player).": {
@@ -9325,7 +9325,7 @@
    "In-game cheat menu > Player (auto clicker...)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:335 ParenthesizedLambdaExpression"
+   "IsaClient.Menu/PlayerMenu.cs:340 ParenthesizedLambdaExpression"
   ]
  },
  "Buttons": {
@@ -9973,7 +9973,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:156 CatalogBuilder.Find(description)"
+   "IsaClient.Hub/GameplayContent.cs:157 CatalogBuilder.Find(description)"
   ]
  },
  "Change how fast packets should be sent for tile/wall erasing.\nHold LeftShift to adjust this by 5.": {
@@ -10039,7 +10039,7 @@
    "panel section subtitle"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:129 CatalogBuilder.Group(hint)"
+   "IsaClient.Hub/GameplayContent.cs:130 CatalogBuilder.Group(hint)"
   ]
  },
  "Change item drop behavior for Mediumcore/Hardcore.": {
@@ -10050,7 +10050,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:432 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:438 SwitchExpressionArm"
   ]
  },
  "Change the behavior for buff persistence when you die.\nKeep Buffs/Debuffs (Long) will only keep buffs/debuffs with a duration greater than 1 day.": {
@@ -10061,7 +10061,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:433 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:439 SwitchExpressionArm"
   ]
  },
  "Change the custom button": {
@@ -11037,7 +11037,7 @@
    "panel section title"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:96 CatalogBuilder.Group(title)"
+   "IsaClient.Hub/GameplayContent.cs:97 CatalogBuilder.Group(title)"
   ]
  },
  "Clear Favorites": {
@@ -11156,7 +11156,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:89 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:90 CatalogBuilder.Row(title)"
   ]
  },
  "Click a key, then press the new one. Right click empties it, Esc cancels.": {
@@ -11828,7 +11828,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:323 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:328 SwitchExpressionArm"
   ]
  },
  "Clicks for you, even with the game in the background.": {
@@ -11839,7 +11839,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:88 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:89 CatalogBuilder.Row(description)"
   ]
  },
  "Clicks per Second": {
@@ -11850,7 +11850,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:92 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:93 CatalogBuilder.Row(title)"
   ]
  },
  "Clicks per second in Clicks mode (.ac <cps>, up to 30).": {
@@ -11861,7 +11861,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:444 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:450 SwitchExpressionArm"
   ]
  },
  "Client": {
@@ -12397,7 +12397,7 @@
    "panel section title"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:86 CatalogBuilder.Section(title)"
+   "IsaClient.Hub/GameplayContent.cs:87 CatalogBuilder.Section(title)"
   ]
  },
  "Combat & NPCs": {
@@ -13341,7 +13341,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:135 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:136 CatalogBuilder.Row(title)"
   ]
  },
  "Cookies": {
@@ -14609,7 +14609,7 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:144 CatalogBuilder.Row(title)",
+   "IsaClient.Hub/GameplayContent.cs:145 CatalogBuilder.Row(title)",
    "IsaClient.Menu/PlayerMenu.cs:24 CollectionInitializerExpression"
   ]
  },
@@ -14621,7 +14621,7 @@
    "message in the chat"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:501 ClientChat.Info(text)"
+   "IsaClient.Gameplay/PlayerCheats.cs:515 ClientChat.Info(text)"
   ]
  },
  "Craft as if every crafting station were next to you.": {
@@ -14643,7 +14643,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:143 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:144 CatalogBuilder.Row(description)"
   ]
  },
  "Craft as if you stood next to every crafting station.": {
@@ -14654,7 +14654,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:144 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:145 CatalogBuilder.Row(description)"
   ]
  },
  "Crafting": {
@@ -14665,7 +14665,7 @@
    "panel section title"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:142 CatalogBuilder.Group(title)"
+   "IsaClient.Hub/GameplayContent.cs:143 CatalogBuilder.Group(title)"
   ]
  },
  "Crafting & Inventory": {
@@ -14676,7 +14676,7 @@
    "panel page title"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:141 CatalogBuilder.Page(title)"
+   "IsaClient.Hub/GameplayContent.cs:142 CatalogBuilder.Page(title)"
   ]
  },
  "Crafting, inventory and the held item editor": {
@@ -14687,7 +14687,7 @@
    "panel section subtitle"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:140 CatalogBuilder.Section(subtitle)"
+   "IsaClient.Hub/GameplayContent.cs:141 CatalogBuilder.Section(subtitle)"
   ]
  },
  "Crash": {
@@ -14853,7 +14853,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:187 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:188 CatalogBuilder.Row(description)"
   ]
  },
  "Creates or replaces a whole file of a source plugin (the folder is created for a new plugin). Use it for new files or full rewrites.": {
@@ -14962,7 +14962,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:462 SwitchExpressionArm"
+   "IsaClient.Gameplay/PlayerCheats.cs:476 SwitchExpressionArm"
   ]
  },
  "Ctrl + Right Click": {
@@ -15017,7 +15017,7 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:182 CatalogBuilder.Row(title)",
+   "IsaClient.Hub/GameplayContent.cs:183 CatalogBuilder.Row(title)",
    "IsaClient.Menu/HeldItemMenu.cs:27 CollectionInitializerExpression",
    "IsaClient.Menu/PanelLayout.cs:22 CollectionInitializerExpression"
   ]
@@ -15386,7 +15386,7 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:169 CatalogBuilder.Find(title)",
+   "IsaClient.Hub/GameplayContent.cs:170 CatalogBuilder.Find(title)",
    "IsaClient.Hub/HubItemEditor.cs:643 HubItemEditor.Section(title)"
   ]
  },
@@ -15417,7 +15417,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:157 CatalogBuilder.Find(description)"
+   "IsaClient.Hub/GameplayContent.cs:158 CatalogBuilder.Find(description)"
   ]
  },
  "Dangersense": {
@@ -15447,7 +15447,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:74 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:75 CatalogBuilder.Row(title)"
   ]
  },
  "Dead": {
@@ -16118,7 +16118,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:170 CatalogBuilder.Find(description)"
+   "IsaClient.Hub/GameplayContent.cs:171 CatalogBuilder.Find(description)"
   ]
  },
  "Defense: {0}": {
@@ -16214,7 +16214,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:188 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:189 CatalogBuilder.Row(title)"
   ]
  },
  "Delete Selected Liquid": {
@@ -17053,7 +17053,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:152 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:153 CatalogBuilder.Row(title)"
   ]
  },
  "Display informational text at the top of the screen in an online game.": {
@@ -17174,7 +17174,7 @@
    "message in the chat"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:598 ClientChat.Info(text)"
+   "IsaClient.Gameplay/PlayerCheats.cs:612 ClientChat.Info(text)"
   ]
  },
  "Dodge Everything": {
@@ -17256,7 +17256,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:442 SwitchExpressionArm"
+   "IsaClient.Gameplay/PlayerCheats.cs:456 SwitchExpressionArm"
   ]
  },
  "Don't ask again": {
@@ -17975,7 +17975,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:469 SwitchExpressionArm"
+   "IsaClient.Gameplay/PlayerCheats.cs:483 SwitchExpressionArm"
   ]
  },
  "Drop": {
@@ -17997,7 +17997,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:443 SwitchExpressionArm"
+   "IsaClient.Gameplay/PlayerCheats.cs:457 SwitchExpressionArm"
   ]
  },
  "Drop a .plr character, a .wld world, a .TEditSch schematic, a .gba / .nds / PSP game or an image (png, jpg, webp, bmp, gif...).": {
@@ -18207,7 +18207,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:441 SwitchExpressionArm"
+   "IsaClient.Gameplay/PlayerCheats.cs:455 SwitchExpressionArm"
   ]
  },
  "Dust Amount": {
@@ -18958,7 +18958,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:418 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:423 SwitchExpressionArm"
   ]
  },
  "Enabled": {
@@ -19050,7 +19050,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:448 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:454 SwitchExpressionArm"
   ]
  },
  "Enchanted Moondial Cooldown": {
@@ -19705,7 +19705,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:117 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:118 CatalogBuilder.Row(description)"
   ]
  },
  "Every point you have on the global board (the casino aside) is 2 chips, plus 1,000 to start.": {
@@ -19724,7 +19724,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:158 CatalogBuilder.Find(description)"
+   "IsaClient.Hub/GameplayContent.cs:159 CatalogBuilder.Find(description)"
   ]
  },
  "Every surface allows you to run immensely fast.": {
@@ -19746,7 +19746,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:131 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:132 CatalogBuilder.Row(description)"
   ]
  },
  "Every surface lets you run extremely fast.": {
@@ -19757,7 +19757,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:130 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:131 CatalogBuilder.Row(description)"
   ]
  },
  "Every surface will bounce you upwards when you land on it.": {
@@ -19837,7 +19837,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:150 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:151 CatalogBuilder.Row(description)"
   ]
  },
  "Everything in shops is free.": {
@@ -20062,7 +20062,7 @@
    "message in the chat"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:558 ClientChat.Info(text)"
+   "IsaClient.Gameplay/PlayerCheats.cs:572 ClientChat.Info(text)"
   ]
  },
  "Extended Placement Range": {
@@ -20084,7 +20084,7 @@
    "message in the chat"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:566 ClientChat.Info(text)"
+   "IsaClient.Gameplay/PlayerCheats.cs:580 ClientChat.Info(text)"
   ]
  },
  "Extended Zoom Out": {
@@ -20614,7 +20614,7 @@
    "panel section subtitle"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:147 CatalogBuilder.Group(hint)"
+   "IsaClient.Hub/GameplayContent.cs:148 CatalogBuilder.Group(hint)"
   ]
  },
  "Fifty moves without a capture": {
@@ -21260,7 +21260,7 @@
    "panel section title"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:113 CatalogBuilder.Group(title)"
+   "IsaClient.Hub/GameplayContent.cs:114 CatalogBuilder.Group(title)"
   ]
  },
  "Flight, noclip, teleports and how the ground feels": {
@@ -21271,7 +21271,7 @@
    "panel section subtitle"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:112 CatalogBuilder.Section(subtitle)"
+   "IsaClient.Hub/GameplayContent.cs:113 CatalogBuilder.Section(subtitle)"
   ]
  },
  "Flip sideways": {
@@ -21312,7 +21312,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:72 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:73 CatalogBuilder.Row(description)"
   ]
  },
  "Flush, {0} high": {
@@ -21332,7 +21332,7 @@
    "panel section subtitle"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:113 CatalogBuilder.Group(hint)"
+   "IsaClient.Hub/GameplayContent.cs:114 CatalogBuilder.Group(hint)"
   ]
  },
  "Fly the Carpet Like a Broom": {
@@ -21343,7 +21343,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:116 ClientContent.Flag(title)"
+   "IsaClient.Hub/GameplayContent.cs:117 ClientContent.Flag(title)"
   ]
  },
  "Fly through everything, unseen by monsters. Turn it off to return to normal.": {
@@ -22108,7 +22108,7 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:143 CatalogBuilder.Row(title)",
+   "IsaClient.Hub/GameplayContent.cs:144 CatalogBuilder.Row(title)",
    "IsaClient.Menu/PlayerMenu.cs:24 CollectionInitializerExpression"
   ]
  },
@@ -22120,7 +22120,7 @@
    "message in the chat"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:492 ClientChat.Info(text)"
+   "IsaClient.Gameplay/PlayerCheats.cs:506 ClientChat.Info(text)"
   ]
  },
  "Free Empty Tiles Always": {
@@ -22182,7 +22182,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:150 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:151 CatalogBuilder.Row(title)"
   ]
  },
  "Free Shops": {
@@ -22204,7 +22204,7 @@
    "message in the chat"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:614 ClientChat.Info(text)"
+   "IsaClient.Gameplay/PlayerCheats.cs:628 ClientChat.Info(text)"
   ]
  },
  "Free camera debug information.": {
@@ -23267,7 +23267,7 @@
    "panel section subtitle"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:96 CatalogBuilder.Group(hint)"
+   "IsaClient.Hub/GameplayContent.cs:97 CatalogBuilder.Group(hint)"
   ]
  },
  "Get up: your chips go back to your wallet (what's in a hand you're playing is lost)": {
@@ -23322,7 +23322,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:77 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:78 CatalogBuilder.Row(description)"
   ]
  },
  "Getting {0} of {1}: {2}": {
@@ -23362,7 +23362,7 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:72 CatalogBuilder.Row(title)",
+   "IsaClient.Hub/GameplayContent.cs:73 CatalogBuilder.Row(title)",
    "IsaClient.Menu/PlayerMenu.cs:27 CollectionInitializerExpression"
   ]
  },
@@ -23467,7 +23467,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:74 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:75 CatalogBuilder.Row(description)"
   ]
  },
  "Give yourself buffs: hover one to see what it does, right click for infinite, left click to choose the time.": {
@@ -23773,7 +23773,7 @@
    "message in the chat"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:633 ClientChat.Info(text)"
+   "IsaClient.Gameplay/PlayerCheats.cs:647 ClientChat.Info(text)"
   ]
  },
  "Godmode: you take no damage.": {
@@ -24109,7 +24109,7 @@
    "panel section title"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:129 CatalogBuilder.Group(title)"
+   "IsaClient.Hub/GameplayContent.cs:130 CatalogBuilder.Group(title)"
   ]
  },
  "Ground Friction": {
@@ -24120,7 +24120,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:134 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:135 CatalogBuilder.Row(title)"
   ]
  },
  "Grow": {
@@ -24882,7 +24882,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:324 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:329 SwitchExpressionArm"
   ]
  },
  "Hold & Release Timing": {
@@ -24893,7 +24893,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:93 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:94 CatalogBuilder.Row(title)"
   ]
  },
  "Hold & Release timing. Left click: change the hold time. Right click: change the release time.\nExact values: .ac cycle hold=3 release=0.5": {
@@ -24904,7 +24904,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:445 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:451 SwitchExpressionArm"
   ]
  },
  "Hold & Release: hold {0} s / release {1} s": {
@@ -24912,7 +24912,7 @@
    "In-game cheat menu > Player (auto clicker...)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:355 ParenthesizedLambdaExpression"
+   "IsaClient.Menu/PlayerMenu.cs:360 ParenthesizedLambdaExpression"
   ]
  },
  "Hold Left Shift and click to spawn every {0} boss.": {
@@ -24985,7 +24985,7 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:161 CatalogBuilder.Find(title)",
+   "IsaClient.Hub/GameplayContent.cs:162 CatalogBuilder.Find(title)",
    "IsaClient.Hub/HubItemEditor.cs:548 HubItemEditor.Section(title)"
   ]
  },
@@ -25027,7 +25027,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:89 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:90 CatalogBuilder.Row(description)"
   ]
  },
  "Hold: keeps the button pressed.  Clicks: clicks at the chosen speed.\nHold & Release: holds for a while, releases, and repeats (charged weapons, fishing...).": {
@@ -25038,7 +25038,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:441 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:447 SwitchExpressionArm"
   ]
  },
  "Home": {
@@ -25153,7 +25153,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:117 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:118 CatalogBuilder.Row(title)"
   ]
  },
  "How .rainbow writes (letters below: draw your own)": {
@@ -25257,7 +25257,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:92 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:93 CatalogBuilder.Row(description)"
   ]
  },
  "How fast noclip moves you (slow, default or fast).\nCan also be cycled with the Noclip Speed Modifier key while holding Hold for Activator.": {
@@ -25428,7 +25428,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:164 CatalogBuilder.Find(description)"
+   "IsaClient.Hub/GameplayContent.cs:165 CatalogBuilder.Find(description)"
   ]
  },
  "How many sections are asked for together (RequestSection). More is faster; lower it if a server kicks you for it.": {
@@ -25553,7 +25553,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:161 CatalogBuilder.Find(description)"
+   "IsaClient.Hub/GameplayContent.cs:162 CatalogBuilder.Find(description)"
   ]
  },
  "How the item is swung, held or used.": {
@@ -25565,7 +25565,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:160 CatalogBuilder.Find(description)",
+   "IsaClient.Hub/GameplayContent.cs:161 CatalogBuilder.Find(description)",
    "IsaClient.Hub/HubItemEditor.cs:537 HubItemEditor.Section(note)"
   ]
  },
@@ -25675,7 +25675,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:81 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:82 CatalogBuilder.Row(description)"
   ]
  },
  "Hurting enemies sends attacking orbs at enemies nearby.": {
@@ -25686,7 +25686,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:80 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:81 CatalogBuilder.Row(description)"
   ]
  },
  "Hurting enemies sends healing orbs to the most hurt player nearby.": {
@@ -25697,7 +25697,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:79 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:80 CatalogBuilder.Row(description)"
   ]
  },
  "I paste too": {
@@ -25870,7 +25870,7 @@
    "message in the chat"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:534 ClientChat.Info(text)"
+   "IsaClient.Gameplay/PlayerCheats.cs:548 ClientChat.Info(text)"
   ]
  },
  "Ignore Damaging Blocks": {
@@ -25906,7 +25906,7 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:133 CatalogBuilder.Row(title)",
+   "IsaClient.Hub/GameplayContent.cs:134 CatalogBuilder.Row(title)",
    "IsaClient.Menu/PlayerMenu.cs:21 CollectionInitializerExpression"
   ]
  },
@@ -25918,7 +25918,7 @@
    "message in the chat"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:526 ClientChat.Info(text)"
+   "IsaClient.Gameplay/PlayerCheats.cs:540 ClientChat.Info(text)"
   ]
  },
  "Ignore Safety Slowdowns": {
@@ -25951,7 +25951,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:135 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:136 CatalogBuilder.Row(description)"
   ]
  },
  "Ignore where you really are and use only the ones turned on.": {
@@ -26214,7 +26214,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:178 CatalogBuilder.Find(title)"
+   "IsaClient.Hub/GameplayContent.cs:179 CatalogBuilder.Find(title)"
   ]
  },
  "Import presets": {
@@ -26519,7 +26519,7 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:114 CatalogBuilder.Row(title)",
+   "IsaClient.Hub/GameplayContent.cs:115 CatalogBuilder.Row(title)",
    "IsaClient.Menu/TravelMenu.cs:223 CollectionInitializerExpression"
   ]
  },
@@ -26531,7 +26531,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:115 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:116 CatalogBuilder.Row(title)"
   ]
  },
  "Infinite Mana": {
@@ -26557,7 +26557,7 @@
    "message in the chat"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:542 ClientChat.Info(text)"
+   "IsaClient.Gameplay/PlayerCheats.cs:556 ClientChat.Info(text)"
   ]
  },
  "Infinite Minions": {
@@ -26579,7 +26579,7 @@
    "message in the chat"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:574 ClientChat.Info(text)"
+   "IsaClient.Gameplay/PlayerCheats.cs:588 ClientChat.Info(text)"
   ]
  },
  "Infinite Reach {0}": {
@@ -26601,7 +26601,7 @@
    "message in the chat"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:518 ClientChat.Info(text)"
+   "IsaClient.Gameplay/PlayerCheats.cs:532 ClientChat.Info(text)"
   ]
  },
  "Infinite ammo enabled.": {
@@ -26612,7 +26612,7 @@
    "message in the chat"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:518 ClientChat.Info(text)"
+   "IsaClient.Gameplay/PlayerCheats.cs:532 ClientChat.Info(text)"
   ]
  },
  "Infinite ammo.": {
@@ -26797,7 +26797,7 @@
    "message in the chat"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:606 ClientChat.Info(text)"
+   "IsaClient.Gameplay/PlayerCheats.cs:620 ClientChat.Info(text)"
   ]
  },
  "Instant Regeneration": {
@@ -26834,7 +26834,7 @@
    "message in the chat"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:550 ClientChat.Info(text)"
+   "IsaClient.Gameplay/PlayerCheats.cs:564 ClientChat.Info(text)"
   ]
  },
  "Instant life regeneration.": {
@@ -27425,7 +27425,7 @@
   ],
   "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:147 CatalogBuilder.Group(title)",
+   "IsaClient.Hub/GameplayContent.cs:148 CatalogBuilder.Group(title)",
    "IsaClient.Hub/HubCharacterEditor.cs:587 ArrayInitializerExpression",
    "IsaClient.Hub/HubCharacterEditor.cs:632 HubCharacterEditor.SlotRows(label)",
    "IsaClient.Hub/HubItemEditor.cs:361 HubItemEditor.Fit(label)"
@@ -28650,8 +28650,8 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:154 CatalogBuilder.Page(title)",
-   "IsaClient.Hub/GameplayContent.cs:156 CatalogBuilder.Find(title)",
+   "IsaClient.Hub/GameplayContent.cs:155 CatalogBuilder.Page(title)",
+   "IsaClient.Hub/GameplayContent.cs:157 CatalogBuilder.Find(title)",
    "IsaClient.Hub/HubItemEditor.cs:242 ClientHub.EmptyNote(title)"
   ]
  },
@@ -28687,7 +28687,7 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:181 CatalogBuilder.Group(title)",
+   "IsaClient.Hub/GameplayContent.cs:182 CatalogBuilder.Group(title)",
    "IsaClient.Menu/CheatCategories.cs:24 CheatCategory..ctor(title)"
   ]
  },
@@ -28711,7 +28711,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:166 CatalogBuilder.Find(title)"
+   "IsaClient.Hub/GameplayContent.cs:167 CatalogBuilder.Find(title)"
   ]
  },
  "Item damage": {
@@ -28722,7 +28722,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:157 CatalogBuilder.Find(title)"
+   "IsaClient.Hub/GameplayContent.cs:158 CatalogBuilder.Find(title)"
   ]
  },
  "Item defense": {
@@ -28733,7 +28733,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:170 CatalogBuilder.Find(title)"
+   "IsaClient.Hub/GameplayContent.cs:171 CatalogBuilder.Find(title)"
   ]
  },
  "Item description": {
@@ -28744,7 +28744,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:172 CatalogBuilder.Find(title)"
+   "IsaClient.Hub/GameplayContent.cs:173 CatalogBuilder.Find(title)"
   ]
  },
  "Item name": {
@@ -28758,7 +28758,7 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:171 CatalogBuilder.Find(title)",
+   "IsaClient.Hub/GameplayContent.cs:172 CatalogBuilder.Find(title)",
    "IsaClient.Hub/HubItemEditor.cs:686 HubKit.Text(text)"
   ]
  },
@@ -28770,7 +28770,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:175 CatalogBuilder.Find(title)"
+   "IsaClient.Hub/GameplayContent.cs:176 CatalogBuilder.Find(title)"
   ]
  },
  "Item prefix": {
@@ -28781,7 +28781,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:158 CatalogBuilder.Find(title)"
+   "IsaClient.Hub/GameplayContent.cs:159 CatalogBuilder.Find(title)"
   ]
  },
  "Item projectile": {
@@ -28792,7 +28792,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:163 CatalogBuilder.Find(title)"
+   "IsaClient.Hub/GameplayContent.cs:164 CatalogBuilder.Find(title)"
   ]
  },
  "Item rarity": {
@@ -28803,7 +28803,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:174 CatalogBuilder.Find(title)"
+   "IsaClient.Hub/GameplayContent.cs:175 CatalogBuilder.Find(title)"
   ]
  },
  "Item rotation needed.": {
@@ -28853,7 +28853,7 @@
   "note": "Shown in 4 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.Core/CommandSection.cs:17 CommandSection..ctor(title)",
-   "IsaClient.Hub/GameplayContent.cs:140 CatalogBuilder.Section(title)",
+   "IsaClient.Hub/GameplayContent.cs:141 CatalogBuilder.Section(title)",
    "IsaClient.Hub/HubCharacterEditor.cs:201 ArrayInitializerExpression",
    "IsaClient.Hub/HubSpriteArt.cs:53 ArrayInitializerExpression"
   ]
@@ -28867,6 +28867,17 @@
   ],
   "code": [
    "IsaClient.Hub/GameplayContent.cs:47 CatalogBuilder.Row(title)"
+  ]
+ },
+ "Items On Transform Mounts": {
+  "where": [
+   "In-game cheat menu > Player (auto clicker...)"
+  ],
+  "kind": [
+   "one value of a list (an option, a name, a state)"
+  ],
+  "code": [
+   "IsaClient.Menu/PlayerMenu.cs:24 CollectionInitializerExpression"
   ]
  },
  "Items matching '{0}':": {
@@ -28900,6 +28911,17 @@
   ],
   "code": [
    "IsaClient.Rendering/InfoOverlays.cs:202 ClientChat.Info(text)"
+  ]
+ },
+ "Items on Rat, Bat & Pixie": {
+  "where": [
+   "Panel > Gameplay page"
+  ],
+  "kind": [
+   "panel option name"
+  ],
+  "code": [
+   "IsaClient.Hub/GameplayContent.cs:72 CatalogBuilder.Row(title)"
   ]
  },
  "Items other IsaClient players linked in chat. Keep the ones you like.": {
@@ -29335,7 +29357,7 @@
    "message in the chat"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:626 ClientChat.Info(text)"
+   "IsaClient.Gameplay/PlayerCheats.cs:640 ClientChat.Info(text)"
   ]
  },
  "Journey Powers": {
@@ -29346,7 +29368,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:145 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:146 CatalogBuilder.Row(title)"
   ]
  },
  "Journey menu on any character and server (C in the inventory).": {
@@ -29357,7 +29379,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:145 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:146 CatalogBuilder.Row(description)"
   ]
  },
  "Jumps to a time in the song, e.g. .seek 1:30.": {
@@ -29478,7 +29500,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:452 SwitchExpressionArm"
+   "IsaClient.Gameplay/PlayerCheats.cs:466 SwitchExpressionArm"
   ]
  },
  "Keep Buffs": {
@@ -29489,7 +29511,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:448 SwitchExpressionArm"
+   "IsaClient.Gameplay/PlayerCheats.cs:462 SwitchExpressionArm"
   ]
  },
  "Keep Buffs (Long)": {
@@ -29500,7 +29522,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:449 SwitchExpressionArm"
+   "IsaClient.Gameplay/PlayerCheats.cs:463 SwitchExpressionArm"
   ]
  },
  "Keep Chat Between Worlds": {
@@ -29544,7 +29566,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:450 SwitchExpressionArm"
+   "IsaClient.Gameplay/PlayerCheats.cs:464 SwitchExpressionArm"
   ]
  },
  "Keep Debuffs (Long)": {
@@ -29555,7 +29577,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:451 SwitchExpressionArm"
+   "IsaClient.Gameplay/PlayerCheats.cs:465 SwitchExpressionArm"
   ]
  },
  "Keep Existing Blocks": {
@@ -29596,7 +29618,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:98 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:99 CatalogBuilder.Row(title)"
   ]
  },
  "Keep SSC Character (One-Way)": {
@@ -29997,8 +30019,8 @@
    "action word on a panel row's button"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:99 CatalogBuilder.Row(verb)",
-   "IsaClient.Hub/GameplayContent.cs:100 CatalogBuilder.Row(verb)"
+   "IsaClient.Hub/GameplayContent.cs:100 CatalogBuilder.Row(verb)",
+   "IsaClient.Hub/GameplayContent.cs:101 CatalogBuilder.Row(verb)"
   ]
  },
  "Kill All Enemies": {
@@ -30009,7 +30031,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:99 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:100 CatalogBuilder.Row(title)"
   ]
  },
  "Kill All Owned Projectiles": {
@@ -30034,7 +30056,7 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:97 CatalogBuilder.Row(title)",
+   "IsaClient.Hub/GameplayContent.cs:98 CatalogBuilder.Row(title)",
    "IsaClient.Menu/MiscMenu.cs:24 CollectionInitializerExpression",
    "IsaClient.Menu/PanelLayout.cs:18 CollectionInitializerExpression"
   ]
@@ -30077,7 +30099,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:100 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:101 CatalogBuilder.Row(title)"
   ]
  },
  "Kill What It Touches": {
@@ -30256,7 +30278,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:100 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:101 CatalogBuilder.Row(description)"
   ]
  },
  "Kills every hostile NPC.": {
@@ -30278,7 +30300,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:98 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:99 CatalogBuilder.Row(description)"
   ]
  },
  "Kills every hostile creature once.": {
@@ -30289,7 +30311,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:99 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:100 CatalogBuilder.Row(description)"
   ]
  },
  "Kills every hostile creature within this radius around you.": {
@@ -30300,7 +30322,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:97 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:98 CatalogBuilder.Row(description)"
   ]
  },
  "Kills hostile NPCs within <size> blocks of you (any size, 0 turns it off). Without a size it turns on or off.": {
@@ -30823,7 +30845,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:90 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:91 CatalogBuilder.Row(description)"
   ]
  },
  "Left = use item, Right = use/interact, or both.": {
@@ -30834,7 +30856,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:442 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:448 SwitchExpressionArm"
   ]
  },
  "Left Diagonal": {
@@ -30878,7 +30900,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:93 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:94 CatalogBuilder.Row(description)"
   ]
  },
  "Left click to spectate this player.\nRight click to see their inventory contents whilst spectating.": {
@@ -30973,7 +30995,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:182 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:183 CatalogBuilder.Row(description)"
   ]
  },
  "Left/right click to stop spectating this player.": {
@@ -31159,7 +31181,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:439 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:445 SwitchExpressionArm"
   ]
  },
  "Letter Size": {
@@ -31897,7 +31919,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:186 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:187 CatalogBuilder.Row(title)"
   ]
  },
  "Load Image (Draw Photo)": {
@@ -32272,7 +32294,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:104 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:105 CatalogBuilder.Row(title)"
   ]
  },
  "Lock-On Targets Players": {
@@ -32283,7 +32305,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:105 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:106 CatalogBuilder.Row(title)"
   ]
  },
  "Lock-On can {0} target hostile players.": {
@@ -32316,7 +32338,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:105 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:106 CatalogBuilder.Row(description)"
   ]
  },
  "Lock-on leads moving targets (predicts their path and your shot).": {
@@ -32338,7 +32360,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:106 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:107 CatalogBuilder.Row(description)"
   ]
  },
  "Lock-on works with mouse and keyboard too": {
@@ -32349,7 +32371,7 @@
    "panel section subtitle"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:103 CatalogBuilder.Group(hint)"
+   "IsaClient.Hub/GameplayContent.cs:104 CatalogBuilder.Group(hint)"
   ]
  },
  "Locked ": {
@@ -32690,7 +32712,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:453 SwitchExpressionArm"
+   "IsaClient.Gameplay/PlayerCheats.cs:467 SwitchExpressionArm"
   ]
  },
  "Lost": {
@@ -32791,7 +32813,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:73 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:74 CatalogBuilder.Row(title)"
   ]
  },
  "Luck Override": {
@@ -33316,7 +33338,7 @@
    "panel section subtitle"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:142 CatalogBuilder.Group(hint)"
+   "IsaClient.Hub/GameplayContent.cs:143 CatalogBuilder.Group(hint)"
   ]
  },
  "Make the game think you are somewhere else (music, backgrounds, spawns). Most do nothing on servers.": {
@@ -33412,7 +33434,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:416 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:421 SwitchExpressionArm"
   ]
  },
  "Makes the Horrified debuff present when fighting the Wall of Flesh ignore you.": {
@@ -33423,7 +33445,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:415 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:420 SwitchExpressionArm"
   ]
  },
  "Makes the whole panel bigger or smaller.": {
@@ -33839,7 +33861,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:468 SwitchExpressionArm"
+   "IsaClient.Gameplay/PlayerCheats.cs:482 SwitchExpressionArm"
   ]
  },
  "Max Wing Stats": {
@@ -33880,7 +33902,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:73 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:74 CatalogBuilder.Row(description)"
   ]
  },
  "Max mana": {
@@ -34034,7 +34056,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:169 CatalogBuilder.Find(description)"
+   "IsaClient.Hub/GameplayContent.cs:170 CatalogBuilder.Find(description)"
   ]
  },
  "Members ({0})": {
@@ -34480,7 +34502,7 @@
    "In-game cheat menu > Player (auto clicker...)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:320 ParenthesizedLambdaExpression"
+   "IsaClient.Menu/PlayerMenu.cs:325 ParenthesizedLambdaExpression"
   ]
  },
  "Model": {
@@ -34763,7 +34785,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:90 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:91 CatalogBuilder.Row(title)"
   ]
  },
  "Mouse TP": {
@@ -34842,7 +34864,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:132 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:133 CatalogBuilder.Row(description)"
   ]
  },
  "Move down": {
@@ -34890,7 +34912,7 @@
    "panel section subtitle"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:120 CatalogBuilder.Group(hint)"
+   "IsaClient.Hub/GameplayContent.cs:121 CatalogBuilder.Group(hint)"
   ]
  },
  "Move through water, lava and honey as if they were not there.": {
@@ -34912,7 +34934,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:133 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:134 CatalogBuilder.Row(description)"
   ]
  },
  "Move to bend the arc, click to place it.": {
@@ -34949,7 +34971,7 @@
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.Core/CommandSection.cs:19 CommandSection..ctor(title)",
-   "IsaClient.Hub/GameplayContent.cs:112 CatalogBuilder.Section(title)"
+   "IsaClient.Hub/GameplayContent.cs:113 CatalogBuilder.Section(title)"
   ]
  },
  "Moves": {
@@ -35631,8 +35653,8 @@
   ],
   "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:176 CatalogBuilder.Page(title)",
-   "IsaClient.Hub/GameplayContent.cs:177 CatalogBuilder.Find(title)",
+   "IsaClient.Hub/GameplayContent.cs:177 CatalogBuilder.Page(title)",
+   "IsaClient.Hub/GameplayContent.cs:178 CatalogBuilder.Find(title)",
    "IsaClient.Hub/HubItemEditor.cs:394 HubItemEditor.Fit(label)",
    "IsaClient.Hub/HubMyItems.cs:58 HubKit.Text(text)"
   ]
@@ -36049,7 +36071,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:81 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:82 CatalogBuilder.Row(title)"
   ]
  },
  "Nebula Pillar": {
@@ -36220,7 +36242,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:408 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:413 SwitchExpressionArm"
   ]
  },
  "Never use addresses starting with": {
@@ -36287,7 +36309,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:187 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:188 CatalogBuilder.Row(title)"
   ]
  },
  "New Report": {
@@ -36930,8 +36952,8 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:463 SwitchExpressionArm",
-   "IsaClient.Gameplay/PlayerCheats.cs:470 SwitchExpressionArm",
+   "IsaClient.Gameplay/PlayerCheats.cs:477 SwitchExpressionArm",
+   "IsaClient.Gameplay/PlayerCheats.cs:484 SwitchExpressionArm",
    "IsaClient.WorldTools/WorldInfo.cs:610 SwitchExpressionArm",
    "IsaClient.WorldTools/WorldInfo.cs:625 SwitchExpressionArm"
   ]
@@ -37280,7 +37302,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:121 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:122 CatalogBuilder.Row(description)"
   ]
  },
  "No connection to the languages ({0}): only the ones you have": {
@@ -37511,7 +37533,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:107 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:108 CatalogBuilder.Row(description)"
   ]
  },
  "No limit": {
@@ -38213,8 +38235,8 @@
   "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.Core/ClientLifecycle.cs:255 ChatCommands.Toggle(cmdName)",
-   "IsaClient.Hub/GameplayContent.cs:120 CatalogBuilder.Group(title)",
-   "IsaClient.Hub/GameplayContent.cs:121 CatalogBuilder.Row(title)",
+   "IsaClient.Hub/GameplayContent.cs:121 CatalogBuilder.Group(title)",
+   "IsaClient.Hub/GameplayContent.cs:122 CatalogBuilder.Row(title)",
    "IsaClient.Menu/TravelMenu.cs:223 CollectionInitializerExpression"
   ]
  },
@@ -38229,7 +38251,7 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:122 CatalogBuilder.Row(title)",
+   "IsaClient.Hub/GameplayContent.cs:123 CatalogBuilder.Row(title)",
    "IsaClient.Menu/PanelLayout.cs:14 CollectionInitializerExpression",
    "IsaClient.Menu/TravelMenu.cs:223 CollectionInitializerExpression"
   ]
@@ -38400,7 +38422,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:134 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:135 CatalogBuilder.Row(description)"
   ]
  },
  "Not a CSO": {
@@ -39275,7 +39297,7 @@
    "panel page title"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:180 CatalogBuilder.Page(title)"
+   "IsaClient.Hub/GameplayContent.cs:181 CatalogBuilder.Page(title)"
   ]
  },
  "Old Underground Desert": {
@@ -39735,7 +39757,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:185 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:186 CatalogBuilder.Row(title)"
   ]
  },
  "Only for bots in your world": {
@@ -39959,7 +39981,7 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:151 CatalogBuilder.Row(title)",
+   "IsaClient.Hub/GameplayContent.cs:152 CatalogBuilder.Row(title)",
    "IsaClient.Menu/MiscMenu.cs:26 CollectionInitializerExpression"
   ]
  },
@@ -40067,7 +40089,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:151 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:152 CatalogBuilder.Row(description)"
   ]
  },
  "Open folder": {
@@ -41243,7 +41265,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:434 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:440 SwitchExpressionArm"
   ]
  },
  "Overrides your luck values.\nMax Luck will set your luck values to the maximum possible in vanilla.\nDream Luck will set your luck values to absurd values beyond legitimate ones.\nNotes: Overriding your luck values will actually change them.\nDream Luck does not work in multiplayer.": {
@@ -41254,7 +41276,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:435 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:441 SwitchExpressionArm"
   ]
  },
  "Overview": {
@@ -41764,7 +41786,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:411 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:416 SwitchExpressionArm"
   ]
  },
  "Password": {
@@ -42167,7 +42189,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:91 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:92 CatalogBuilder.Row(title)"
   ]
  },
  "Pause or resume the current song (.pause).": {
@@ -42189,7 +42211,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:443 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:449 SwitchExpressionArm"
   ]
  },
  "Paused": {
@@ -42767,7 +42789,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:405 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:410 SwitchExpressionArm"
   ]
  },
  "Pick up items from far away.": {
@@ -42801,7 +42823,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:167 CatalogBuilder.Find(title)"
+   "IsaClient.Hub/GameplayContent.cs:168 CatalogBuilder.Find(title)"
   ]
  },
  "Pickaxe power %": {
@@ -42820,7 +42842,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:167 CatalogBuilder.Find(description)"
+   "IsaClient.Hub/GameplayContent.cs:168 CatalogBuilder.Find(description)"
   ]
  },
  "Picked up": {
@@ -43393,7 +43415,7 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:168 CatalogBuilder.Find(title)",
+   "IsaClient.Hub/GameplayContent.cs:169 CatalogBuilder.Find(title)",
    "IsaClient.Hub/HubItemEditor.cs:636 HubItemEditor.PlaceRow(label)"
   ]
  },
@@ -44679,7 +44701,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:132 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:133 CatalogBuilder.Row(title)"
   ]
  },
  "Português": {
@@ -44874,7 +44896,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:126 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:127 CatalogBuilder.Row(description)"
   ]
  },
  "Press your teleport key to jump to the mouse.": {
@@ -44885,7 +44907,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:125 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:126 CatalogBuilder.Row(description)"
   ]
  },
  "Prevents you from freezing in place when mousing over Fake_NewChest1 or 2.\nThis applies to all invalid chests.": {
@@ -45419,7 +45441,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:148 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:149 CatalogBuilder.Row(description)"
   ]
  },
  "Put any item on plates and weapon racks.": {
@@ -45430,7 +45452,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:152 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:153 CatalogBuilder.Row(description)"
   ]
  },
  "Put down the item on your cursor first.": {
@@ -47186,7 +47208,7 @@
   ],
   "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:101 CatalogBuilder.Row(verb)",
+   "IsaClient.Hub/GameplayContent.cs:102 CatalogBuilder.Row(verb)",
    "IsaClient.Hub/HubAiSetup.cs:181 HubKit.Button(label)",
    "IsaClient.Hub/HubAiSetup.cs:227 HubKit.Button(label)",
    "IsaClient.Hub/HubBots.cs:599 HubBots.Do(label)"
@@ -47256,7 +47278,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:101 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:102 CatalogBuilder.Row(title)"
   ]
  },
  "Remove Protected Walls": {
@@ -47651,7 +47673,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:101 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:102 CatalogBuilder.Row(description)"
   ]
  },
  "Removes every tile of that type.": {
@@ -47728,7 +47750,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:424 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:430 SwitchExpressionArm"
   ]
  },
  "Removes song n from the queue.": {
@@ -48452,7 +48474,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:404 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:409 SwitchExpressionArm"
   ]
  },
  "Respawn right away when you die.": {
@@ -48988,7 +49010,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:436 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:442 SwitchExpressionArm"
   ]
  },
  "Right click a slot to empty it. Shift + click an item: full stack.": {
@@ -52241,7 +52263,7 @@
    "panel section subtitle"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:76 CatalogBuilder.Group(hint)"
+   "IsaClient.Hub/GameplayContent.cs:77 CatalogBuilder.Group(hint)"
   ]
  },
  "Set dungeon position to {0}, {1}": {
@@ -52900,7 +52922,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:165 CatalogBuilder.Find(description)"
+   "IsaClient.Hub/GameplayContent.cs:166 CatalogBuilder.Find(description)"
   ]
  },
  "Shoot nothing.": {
@@ -53024,7 +53046,7 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:165 CatalogBuilder.Find(title)",
+   "IsaClient.Hub/GameplayContent.cs:166 CatalogBuilder.Find(title)",
    "IsaClient.Hub/HubItemEditor.cs:609 HubItemEditor.Section(title)"
   ]
  },
@@ -53046,7 +53068,7 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:164 CatalogBuilder.Find(title)",
+   "IsaClient.Hub/GameplayContent.cs:165 CatalogBuilder.Find(title)",
    "IsaClient.Hub/HubItemEditor.cs:595 HubItemEditor.Number(label)"
   ]
  },
@@ -54269,7 +54291,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:122 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:123 CatalogBuilder.Row(description)"
   ]
  },
  "Small": {
@@ -54349,7 +54371,7 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:106 CatalogBuilder.Row(title)",
+   "IsaClient.Hub/GameplayContent.cs:107 CatalogBuilder.Row(title)",
    "IsaClient.Menu/MiscMenu.cs:25 CollectionInitializerExpression"
   ]
  },
@@ -54713,7 +54735,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:77 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:78 CatalogBuilder.Row(title)"
   ]
  },
  "Solar Pillar": {
@@ -55583,7 +55605,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:79 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:80 CatalogBuilder.Row(title)"
   ]
  },
  "Spectre Wrath": {
@@ -55594,7 +55616,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:80 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:81 CatalogBuilder.Row(title)"
   ]
  },
  "Speed": {
@@ -55629,7 +55651,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:130 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:131 CatalogBuilder.Row(title)"
   ]
  },
  "Spells never use up your mana.": {
@@ -55791,7 +55813,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:78 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:79 CatalogBuilder.Row(title)"
   ]
  },
  "Stardust Pillar": {
@@ -56167,7 +56189,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:94 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:95 CatalogBuilder.Row(title)"
   ]
  },
  "Stop Fill / Delete": {
@@ -56292,7 +56314,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:446 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:452 SwitchExpressionArm"
   ]
  },
  "Stop the music and empty the queue (.stop).": {
@@ -56314,7 +56336,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:412 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:417 SwitchExpressionArm"
   ]
  },
  "Stop walking": {
@@ -56418,7 +56440,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:91 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:92 CatalogBuilder.Row(description)"
   ]
  },
  "Stops everything that goes between IsaClient players (it asks first).": {
@@ -57298,7 +57320,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:149 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:150 CatalogBuilder.Row(title)"
   ]
  },
  "Swap Music": {
@@ -57385,7 +57407,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:149 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:150 CatalogBuilder.Row(description)"
   ]
  },
  "Switch soundtrack until you leave the world.": {
@@ -57497,7 +57519,7 @@
    "error message in the chat"
   ],
   "code": [
-   "IsaClient.Games/WorldBlocks.cs:85 ClientChat.Error(text)"
+   "IsaClient.Games/WorldBlocks.cs:91 ClientChat.Error(text)"
   ]
  },
  "TShock login with its password": {
@@ -57526,7 +57548,7 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:173 CatalogBuilder.Find(title)",
+   "IsaClient.Hub/GameplayContent.cs:174 CatalogBuilder.Find(title)",
    "IsaClient.Hub/HubItemEditor.cs:737 HubItemEditor.Section(title)"
   ]
  },
@@ -57677,7 +57699,7 @@
    "panel section title"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:103 CatalogBuilder.Group(title)"
+   "IsaClient.Hub/GameplayContent.cs:104 CatalogBuilder.Group(title)"
   ]
  },
  "Tavernkeep": {
@@ -57744,7 +57766,7 @@
   ],
   "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:124 CatalogBuilder.Group(title)",
+   "IsaClient.Hub/GameplayContent.cs:125 CatalogBuilder.Group(title)",
    "IsaClient.Hub/HubPlayerView.cs:353 HubKit.Button(label)",
    "IsaClient.Menu/InventoryViewerButtons.cs:128 InventoryViewerButton..ctor(text)"
   ]
@@ -57757,7 +57779,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:127 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:128 CatalogBuilder.Row(title)"
   ]
  },
  "Teleport items and pylons move you without asking the server.": {
@@ -57779,7 +57801,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:127 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:128 CatalogBuilder.Row(description)"
   ]
  },
  "Teleport on the Map": {
@@ -57790,7 +57812,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:126 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:127 CatalogBuilder.Row(title)"
   ]
  },
  "Teleport to Cursor": {
@@ -57801,7 +57823,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:125 CatalogBuilder.Row(title)"
+   "IsaClient.Hub/GameplayContent.cs:126 CatalogBuilder.Row(title)"
   ]
  },
  "Teleport to them": {
@@ -58914,7 +58936,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:115 CatalogBuilder.Row(description)",
+   "IsaClient.Hub/GameplayContent.cs:116 CatalogBuilder.Row(description)",
    "IsaClient.Menu/TravelMenu.cs:241 SwitchExpressionArm"
   ]
  },
@@ -58956,7 +58978,7 @@
    "message in the chat"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:510 ClientChat.Info(text)"
+   "IsaClient.Gameplay/PlayerCheats.cs:524 ClientChat.Info(text)"
   ]
  },
  "The Horrified debuff no longer affects you.": {
@@ -58967,7 +58989,7 @@
    "message in the chat"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:510 ClientChat.Info(text)"
+   "IsaClient.Gameplay/PlayerCheats.cs:524 ClientChat.Info(text)"
   ]
  },
  "The IsaClient chat (.inchat, .w, .r) and the reactions only IsaClient players see stop.": {
@@ -59115,7 +59137,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:413 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:418 SwitchExpressionArm"
   ]
  },
  "The Stardust Guardian always protects you.": {
@@ -59126,7 +59148,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:78 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:79 CatalogBuilder.Row(description)"
   ]
  },
  "The TerraAngel pack (TerraAngel.IsaPlugin.dll) is not in the Plugins folder.": {
@@ -59170,7 +59192,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:166 CatalogBuilder.Find(description)"
+   "IsaClient.Hub/GameplayContent.cs:167 CatalogBuilder.Find(description)"
   ]
  },
  "The ammo your currently held item uses.\nLeft click to advance to the next ammo type, or right click to go back.": {
@@ -59375,7 +59397,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:174 CatalogBuilder.Find(description)"
+   "IsaClient.Hub/GameplayContent.cs:175 CatalogBuilder.Find(description)"
   ]
  },
  "The color of its name.": {
@@ -59419,7 +59441,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:414 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:419 SwitchExpressionArm"
   ]
  },
  "The controller lock-on, for mouse and keyboard (bind a key in Settings > Controls > IsaClient: Combat).": {
@@ -59430,7 +59452,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:104 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:105 CatalogBuilder.Row(description)"
   ]
  },
  "The core couldn't load this ROM": {
@@ -59854,7 +59876,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:175 CatalogBuilder.Find(description)"
+   "IsaClient.Hub/GameplayContent.cs:176 CatalogBuilder.Find(description)"
   ]
  },
  "The item's own name and the name in My Items.": {
@@ -59865,7 +59887,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:171 CatalogBuilder.Find(description)"
+   "IsaClient.Hub/GameplayContent.cs:172 CatalogBuilder.Find(description)"
   ]
  },
  "The knockback your currently held item deals.\nHold LeftShift to change this by 20.": {
@@ -60074,7 +60096,7 @@
    "panel section subtitle"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:181 CatalogBuilder.Group(hint)"
+   "IsaClient.Hub/GameplayContent.cs:182 CatalogBuilder.Group(hint)"
   ]
  },
  "The one you're playing": {
@@ -60934,7 +60956,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:173 CatalogBuilder.Find(description)"
+   "IsaClient.Hub/GameplayContent.cs:174 CatalogBuilder.Find(description)"
   ]
  },
  "The world can only be transformed in single player.": {
@@ -63176,7 +63198,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:178 CatalogBuilder.Find(description)"
+   "IsaClient.Hub/GameplayContent.cs:179 CatalogBuilder.Find(description)"
   ]
  },
  "Turn the pipe off?": {
@@ -63419,7 +63441,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:94 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:95 CatalogBuilder.Row(description)"
   ]
  },
  "Turns the console on: title screen, then your in-game save": {
@@ -63489,7 +63511,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:438 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:444 SwitchExpressionArm"
   ]
  },
  "Twice the PSP's resolution: sharp, and light for any graphics card": {
@@ -63953,7 +63975,7 @@
    "Tetris/Snake built with real blocks in the world"
   ],
   "code": [
-   "IsaClient.Games/WorldBlocks.cs:169 L10n.F(text)"
+   "IsaClient.Games/WorldBlocks.cs:175 L10n.F(text)"
   ]
  },
  "United Kingdom": {
@@ -64015,7 +64037,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Gameplay/PlayerCheats.cs:461 SwitchExpressionArm"
+   "IsaClient.Gameplay/PlayerCheats.cs:475 SwitchExpressionArm"
   ]
  },
  "Unknown color '{0}'. Usage: .chatcolor <name> | <RRGGBB> | <r> <g> <b> | on | off | reset | list": {
@@ -65419,7 +65441,7 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:160 CatalogBuilder.Find(title)",
+   "IsaClient.Hub/GameplayContent.cs:161 CatalogBuilder.Find(title)",
    "IsaClient.Hub/HubItemEditor.cs:537 HubItemEditor.Section(title)"
   ]
  },
@@ -65503,7 +65525,7 @@
    "panel option name"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:159 CatalogBuilder.Find(title)"
+   "IsaClient.Hub/GameplayContent.cs:160 CatalogBuilder.Find(title)"
   ]
  },
  "Use time (ticks)": {
@@ -65533,7 +65555,29 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:159 CatalogBuilder.Find(description)"
+   "IsaClient.Hub/GameplayContent.cs:160 CatalogBuilder.Find(description)"
+  ]
+ },
+ "Use weapons and items as the Rat, the Bat or the Pixie, without being dismounted.": {
+  "where": [
+   "In-game cheat menu > Player (auto clicker...)"
+  ],
+  "kind": [
+   "one value of a list (an option, a name, a state)"
+  ],
+  "code": [
+   "IsaClient.Menu/PlayerMenu.cs:426 SwitchExpressionArm"
+  ]
+ },
+ "Use weapons and items while you are the Rat, the Bat or the Pixie.": {
+  "where": [
+   "Panel > Gameplay page"
+  ],
+  "kind": [
+   "panel option description"
+  ],
+  "code": [
+   "IsaClient.Hub/GameplayContent.cs:72 CatalogBuilder.Row(description)"
   ]
  },
  "Use {0}:{1}": {
@@ -65644,7 +65688,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:440 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:446 SwitchExpressionArm"
   ]
  },
  "Uses your held item by itself. Bind a key in Settings > Controls > IsaClient: Combat > Auto Clicker.": {
@@ -65655,7 +65699,7 @@
    "panel section subtitle"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:87 CatalogBuilder.Group(hint)"
+   "IsaClient.Hub/GameplayContent.cs:88 CatalogBuilder.Group(hint)"
   ]
  },
  "Usetime set to {0}": {
@@ -66920,7 +66964,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:168 CatalogBuilder.Find(description)"
+   "IsaClient.Hub/GameplayContent.cs:169 CatalogBuilder.Find(description)"
   ]
  },
  "What bots do by themselves": {
@@ -67110,7 +67154,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:163 CatalogBuilder.Find(description)"
+   "IsaClient.Hub/GameplayContent.cs:164 CatalogBuilder.Find(description)"
   ]
  },
  "What the snake is made of. Only the look changes.": {
@@ -67964,7 +68008,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:116 ClientContent.Flag(description)"
+   "IsaClient.Hub/GameplayContent.cs:117 ClientContent.Flag(description)"
   ]
  },
  "With the chat open, hovering a translated message shows what it said.": {
@@ -68698,7 +68742,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:431 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:437 SwitchExpressionArm"
   ]
  },
  "You always have the set bonus of Spectre Armor with the Spectre Hood.\nDamaging a hostile NPC or Player will spawn healing orbs that fly towards the lowest-health player in range.": {
@@ -68709,7 +68753,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:429 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:435 SwitchExpressionArm"
   ]
  },
  "You always have the set bonus of Spectre Armor with the Spectre Mask.\nDamaging a hostile NPC or Player will spawn attacking orbs that target nearby hostile NPCs.": {
@@ -68720,7 +68764,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:430 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:436 SwitchExpressionArm"
   ]
  },
  "You and {0} from your IP, {1} per proxy.": {
@@ -68909,7 +68953,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:406 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:411 SwitchExpressionArm"
   ]
  },
  "You can craft items as if you're next to every crafting station.": {
@@ -68920,7 +68964,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:423 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:429 SwitchExpressionArm"
   ]
  },
  "You can craft items freely as if you have every resource.": {
@@ -68931,7 +68975,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:422 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:428 SwitchExpressionArm"
   ]
  },
  "You can fly forever.": {
@@ -68976,7 +69020,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:407 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:412 SwitchExpressionArm"
   ]
  },
  "You can turn around mid-use.": {
@@ -69017,7 +69061,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:403 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:408 SwitchExpressionArm"
   ]
  },
  "You can't change the dungeon position in an online game.": {
@@ -69084,7 +69128,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:400 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:405 SwitchExpressionArm"
   ]
  },
  "You cannot copy tiles that have not been loaded": {
@@ -69128,7 +69172,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:447 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:453 SwitchExpressionArm"
   ]
  },
  "You cannot die, but can still receive damage.": {
@@ -69139,7 +69183,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:399 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:404 SwitchExpressionArm"
   ]
  },
  "You cannot regenerate the world while in an online game.": {
@@ -69505,7 +69549,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:427 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:433 SwitchExpressionArm"
   ]
  },
  "You will always have an after-image trailing behind you.\nOnly you see it.": {
@@ -69527,7 +69571,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:428 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:434 SwitchExpressionArm"
   ]
  },
  "You will always have the physics from holding a portal gun or recently exiting a portal.": {
@@ -69549,7 +69593,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:401 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:406 SwitchExpressionArm"
   ]
  },
  "You will never drown.": {
@@ -69560,7 +69604,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:409 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:414 SwitchExpressionArm"
   ]
  },
  "You will never expend your mana.": {
@@ -69571,7 +69615,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:402 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:407 SwitchExpressionArm"
   ]
  },
  "You will never receive fall damage.": {
@@ -69582,7 +69626,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:410 SwitchExpressionArm"
+   "IsaClient.Menu/PlayerMenu.cs:415 SwitchExpressionArm"
   ]
  },
  "You win!": {
@@ -69822,7 +69866,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:177 CatalogBuilder.Find(description)"
+   "IsaClient.Hub/GameplayContent.cs:178 CatalogBuilder.Find(description)"
   ]
  },
  "Your Lucy lines are cleared.": {
@@ -70512,7 +70556,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:172 CatalogBuilder.Find(description)"
+   "IsaClient.Hub/GameplayContent.cs:173 CatalogBuilder.Find(description)"
   ]
  },
  "Your own lines, shown at the end of its tooltip (also to others when you link it).": {
@@ -70677,7 +70721,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:118 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:119 CatalogBuilder.Row(description)"
   ]
  },
  "Your wings never run out of flight time.": {
@@ -70688,7 +70732,7 @@
    "panel option description"
   ],
   "code": [
-   "IsaClient.Hub/GameplayContent.cs:114 CatalogBuilder.Row(description)"
+   "IsaClient.Hub/GameplayContent.cs:115 CatalogBuilder.Row(description)"
   ]
  },
  "Your wings will have max stats.": {
@@ -71588,7 +71632,7 @@
   ],
   "note": "Auto clicker mode: it keeps the mouse button pressed (Spanish: \"Mantener\").",
   "code": [
-   "IsaClient.Menu/PlayerMenu.cs:322 L10n.T(text)"
+   "IsaClient.Menu/PlayerMenu.cs:327 L10n.T(text)"
   ]
  },
  "b[height<={0}][vcodec^=avc1]/b[height<={1}][vcodec^=h264]/b[height<={2}][ext=mp4]/b[height<={3}]/b[vcodec^=avc1]/b[vcodec^=h264]/b": {
@@ -78061,7 +78105,7 @@
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.Assistant/GroqClient.cs:188 ReturnStatement",
-   "IsaClient.Menu/PlayerMenu.cs:365 ParenthesizedLambdaExpression"
+   "IsaClient.Menu/PlayerMenu.cs:370 ParenthesizedLambdaExpression"
   ]
  },
  "{0} min ago": {
