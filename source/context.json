@@ -10959,6 +10959,14 @@
    "IsaClient.Hub/HubCatalog.cs:349 List.Add(item)"
   ]
  },
+ "Claude": {
+  "where": [
+   "In-game cheat menu and main menu additions"
+  ],
+  "code": [
+   "IsaClient.Menu/CreditsScreen.cs:136 ClientChat.Tint(text)"
+  ]
+ },
  "Clean Gores": {
   "where": [
    "In-game cheat menu and main menu additions"
@@ -35798,14 +35806,6 @@
    "IsaClient.Hub/HubFeedback.cs:399 HubKit.Text(text)"
   ]
  },
- "Mythos 5/5.1": {
-  "where": [
-   "In-game cheat menu and main menu additions"
-  ],
-  "code": [
-   "IsaClient.Menu/CreditsScreen.cs:136 ClientChat.Tint(text)"
-  ]
- },
  "Mythril": {
   "where": [
    "World tools: chests, map, tile search, world info"
@@ -44181,7 +44181,7 @@
    "Networking: proxy/VPN, server detection, rejoin"
   ],
   "code": [
-   "IsaClient.Networking/MobileMode.cs:39 ArrowExpressionClause"
+   "IsaClient.Networking/MobileMode.cs:37 ArrowExpressionClause"
   ]
  },
  "Playing as a phone: servers that tell phones apart see you as Terraria for Android.\nClick to play as a PC again.": {
@@ -44189,7 +44189,7 @@
    "Networking: proxy/VPN, server detection, rejoin"
   ],
   "code": [
-   "IsaClient.Networking/MobileMode.cs:38 ArrowExpressionClause"
+   "IsaClient.Networking/MobileMode.cs:36 ArrowExpressionClause"
   ]
  },
  "Playing as bots": {
