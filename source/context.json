@@ -1678,7 +1678,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:194 L10n.F(text)"
+   "IsaClient.Hub/HubGames.cs:195 L10n.F(text)"
   ]
  },
  "&country={0}&search_lang={1}": {
@@ -2099,7 +2099,7 @@
    "IsaClient.Menu/PlayerFileDropDialog.cs:317 = special"
   ]
  },
- ", a helpful assistant inside the game Terraria (the player uses Terraria 1.4.5.8 on PC). Today is ": {
+ ", a helpful assistant inside the game Terraria (the player uses Terraria 1.4.6.1 on PC). Today is ": {
   "where": [
    "AI assistant (.ask) and the AI Plugin Maker"
   ],
@@ -2820,6 +2820,14 @@
    "IsaClient.WorldTools/WorldInfo.cs:241 ReturnStatement"
   ]
  },
+ "128 GB": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:609 Argument"
+  ]
+ },
  "1st 12": {
   "where": [
    "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
@@ -2848,6 +2856,14 @@
   ],
   "code": [
    "IsaClient.MultiClient/MultiClientPanel.cs:689 MultiClientPanel.Section(title)"
+  ]
+ },
+ "212 GB download": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:84 L10n.T(text)"
   ]
  },
  "2nd 12": {
@@ -2993,6 +3009,14 @@
    "IsaClient.Menu/MainMenuOverlay.cs:55 = Text"
   ]
  },
+ "A  Back to Terraria     X  Watch again": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:639 L10n.T(text)"
+  ]
+ },
  "A GBA and a DS in Terraria: your own games; in Pokémon FireRed, LeafGreen and Emerald you play as your Terraria character.": {
   "where": [
    "Panel > Client settings page"
@@ -3020,7 +3044,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:472 L10n.T(text)"
+   "IsaClient.Hub/HubGames.cs:473 L10n.T(text)"
   ]
  },
  "A PSP in Terraria: your own games, the emulator is downloaded the first time you play.": {
@@ -3039,7 +3063,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:537 L10n.T(text)"
+   "IsaClient.Hub/HubGames.cs:538 L10n.T(text)"
   ]
  },
  "A Pixel Art Generator tilemap: paste it like a schematic.": {
@@ -3091,6 +3115,17 @@
   ],
   "code": [
    "IsaClient.Hub/HubBotSets.cs:997 Argument"
+  ]
+ },
+ "A burst of colored lightning around you, all at once (everyone sees it). Also .thor flash": {
+  "where": [
+   "The client's main panel (pages, cards, buttons, settings)"
+  ],
+  "kind": [
+   "tooltip (shown when the mouse is over something)"
+  ],
+  "code": [
+   "IsaClient.Hub/ClientHub.cs:688 HubKit.Button(tooltip)"
   ]
  },
  "A button runs one or more lines, in order. Lines starting with {0} are IsaClient commands (.tp spawn), the rest go to the chat (/home, /warp shop). Separate lines with ;": {
@@ -3222,7 +3257,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:289 L10n.F(text)"
+   "IsaClient.Hub/HubGames.cs:290 L10n.F(text)"
   ]
  },
  "A generated look with an empty inventory": {
@@ -3864,6 +3899,14 @@
    "IsaClient.Rendering/InfoOverlays.cs:129 List.Add(item)"
   ]
  },
+ "AMD Ryzen 9 11950X3D": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:608 Argument"
+  ]
+ },
  "API Key & Connection": {
   "where": [
    "Panel > Client settings page"
@@ -4257,7 +4300,7 @@
   ],
   "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/ClientHub.cs:1060 = Label",
+   "IsaClient.Hub/ClientHub.cs:1079 = Label",
    "IsaClient.Hub/HubProxy.cs:374 HubKit.BareIcon(tooltip)",
    "IsaClient.Music/MusicPlayerWindow.cs:948 MusicDrawing.BareIcon(tooltip)",
    "IsaClient.Music/MusicPlayerWindow.cs:1653 MusicDrawing.TextButton(label)"
@@ -4816,7 +4859,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Rendering/Thor.cs:54 ArrayInitializerExpression"
+   "IsaClient.Rendering/Thor.cs:55 ArrayInitializerExpression"
   ]
  },
  "All three mechanical bosses at once.": {
@@ -5326,7 +5369,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:1009 HubGames.SwitchRow(title)"
+   "IsaClient.Hub/HubGames.cs:1061 HubGames.SwitchRow(title)"
   ]
  },
  "Always searches": {
@@ -5916,7 +5959,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Rendering/Thor.cs:52 ArrayInitializerExpression"
+   "IsaClient.Rendering/Thor.cs:53 ArrayInitializerExpression"
   ]
  },
  "Any item of the game, only on your screen. Click a mark to change it.": {
@@ -5927,7 +5970,7 @@
    "text on screen"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:1045 HubKit.Text(text)"
+   "IsaClient.Hub/HubGames.cs:1097 HubKit.Text(text)"
   ]
  },
  "Any language": {
@@ -6172,7 +6215,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:591 ArrayInitializerExpression"
+   "IsaClient.Menu/CharacterWindow.cs:598 ArrayInitializerExpression"
   ]
  },
  "Arms Dealer": {
@@ -6206,7 +6249,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Rendering/Thor.cs:54 ArrayInitializerExpression"
+   "IsaClient.Rendering/Thor.cs:55 ArrayInitializerExpression"
   ]
  },
  "Around you, where you point, on the players around you, all over the screen or right at the mouse (it follows the cursor, in the air too). Right click goes back.": {
@@ -7220,6 +7263,22 @@
    "IsaClient.Hub/HubItemEditor.cs:628 HubItemEditor.Number(label)"
   ]
  },
+ "B  Back": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:547 L10n.T(text)"
+  ]
+ },
+ "B  Skip": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:512 L10n.T(text)"
+  ]
+ },
  "BIG WIN!": {
   "where": [
    "Casino: Texas Hold'em poker and Blackjack tables (the Moon Lord is the dealer)"
@@ -7252,8 +7311,8 @@
   "where": [
    "Casino window: lobby, poker table, blackjack table",
    "GBA emulator window",
-   "Panel > character editor",
-   "Panel > item editor"
+   "IsaClient.Gta",
+   "Panel > character editor"
   ],
   "kind": [
    "button"
@@ -7262,8 +7321,8 @@
   "code": [
    "IsaClient.Casino/CasinoWindow.cs:237 CasinoArt.Button(label)",
    "IsaClient.Gba/PokemonWindow.cs:906 MusicDrawing.TextButton(label)",
-   "IsaClient.Hub/HubCharacterEditor.cs:238 HubKit.Button(label)",
-   "IsaClient.Hub/HubItemEditor.cs:1243 HubKit.Button(label)"
+   "IsaClient.Gta/GtaSix.cs:492 GtaArt.Button(label)",
+   "IsaClient.Hub/HubCharacterEditor.cs:238 HubKit.Button(label)"
   ]
  },
  "Back 10 seconds": {
@@ -7298,6 +7357,17 @@
   ],
   "code": [
    "IsaClient.Menu/CharacterWindow.cs:202 UiKit.Button(tooltip)"
+  ]
+ },
+ "Back to Terraria": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "kind": [
+   "button"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:626 GtaArt.Button(label)"
   ]
  },
  "Back to chat": {
@@ -7401,7 +7471,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:1121 HubKit.Button(tooltip)"
+   "IsaClient.Hub/HubGames.cs:1173 HubKit.Button(tooltip)"
   ]
  },
  "Back to the table": {
@@ -7412,7 +7482,7 @@
    "button"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:606 HubKit.Button(label)"
+   "IsaClient.Hub/HubGames.cs:658 HubKit.Button(label)"
   ]
  },
  "Back to the video": {
@@ -7857,7 +7927,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Rendering/Thor.cs:52 ArrayInitializerExpression"
+   "IsaClient.Rendering/Thor.cs:53 ArrayInitializerExpression"
   ]
  },
  "Big and careful.": {
@@ -8298,7 +8368,7 @@
    "button"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:229 HubKit.Button(label)"
+   "IsaClient.Hub/HubGames.cs:230 HubKit.Button(label)"
   ]
  },
  "Board size": {
@@ -8306,7 +8376,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:1012 = Name"
+   "IsaClient.Hub/HubGames.cs:1064 = Name"
   ]
  },
  "Boards": {
@@ -9232,7 +9302,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:615 UiKit.Button(tooltip)"
+   "IsaClient.Menu/CharacterWindow.cs:622 UiKit.Button(tooltip)"
   ]
  },
  "Builds this character out of real blocks and starts a paste ({0}).": {
@@ -9267,7 +9337,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:619 UiKit.Button(tooltip)"
+   "IsaClient.Menu/CharacterWindow.cs:626 UiKit.Button(tooltip)"
   ]
  },
  "Built {0}": {
@@ -9706,7 +9776,7 @@
    "button"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:296 HubKit.Button(label)"
+   "IsaClient.Hub/HubGames.cs:297 HubKit.Button(label)"
   ]
  },
  "Cancel the download": {
@@ -9867,7 +9937,7 @@
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.Casino/CasinoWindow.cs:218 CasinoWindow.Tab(label)",
-   "IsaClient.Hub/HubGames.cs:606 HubKit.Button(label)"
+   "IsaClient.Hub/HubGames.cs:658 HubKit.Button(label)"
   ]
  },
  "Caru": {
@@ -9889,7 +9959,7 @@
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.Casino/CasinoWindow.cs:213 L10n.T(text)",
-   "IsaClient.Hub/HubGames.cs:588 HubKit.Text(text)"
+   "IsaClient.Hub/HubGames.cs:640 HubKit.Text(text)"
   ]
  },
  "Casino music: {0}": {
@@ -10213,7 +10283,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:576 UiKit.Button(tooltip)"
+   "IsaClient.Menu/CharacterWindow.cs:583 UiKit.Button(tooltip)"
   ]
  },
  "Change {0}'s look, items and stats and save the file.": {
@@ -10224,7 +10294,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:572 UiKit.Button(tooltip)"
+   "IsaClient.Menu/CharacterWindow.cs:579 UiKit.Button(tooltip)"
   ]
  },
  "Changed files that clash with IsaClient's changes: your version is used, IsaClient's adaptations of it are lost (it may not compile)": {
@@ -10755,7 +10825,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:708 L10n.T(text)"
+   "IsaClient.Hub/HubGames.cs:760 L10n.T(text)"
   ]
  },
  "Chips won (or lost) at Poker, with the computer and with players. Hands won, lost and split.": {
@@ -10763,7 +10833,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:706 L10n.T(text)"
+   "IsaClient.Hub/HubGames.cs:758 L10n.T(text)"
   ]
  },
  "Chips won (or lost) on the slot machine, the Roulette and the races.": {
@@ -10771,7 +10841,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:710 L10n.T(text)"
+   "IsaClient.Hub/HubGames.cs:762 L10n.T(text)"
   ]
  },
  "Choose a server": {
@@ -10804,7 +10874,7 @@
    "button"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:1112 HubKit.Button(label)"
+   "IsaClient.Hub/HubGames.cs:1164 HubKit.Button(label)"
   ]
  },
  "Choose the ROM first.": {
@@ -10938,7 +11008,7 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:367 SwitchExpressionArm",
+   "IsaClient.Menu/CharacterWindow.cs:374 SwitchExpressionArm",
    "IsaClient.Menu/PlayerFileDropDialog.cs:314 SwitchExpressionArm",
    "IsaClient.Menu/UiKit.cs:177 SwitchExpressionArm",
    "IsaClient.WorldTools/WorldInfo.cs:520 ArrayInitializerExpression"
@@ -10997,17 +11067,6 @@
   ],
   "code": [
    "IsaClient.Menu/AudioMenu.cs:109 CollectionInitializerExpression"
-  ]
- },
- "Classic panel": {
-  "where": [
-   "The client's main panel (pages, cards, buttons, settings)"
-  ],
-  "kind": [
-   "button"
-  ],
-  "code": [
-   "IsaClient.Hub/ClientHub.cs:676 HubKit.Button(label)"
   ]
  },
  "Classic panel on. Back to the new one: Miscellaneous > New Interface, or .menu new": {
@@ -11293,7 +11352,7 @@
    "button"
   ],
   "code": [
-   "IsaClient.Hub/ClientHub.cs:880 = label",
+   "IsaClient.Hub/ClientHub.cs:892 = label",
    "IsaClient.Hub/HubCards.cs:75 = verb",
    "IsaClient.Hub/HubCards.cs:88 = verb",
    "IsaClient.Hub/HubCards.cs:209 = verb"
@@ -11557,7 +11616,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:454 CharacterWindow.Chip(tooltip)"
+   "IsaClient.Menu/CharacterWindow.cs:461 CharacterWindow.Chip(tooltip)"
   ]
  },
  "Click to show the queue (.queue).": {
@@ -11816,7 +11875,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:373 CharacterWindow.Chip(tooltip)"
+   "IsaClient.Menu/CharacterWindow.cs:380 CharacterWindow.Chip(tooltip)"
   ]
  },
  "Click: hide the details": {
@@ -12087,7 +12146,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Hub/ClientHub.cs:611 HubKit.BareIcon(tooltip)"
+   "IsaClient.Hub/ClientHub.cs:623 HubKit.BareIcon(tooltip)"
   ]
  },
  "Close (the game keeps this moment)": {
@@ -12764,7 +12823,7 @@
    "Mini games: invitations and matches between players"
   ],
   "code": [
-   "IsaClient.Games/GameLobby.cs:572 L10n.F(text)"
+   "IsaClient.Games/GameLobby.cs:573 L10n.F(text)"
   ]
  },
  "Comverted selection to {0}.": {
@@ -12820,6 +12879,14 @@
   "code": [
    "IsaClient.Hub/HubBots.cs:788 HubKit.Button(label)",
    "IsaClient.MultiClient/MultiClientPanel.cs:779 MultiClientPanel.Button(label)"
+  ]
+ },
+ "Connect a controller": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:407 L10n.T(text)"
   ]
  },
  "Connect again every bot that dropped": {
@@ -13067,7 +13134,7 @@
    "Snake window",
    "Tetris window",
    "GBA emulator window",
-   "IsaClient.Psp"
+   "IsaClient.Gta"
   ],
   "kind": [
    "button"
@@ -13077,7 +13144,7 @@
    "IsaClient.Games/Snake.cs:880 = button",
    "IsaClient.Games/Tetris.cs:422 = button",
    "IsaClient.Gba/PokemonWindow.cs:645 MusicDrawing.TextButton(label)",
-   "IsaClient.Psp/PspWindow.cs:753 MusicDrawing.TextButton(label)"
+   "IsaClient.Gta/GtaSix.cs:425 GtaArt.Button(label)"
   ]
  },
  "Continue watching": {
@@ -13124,6 +13191,14 @@
   ],
   "code": [
    "IsaClient.Gameplay/NpcControl.cs:49 ClientChat.Info(text)"
+  ]
+ },
+ "Controller connected": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:407 L10n.T(text)"
   ]
  },
  "Controllerdestiny": {
@@ -13730,7 +13805,7 @@
    "The client's main panel (pages, cards, buttons, settings)"
   ],
   "code": [
-   "IsaClient.Hub/ClientHub.cs:1093 = Label"
+   "IsaClient.Hub/ClientHub.cs:1112 = Label"
   ]
  },
  "Copy for creation": {
@@ -14133,7 +14208,7 @@
    "error message in the chat"
   ],
   "code": [
-   "IsaClient.Menu/Wiki.cs:61 ClientChat.Error(text)"
+   "IsaClient.Menu/Wiki.cs:94 ClientChat.Error(text)"
   ]
  },
  "Could not open {0}: {1}": {
@@ -14495,6 +14570,22 @@
   "code": [
    "IsaClient.Gba/GbaFinder.cs:1412 = Message",
    "IsaClient.Psp/PspFinder.cs:354 = Message"
+  ]
+ },
+ "Couldn't get the downloader. Check your connection and try again.": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaTrailer.cs:64 = Error"
+  ]
+ },
+ "Couldn't install the game": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:484 L10n.T(text)"
   ]
  },
  "Couldn't keep the moment: {0}": {
@@ -15802,7 +15893,7 @@
   "code": [
    "IsaClient.Hub/HubAiSetup.cs:151 HubKit.Button(label)",
    "IsaClient.Hub/HubColorPicker.cs:219 HubKit.Button(label)",
-   "IsaClient.Hub/HubGames.cs:1121 HubKit.Button(label)",
+   "IsaClient.Hub/HubGames.cs:1173 HubKit.Button(label)",
    "IsaClient.Hub/HubMultiPaste.cs:108 HubKit.Button(label)"
   ]
  },
@@ -17420,7 +17511,7 @@
   "code": [
    "IsaClient.Gba/PokemonWindow.cs:1661 MusicDrawing.TextButton(label)",
    "IsaClient.Hub/HubColorPicker.cs:212 HubKit.Button(label)",
-   "IsaClient.Hub/HubGames.cs:1112 HubKit.Button(label)",
+   "IsaClient.Hub/HubGames.cs:1164 HubKit.Button(label)",
    "IsaClient.Psp/PspWindow.cs:1349 MusicDrawing.TextButton(label)"
   ]
  },
@@ -17831,7 +17922,7 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/ClientHub.cs:437 HubInput.Hover(tooltip)",
+   "IsaClient.Hub/ClientHub.cs:449 HubInput.Hover(tooltip)",
    "IsaClient.Video/VideoWindow.cs:356 MusicDrawing.Hover(tooltip)"
   ]
  },
@@ -18469,6 +18560,14 @@
    "IsaClient.Assistant/GroqBrowser.cs:56 StringBuilder.Append(value)"
   ]
  },
+ "Early access": {
+  "where": [
+   "Panel > Games page"
+  ],
+  "code": [
+   "IsaClient.Hub/HubGames.cs:606 L10n.T(text)"
+  ]
+ },
  "Easy": {
   "where": [
    "Chess: computer player",
@@ -18601,7 +18700,7 @@
    "text on screen"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:570 UiKit.Text(text)"
+   "IsaClient.Menu/CharacterWindow.cs:577 UiKit.Text(text)"
   ]
  },
  "Edit AI Config (Prompt, About Me, Key...)": {
@@ -18668,7 +18767,7 @@
    "button"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:576 UiKit.Button(label)"
+   "IsaClient.Menu/CharacterWindow.cs:583 UiKit.Button(label)"
   ]
  },
  "Edit or create: if you name one of your plugins, or talk about \"my plugin\" / \"it\" right after it worked on one, it edits that one (reads it first, changes only what you asked). It makes a new plugin only when you ask for something none of yours does. If it could be either, it asks. To be sure, name the plugin, or set a /goal.": {
@@ -18690,7 +18789,7 @@
    "button"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:572 UiKit.Button(label)"
+   "IsaClient.Menu/CharacterWindow.cs:579 UiKit.Button(label)"
   ]
  },
  "Edit {0}": {
@@ -18797,7 +18896,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:886 HubKit.RawText(text)"
+   "IsaClient.Hub/HubGames.cs:938 HubKit.RawText(text)"
   ]
  },
  "Elo rating from games against players; everyone starts at {0}. The computer doesn't count.": {
@@ -18805,7 +18904,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:698 L10n.F(text)"
+   "IsaClient.Hub/HubGames.cs:750 L10n.F(text)"
   ]
  },
  "Emerald": {
@@ -19206,7 +19305,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:233 HubKit.Button(tooltip)"
+   "IsaClient.Hub/HubGames.cs:234 HubKit.Button(tooltip)"
   ]
  },
  "Endpoint": {
@@ -19398,7 +19497,7 @@
    "IsaClient.Hub/HubCharacterEditor.cs:587 ArrayInitializerExpression",
    "IsaClient.Hub/HubItemEditor.cs:651 HubItemEditor.Section(title)",
    "IsaClient.Hub/HubPlayerView.cs:735 HubKit.Text(text)",
-   "IsaClient.Menu/CharacterWindow.cs:590 ArrayInitializerExpression"
+   "IsaClient.Menu/CharacterWindow.cs:597 ArrayInitializerExpression"
   ]
  },
  "Erase Brush": {
@@ -19642,6 +19741,23 @@
    "IsaClient.Feedback/FeedbackReports.cs:271 StringBuilder.AppendLine(value)"
   ]
  },
+ "Esc  Back": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:437 L10n.T(text)",
+   "IsaClient.Gta/GtaSix.cs:547 L10n.T(text)"
+  ]
+ },
+ "Esc  Skip": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:512 L10n.T(text)"
+  ]
+ },
  "Esc to leave full screen": {
   "where": [
    "IsaClient.Psp"
@@ -19707,7 +19823,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:303 = tip"
+   "IsaClient.Hub/HubGames.cs:304 = tip"
   ]
  },
  "Every NPC of the game": {
@@ -19959,7 +20075,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:712 L10n.T(text)"
+   "IsaClient.Hub/HubGames.cs:764 L10n.T(text)"
   ]
  },
  "Everything you turn on shows up here, so you can turn it off quickly.": {
@@ -21032,7 +21148,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:1147 L10n.F(text)"
+   "IsaClient.Hub/HubGames.cs:1199 L10n.F(text)"
   ]
  },
  "Find and test proxies in the background": {
@@ -21129,9 +21245,9 @@
    "error message in the chat"
   ],
   "code": [
-   "IsaClient.Games/GameLobby.cs:404 ClientChat.Error(text)",
-   "IsaClient.Games/GameLobby.cs:463 ClientChat.Error(text)",
-   "IsaClient.Games/GameLobby.cs:561 ClientChat.Error(text)"
+   "IsaClient.Games/GameLobby.cs:405 ClientChat.Error(text)",
+   "IsaClient.Games/GameLobby.cs:464 ClientChat.Error(text)",
+   "IsaClient.Games/GameLobby.cs:562 ClientChat.Error(text)"
   ]
  },
  "Finished resending inventory.": {
@@ -21309,6 +21425,17 @@
    "IsaClient.WorldTools/WorldInfo.cs:595 SwitchExpressionArm"
   ]
  },
+ "Flash Thor": {
+  "where": [
+   "The client's main panel (pages, cards, buttons, settings)"
+  ],
+  "kind": [
+   "button"
+  ],
+  "code": [
+   "IsaClient.Hub/ClientHub.cs:688 HubKit.Button(label)"
+  ]
+ },
  "Flat Overlay": {
   "where": [
    "World tools: chests, map, tile search, world info"
@@ -21457,7 +21584,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:509 UiKit.Toggle(tooltip)"
+   "IsaClient.Menu/CharacterWindow.cs:516 UiKit.Toggle(tooltip)"
   ]
  },
  "Flymeal SFX": {
@@ -22804,6 +22931,17 @@
    "IsaClient.Assistant/PluginMaker/AiModels.cs:116 AiModel.M(label)"
   ]
  },
+ "GTA VI intro: {0}": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "kind": [
+   "error message (can be shown to the player)"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaTrailer.cs:218 InvalidOperationException..ctor(message)"
+  ]
+ },
  "Galaxy Pearl": {
   "where": [
    "Panel > character editor"
@@ -22872,7 +23010,7 @@
    "text on screen"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:471 HubKit.Text(text)"
+   "IsaClient.Hub/HubGames.cs:472 HubKit.Text(text)"
   ]
  },
  "Game Boy Colors": {
@@ -23100,7 +23238,7 @@
    "error message in the chat"
   ],
   "code": [
-   "IsaClient.Games/GameLobby.cs:399 ClientChat.Error(text)"
+   "IsaClient.Games/GameLobby.cs:400 ClientChat.Error(text)"
   ]
  },
  "Games with other players (Tic Tac Toe, Chess, Tetris Versus) stop working, and your scores aren't shared or ranked.": {
@@ -23138,8 +23276,8 @@
   "code": [
    "IsaClient.Gba/PokemonWindow.cs:665 MusicDrawing.TextButton(label)",
    "IsaClient.Gba/PokemonWindow.Ds.cs:369 MusicDrawing.TextButton(label)",
-   "IsaClient.Hub/HubGames.cs:493 HubKit.Button(label)",
-   "IsaClient.Hub/HubGames.cs:558 HubKit.Button(label)"
+   "IsaClient.Hub/HubGames.cs:494 HubKit.Button(label)",
+   "IsaClient.Hub/HubGames.cs:559 HubKit.Button(label)"
   ]
  },
  "Garden Gnome Nearby: {0}": {
@@ -23195,7 +23333,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:354 L10n.T(text)"
+   "IsaClient.Hub/HubGames.cs:355 L10n.T(text)"
   ]
  },
  "General": {
@@ -23353,7 +23491,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:1008 HubGames.SwitchRow(title)"
+   "IsaClient.Hub/HubGames.cs:1060 HubGames.SwitchRow(title)"
   ]
  },
  "Get more ({0})": {
@@ -23430,6 +23568,14 @@
    "IsaClient.Hub/GameplayContent.cs:78 CatalogBuilder.Row(description)"
   ]
  },
+ "Getting ready": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:462 L10n.T(text)"
+  ]
+ },
  "Getting {0} of {1}: {2}": {
   "where": [
    "GBA window > Find games (online search)"
@@ -23453,7 +23599,7 @@
    "In-game cheat menu and main menu additions"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:509 UiKit.Toggle(label)"
+   "IsaClient.Menu/CharacterWindow.cs:516 UiKit.Toggle(label)"
   ]
  },
  "Ghost Mode": {
@@ -23482,7 +23628,7 @@
    "text on screen"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:503 UiKit.Text(text)"
+   "IsaClient.Menu/CharacterWindow.cs:510 UiKit.Text(text)"
   ]
  },
  "Ghost mode: become a ghost and float through everything; use it again to come back.": {
@@ -23586,7 +23732,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:382 UiKit.Button(tooltip)"
+   "IsaClient.Menu/CharacterWindow.cs:389 UiKit.Button(tooltip)"
   ]
  },
  "Gives every NPC 500 platinum coins.": {
@@ -23658,7 +23804,7 @@
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.Hub/HubSpriteArt.cs:529 HubSpriteArt.Toggle(label)",
-   "IsaClient.Menu/CharacterWindow.cs:634 UiKit.Toggle(label)"
+   "IsaClient.Menu/CharacterWindow.cs:641 UiKit.Toggle(label)"
   ]
  },
  "Glow (Illuminant Coating)": {
@@ -24015,6 +24161,35 @@
    "IsaClient.Assistant/PluginMaker/AiModels.cs:113 AiModel.M(note)"
   ]
  },
+ "Grand Theft Auto VI": {
+  "where": [
+   "IsaClient.Gta",
+   "Panel > Games page"
+  ],
+  "kind": [
+   "text on screen"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:450 GtaArt.Spaced(text)",
+   "IsaClient.Hub/HubGames.cs:597 HubKit.Text(text)"
+  ]
+ },
+ "Grand Theft Auto VI needs a lot more than this computer can give.": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:593 L10n.T(text)"
+  ]
+ },
+ "Grand Theft Auto VI plays best with a controller. Plug one in or turn it on.": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:411 L10n.T(text)"
+  ]
+ },
  "Granite": {
   "where": [
    "In-game cheat menu and main menu additions"
@@ -24035,6 +24210,14 @@
   ],
   "code": [
    "IsaClient.Hub/WorldContent.cs:202 CatalogBuilder.Row(title)"
+  ]
+ },
+ "Graphics": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:607 L10n.T(text)"
   ]
  },
  "Graphics: {0}": {
@@ -24314,7 +24497,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:591 ArrayInitializerExpression"
+   "IsaClient.Menu/CharacterWindow.cs:598 ArrayInitializerExpression"
   ]
  },
  "Hairstyle {0}, clothing style {1}": {
@@ -24450,7 +24633,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:365 SwitchExpressionArm",
+   "IsaClient.Menu/CharacterWindow.cs:372 SwitchExpressionArm",
    "IsaClient.Menu/UiKit.cs:175 SwitchExpressionArm"
   ]
  },
@@ -25031,6 +25214,17 @@
    "IsaClient.Menu/WorldInfoMenu.cs:652 L10n.T(text)"
   ]
  },
+ "Hold Q (the Wiki Lookup key) and click an item in your inventory to open it on the Terraria wiki.": {
+  "where": [
+   "Panel > Client settings page"
+  ],
+  "kind": [
+   "panel option description"
+  ],
+  "code": [
+   "IsaClient.Hub/ClientContent.cs:268 CatalogBuilder.Row(description)"
+  ]
+ },
  "Hold a paintbrush, roller or scraper": {
   "where": [
    "Panel > World page"
@@ -25318,7 +25512,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:1013 = Hint"
+   "IsaClient.Hub/HubGames.cs:1065 = Hint"
   ]
  },
  "How bots behave.": {
@@ -26133,7 +26327,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:634 UiKit.Toggle(tooltip)"
+   "IsaClient.Menu/CharacterWindow.cs:641 UiKit.Toggle(tooltip)"
   ]
  },
  "ImGui could not start: {0}": {
@@ -26878,6 +27072,22 @@
    "IsaClient.Plugins/PluginOverlay.cs:148 call"
   ]
  },
+ "Installed": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:84 L10n.T(text)"
+  ]
+ },
+ "Installing  {0} / 212 GB": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:462 L10n.F(text)"
+  ]
+ },
  "Installing yt-dlp...": {
   "where": [
    "Music player (YouTube songs, playlists, mini player)"
@@ -26892,6 +27102,14 @@
   ],
   "code": [
    "IsaClient.Core/Updater.cs:312 = _progressText"
+  ]
+ },
+ "Installing... {0}%": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:82 L10n.F(text)"
   ]
  },
  "Installs or updates yt-dlp, used to play links.": {
@@ -26973,6 +27191,14 @@
   ],
   "code": [
    "IsaClient.Core/CommandCatalog.cs:156 CommandInfo.Help(summary)"
+  ]
+ },
+ "Integrated graphics": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaArt.cs:345 L10n.T(text)"
   ]
  },
  "Interface": {
@@ -27574,7 +27800,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:591 ArrayInitializerExpression"
+   "IsaClient.Menu/CharacterWindow.cs:598 ArrayInitializerExpression"
   ]
  },
  "Inventory, equipment, loadouts and storage": {
@@ -27810,7 +28036,7 @@
    "button"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:304 HubKit.Button(label)"
+   "IsaClient.Hub/HubGames.cs:305 HubKit.Button(label)"
   ]
  },
  "Invite to {0}": {
@@ -27818,7 +28044,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:200 L10n.F(text)"
+   "IsaClient.Hub/HubGames.cs:201 L10n.F(text)"
   ]
  },
  "Invite to {0}: they get a little invitation and the board opens when they accept.": {
@@ -27839,7 +28065,7 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/HubGames.cs:200 HubKit.Button(label)",
+   "IsaClient.Hub/HubGames.cs:201 HubKit.Button(label)",
    "IsaClient.Hub/HubPlayerView.cs:507 HubKit.Button(label)"
   ]
  },
@@ -28112,7 +28338,7 @@
    "IsaClient.Languages/LanguageWindow.cs:612 ClientChat.Info(text)"
   ]
  },
- "IsaClient for Terraria 1.4.5.8": {
+ "IsaClient for Terraria 1.4.6.1": {
   "where": [
    "Client core: chat commands, their help, updates, startup"
   ],
@@ -28285,8 +28511,8 @@
    "text on screen"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:130 HubKit.Text(text)",
-   "IsaClient.Hub/HubGames.cs:140 L10n.T(text)"
+   "IsaClient.Hub/HubGames.cs:131 HubKit.Text(text)",
+   "IsaClient.Hub/HubGames.cs:141 L10n.T(text)"
   ]
  },
  "IsaClient players stop seeing you as one (player list, ids), and you stop seeing them.": {
@@ -28427,7 +28653,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/CheatPanel.cs:258 ArrayInitializerExpression"
+   "IsaClient.Menu/CheatPanel.cs:282 ArrayInitializerExpression"
   ]
  },
  "IsaClient: Building": {
@@ -28446,7 +28672,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/CheatPanel.cs:258 ArrayInitializerExpression"
+   "IsaClient.Menu/CheatPanel.cs:282 ArrayInitializerExpression"
   ]
  },
  "IsaClient: Combat": {
@@ -28481,7 +28707,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/CheatPanel.cs:258 ArrayInitializerExpression"
+   "IsaClient.Menu/CheatPanel.cs:282 ArrayInitializerExpression"
   ]
  },
  "IsaClient: World Information": {
@@ -28492,7 +28718,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/CheatPanel.cs:258 ArrayInitializerExpression"
+   "IsaClient.Menu/CheatPanel.cs:282 ArrayInitializerExpression"
   ]
  },
  "IsaClientPsp-{0}-{1}": {
@@ -29359,7 +29585,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:133 = why"
+   "IsaClient.Hub/HubGames.cs:134 = why"
   ]
  },
  "Join a server: games with others are played online.": {
@@ -29370,7 +29596,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:303 = tip"
+   "IsaClient.Hub/HubGames.cs:304 = tip"
   ]
  },
  "Join a world first.": {
@@ -29481,7 +29707,7 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:366 SwitchExpressionArm",
+   "IsaClient.Menu/CharacterWindow.cs:373 SwitchExpressionArm",
    "IsaClient.Menu/PlayerFileDropDialog.cs:313 SwitchExpressionArm",
    "IsaClient.Menu/UiKit.cs:176 SwitchExpressionArm",
    "IsaClient.WorldTools/WorldInfo.cs:520 ArrayInitializerExpression"
@@ -30753,7 +30979,7 @@
   "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.Hub/ClientContent.cs:725 ArrayInitializerExpression",
-   "IsaClient.Hub/HubGames.cs:1014 ArrayInitializerExpression",
+   "IsaClient.Hub/HubGames.cs:1066 ArrayInitializerExpression",
    "IsaClient.Menu/PlayerFileDropDialog.cs:316 = size"
   ]
  },
@@ -30886,7 +31112,7 @@
    "button"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:233 HubKit.Button(label)"
+   "IsaClient.Hub/HubGames.cs:234 HubKit.Button(label)"
   ]
  },
  "Leave behind a trail of particles when you walk.\nFlames (Dyed) uses your mount dye.": {
@@ -30942,7 +31168,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:233 HubKit.Button(tooltip)"
+   "IsaClient.Hub/HubGames.cs:234 HubKit.Button(tooltip)"
   ]
  },
  "Leave this server (your character is saved, as with Save & Exit)": {
@@ -31422,7 +31648,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:590 ArrayInitializerExpression"
+   "IsaClient.Menu/CharacterWindow.cs:597 ArrayInitializerExpression"
   ]
  },
  "Life and mana": {
@@ -32271,6 +32497,14 @@
    "IsaClient.Menu/FileDrop.cs:135 ClientChat.Info(text)"
   ]
  },
+ "Loading": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:462 L10n.T(text)"
+  ]
+ },
  "Loading Item Mod Preset \"{0}\" error!\n{1}": {
   "where": [
    "Gameplay cheats and tools (combat, items, player, auto clicker...)"
@@ -32280,6 +32514,14 @@
   ],
   "code": [
    "IsaClient.Gameplay/ItemModPreset.cs:114 ClientChat.Error(text)"
+  ]
+ },
+ "Loading Story Mode": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:556 L10n.T(text)"
   ]
  },
  "Loading next song...": {
@@ -33487,7 +33729,7 @@
    "The client's main panel (pages, cards, buttons, settings)"
   ],
   "code": [
-   "IsaClient.Hub/ClientHub.cs:1077 = Label"
+   "IsaClient.Hub/ClientHub.cs:1096 = Label"
   ]
  },
  "Make a new character file with any look and items.": {
@@ -33501,7 +33743,7 @@
   ],
   "code": [
    "IsaClient.Hub/GameplayContent.cs:27 CatalogBuilder.Native(description)",
-   "IsaClient.Menu/CharacterWindow.cs:580 UiKit.Button(tooltip)"
+   "IsaClient.Menu/CharacterWindow.cs:587 UiKit.Button(tooltip)"
   ]
  },
  "Make a playlist from the current song and the queue": {
@@ -34101,7 +34343,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:591 ArrayInitializerExpression"
+   "IsaClient.Menu/CharacterWindow.cs:598 ArrayInitializerExpression"
   ]
  },
  "Max luck, or Dream luck far beyond what the game allows.": {
@@ -34139,7 +34381,7 @@
    "message in the chat"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:492 ClientChat.Info(text)"
+   "IsaClient.Menu/CharacterWindow.cs:499 ClientChat.Info(text)"
   ]
  },
  "Maximum packet length exceeded. id: {0} length: {1}": {
@@ -34220,7 +34462,7 @@
   "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.Hub/ClientContent.cs:725 ArrayInitializerExpression",
-   "IsaClient.Hub/HubGames.cs:1014 ArrayInitializerExpression",
+   "IsaClient.Hub/HubGames.cs:1066 ArrayInitializerExpression",
    "IsaClient.Menu/PlayerFileDropDialog.cs:316 = size"
   ]
  },
@@ -34240,7 +34482,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:364 SwitchExpressionArm",
+   "IsaClient.Menu/CharacterWindow.cs:371 SwitchExpressionArm",
    "IsaClient.Menu/UiKit.cs:174 SwitchExpressionArm"
   ]
  },
@@ -34279,10 +34521,13 @@
  },
  "Memory": {
   "where": [
-   "Bug reports and suggestions"
+   "Bug reports and suggestions",
+   "IsaClient.Gta"
   ],
+  "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Feedback/ReportBuilder.cs:26 Argument"
+   "IsaClient.Feedback/ReportBuilder.cs:26 Argument",
+   "IsaClient.Gta/GtaSix.cs:609 L10n.T(text)"
   ]
  },
  "Memory Guard": {
@@ -34677,7 +34922,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Rendering/Thor.cs:52 ArrayInitializerExpression"
+   "IsaClient.Rendering/Thor.cs:53 ArrayInitializerExpression"
   ]
  },
  "Mixed bright colors, one color, between two colors, a rainbow going round or any color. Right click goes back.": {
@@ -36122,6 +36367,14 @@
    "IsaClient.Hub/HubAiSetup.cs:65 HubAiSetup.DrawProviderKey(label)"
   ]
  },
+ "NVIDIA GeForce RTX 6090 Ti": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:607 Argument"
+  ]
+ },
  "Name": {
   "where": [
    "Panel > AI assistant page",
@@ -36429,20 +36682,28 @@
    "IsaClient.WorldTools/MapReveal.cs:1748 MapReveal.Message(text)"
   ]
  },
- "Network version used to join servers: 1.4.5.6 (older servers).\nPackets that changed in 1.4.5.7 are translated; content added after 1.4.5.6 is not sent.\nClick (or [F5]) to go back to 1.4.5.8.": {
+ "Network version used to join servers: 1.4.5.6 (older servers).\nPackets that changed in 1.4.5.7 and 1.4.6 are translated; content added after 1.4.5.6 is not sent.\nClick (or [F5]) to go back to 1.4.6.1.": {
   "where": [
    "Networking: proxy/VPN, server detection, rejoin"
   ],
   "code": [
-   "IsaClient.Networking/ProtocolCompat.cs:111 ReturnStatement"
+   "IsaClient.Networking/NetworkVersion.cs:82 ReturnStatement"
   ]
  },
- "Network version used to join servers: 1.4.5.8 (current).\nClick (or [F5]) to join 1.4.5.6 servers instead.": {
+ "Network version used to join servers: 1.4.5.8 (older servers).\nPackets that changed in 1.4.6 are translated; crossplay is off.\nClick (or [F5]) for 1.4.5.6 servers.": {
   "where": [
    "Networking: proxy/VPN, server detection, rejoin"
   ],
   "code": [
-   "IsaClient.Networking/ProtocolCompat.cs:109 ReturnStatement"
+   "IsaClient.Networking/NetworkVersion.cs:80 ReturnStatement"
+  ]
+ },
+ "Network version used to join servers: 1.4.6.1 (current).\nClick (or [F5]) for 1.4.5.8 servers.": {
+  "where": [
+   "Networking: proxy/VPN, server detection, rejoin"
+  ],
+  "code": [
+   "IsaClient.Networking/NetworkVersion.cs:84 ReturnStatement"
   ]
  },
  "Neutral": {
@@ -36670,7 +36931,7 @@
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.Hub/HubCharacterEditor.cs:159 ReturnStatement",
-   "IsaClient.Menu/CharacterWindow.cs:580 UiKit.Button(label)"
+   "IsaClient.Menu/CharacterWindow.cs:587 UiKit.Button(label)"
   ]
  },
  "New conversation": {
@@ -37567,6 +37828,14 @@
    "IsaClient.Feedback/ReportSender.cs:79 ReturnStatement"
   ]
  },
+ "No controller? You can set one up later in Settings.": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:436 L10n.T(text)"
+  ]
+ },
  "No conversations yet.": {
   "where": [
    "Panel > Plugin Maker page"
@@ -37683,8 +37952,8 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:481 L10n.T(text)",
-   "IsaClient.Hub/HubGames.cs:546 L10n.T(text)"
+   "IsaClient.Hub/HubGames.cs:482 L10n.T(text)",
+   "IsaClient.Hub/HubGames.cs:547 L10n.T(text)"
   ]
  },
  "No games could be found.": {
@@ -38422,7 +38691,7 @@
    "text on screen"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:146 HubKit.Text(text)"
+   "IsaClient.Hub/HubGames.cs:147 HubKit.Text(text)"
   ]
  },
  "Nobody here": {
@@ -38438,8 +38707,8 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:372 L10n.T(text)",
-   "IsaClient.Hub/HubGames.cs:420 L10n.T(text)"
+   "IsaClient.Hub/HubGames.cs:373 L10n.T(text)",
+   "IsaClient.Hub/HubGames.cs:421 L10n.T(text)"
   ]
  },
  "Nobody on this board yet: be the first.": {
@@ -38450,7 +38719,7 @@
    "text on screen"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:801 HubKit.Text(text)"
+   "IsaClient.Hub/HubGames.cs:853 HubKit.Text(text)"
   ]
  },
  "Nobody whispered you yet. Use .w <player> <message>.": {
@@ -38816,7 +39085,7 @@
    "The client's main panel (pages, cards, buttons, settings)"
   ],
   "code": [
-   "IsaClient.Hub/ClientHub.cs:712 ClientHub.EmptyNote(title)"
+   "IsaClient.Hub/ClientHub.cs:724 ClientHub.EmptyNote(title)"
   ]
  },
  "Not protected": {
@@ -38964,7 +39233,7 @@
    "The client's main panel (pages, cards, buttons, settings)"
   ],
   "code": [
-   "IsaClient.Hub/ClientHub.cs:835 ClientHub.EmptyNote(title)"
+   "IsaClient.Hub/ClientHub.cs:847 ClientHub.EmptyNote(title)"
   ]
  },
  "Nothing found for \"{0}\".": {
@@ -39441,7 +39710,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:1008 HubGames.SwitchRow(hint)"
+   "IsaClient.Hub/HubGames.cs:1060 HubGames.SwitchRow(hint)"
   ]
  },
  "Off: listening only, nothing goes out.": {
@@ -39707,7 +39976,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Rendering/Thor.cs:54 ArrayInitializerExpression"
+   "IsaClient.Rendering/Thor.cs:55 ArrayInitializerExpression"
   ]
  },
  "On the title screen (no world loaded).": {
@@ -39823,7 +40092,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Rendering/Thor.cs:52 ArrayInitializerExpression"
+   "IsaClient.Rendering/Thor.cs:53 ArrayInitializerExpression"
   ]
  },
  "One country": {
@@ -40007,7 +40276,7 @@
    "IsaClient.Gba/PokemonFinder.cs:197 PokemonWindow.SystemButton(tip)"
   ]
  },
- "Only direct IP connections can switch sessions (not Steam friend joins).": {
+ "Only direct TCP connections can switch sessions (not Steam friend joins or crossplay over UDP).": {
   "where": [
    "Bots: extra characters controlled from this client, possession"
   ],
@@ -40143,7 +40412,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:653 UiKit.Button(tooltip)"
+   "IsaClient.Menu/CharacterWindow.cs:660 UiKit.Button(tooltip)"
   ]
  },
  "Only the look: your items, stats and name stay yours.": {
@@ -40504,7 +40773,7 @@
    "button"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:779 HubKit.Button(label)"
+   "IsaClient.Hub/HubGames.cs:831 HubKit.Button(label)"
   ]
  },
  "Open the chat to click links": {
@@ -40848,7 +41117,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:489 HubKit.Button(tooltip)"
+   "IsaClient.Hub/HubGames.cs:490 HubKit.Button(tooltip)"
   ]
  },
  "Opens the Game Boy Advance / DS window: your own games (.gba, .nds or .zip; the DS emulator is downloaded the first time); in Pokémon FireRed, LeafGreen and Emerald you play as your Terraria character. Just for fun (no scores). Also in the panel: Games.": {
@@ -40892,7 +41161,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:554 HubKit.Button(tooltip)"
+   "IsaClient.Hub/HubGames.cs:555 HubKit.Button(tooltip)"
   ]
  },
  "Opens the PSP window: your own games (.iso, .cso, .chd, .pbp, .elf, .prx, or a .zip or .7z with them; the PSP emulator is downloaded the first time). Just for fun (no scores). Also in the panel: Games.": {
@@ -40925,7 +41194,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:427 HubKit.Button(tooltip)"
+   "IsaClient.Hub/HubGames.cs:428 HubKit.Button(tooltip)"
   ]
  },
  "Opens the Tetris window. Works anywhere, even alone.": {
@@ -40936,7 +41205,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:377 HubKit.Button(tooltip)"
+   "IsaClient.Hub/HubGames.cs:378 HubKit.Button(tooltip)"
   ]
  },
  "Opens the casino's Bets: the slot machine, the Roulette and the horse races, with the same chips.": {
@@ -40991,7 +41260,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:673 UiKit.Button(tooltip)"
+   "IsaClient.Menu/CharacterWindow.cs:680 UiKit.Button(tooltip)"
   ]
  },
  "Opens the folder with your world files.": {
@@ -41358,7 +41627,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:663 UiKit.Toggle(tooltip)"
+   "IsaClient.Menu/CharacterWindow.cs:670 UiKit.Toggle(tooltip)"
   ]
  },
  "Other IsaClient users see you as an IsaClient user (zMod and vanilla clients never do).\nClick your row to change it.": {
@@ -42218,7 +42487,7 @@
    "button"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:619 UiKit.Button(label)"
+   "IsaClient.Menu/CharacterWindow.cs:626 UiKit.Button(label)"
   ]
  },
  "Paste mode turns itself off once a paste starts.": {
@@ -42262,7 +42531,7 @@
    "button"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:615 UiKit.Button(label)"
+   "IsaClient.Menu/CharacterWindow.cs:622 UiKit.Button(label)"
   ]
  },
  "Paste the currently copied tiles. If no tiles are copied,\nuse Selection Mode to copy a selection, or load a TEdit Schematic.": {
@@ -42743,9 +43012,9 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:572 UiKit.Button(tooltip)",
-   "IsaClient.Menu/CharacterWindow.cs:602 UiKit.Button(tooltip)",
-   "IsaClient.Menu/CharacterWindow.cs:645 UiKit.Button(tooltip)"
+   "IsaClient.Menu/CharacterWindow.cs:579 UiKit.Button(tooltip)",
+   "IsaClient.Menu/CharacterWindow.cs:609 UiKit.Button(tooltip)",
+   "IsaClient.Menu/CharacterWindow.cs:652 UiKit.Button(tooltip)"
   ]
  },
  "Pick a character, a server and how many": {
@@ -43432,7 +43701,7 @@
    "text on screen"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:613 UiKit.Text(text)"
+   "IsaClient.Menu/CharacterWindow.cs:620 UiKit.Text(text)"
   ]
  },
  "Pixel art of {0} ready to paste ({1}x{2} blocks). Left click in the world to place it; Ctrl+Z undoes it.": {
@@ -43827,8 +44096,8 @@
    "button"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:427 HubKit.Button(label)",
-   "IsaClient.Hub/HubGames.cs:779 HubKit.Button(label)"
+   "IsaClient.Hub/HubGames.cs:428 HubKit.Button(label)",
+   "IsaClient.Hub/HubGames.cs:831 HubKit.Button(label)"
   ]
  },
  "Play Tetris": {
@@ -43839,8 +44108,8 @@
    "button"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:377 HubKit.Button(label)",
-   "IsaClient.Hub/HubGames.cs:779 HubKit.Button(label)"
+   "IsaClient.Hub/HubGames.cs:378 HubKit.Button(label)",
+   "IsaClient.Hub/HubGames.cs:831 HubKit.Button(label)"
   ]
  },
  "Play Tetris while you wait": {
@@ -43864,7 +44133,7 @@
    "text on screen"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:769 HubKit.Text(text)"
+   "IsaClient.Hub/HubGames.cs:821 HubKit.Text(text)"
   ]
  },
  "Play again": {
@@ -43891,7 +44160,7 @@
    "text on screen"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:769 HubKit.Text(text)"
+   "IsaClient.Hub/HubGames.cs:821 HubKit.Text(text)"
   ]
  },
  "Play all": {
@@ -44017,7 +44286,7 @@
   "code": [
    "IsaClient.Hub/ClientContent.cs:388 CatalogBuilder.Page(title)",
    "IsaClient.Hub/ClientContent.cs:389 CatalogBuilder.Find(title)",
-   "IsaClient.Hub/HubGames.cs:779 HubKit.Button(label)"
+   "IsaClient.Hub/HubGames.cs:831 HubKit.Button(label)"
   ]
  },
  "Play in Background": {
@@ -44121,7 +44390,18 @@
    "button"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:289 HubKit.Button(label)"
+   "IsaClient.Hub/HubGames.cs:290 HubKit.Button(label)"
+  ]
+ },
+ "Play with keyboard": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "kind": [
+   "button"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:431 GtaArt.Button(label)"
   ]
  },
  "Play/Pause Music": {
@@ -44148,7 +44428,7 @@
   "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.Hub/ClientContent.cs:393 CatalogBuilder.Find(title)",
-   "IsaClient.Hub/HubGames.cs:536 HubKit.Text(text)",
+   "IsaClient.Hub/HubGames.cs:537 HubKit.Text(text)",
    "IsaClient.Psp/PspWindow.cs:324 = title"
   ]
  },
@@ -44417,7 +44697,7 @@
    "button"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:673 UiKit.Button(label)"
+   "IsaClient.Menu/CharacterWindow.cs:680 UiKit.Button(label)"
   ]
  },
  "Players, chat, servers and anti-lag": {
@@ -44459,7 +44739,7 @@
    "Networking: proxy/VPN, server detection, rejoin"
   ],
   "code": [
-   "IsaClient.Networking/MobileMode.cs:37 ArrowExpressionClause"
+   "IsaClient.Networking/MobileMode.cs:39 ArrowExpressionClause"
   ]
  },
  "Playing as a phone: servers that tell phones apart see you as Terraria for Android.\nClick to play as a PC again.": {
@@ -44467,7 +44747,7 @@
    "Networking: proxy/VPN, server detection, rejoin"
   ],
   "code": [
-   "IsaClient.Networking/MobileMode.cs:36 ArrowExpressionClause"
+   "IsaClient.Networking/MobileMode.cs:38 ArrowExpressionClause"
   ]
  },
  "Playing as bots": {
@@ -44900,7 +45180,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:589 L10n.T(text)"
+   "IsaClient.Hub/HubGames.cs:641 L10n.T(text)"
   ]
  },
  "Poker and Blackjack. Works anywhere, even alone.": {
@@ -44911,7 +45191,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:606 HubKit.Button(tooltip)"
+   "IsaClient.Hub/HubGames.cs:658 HubKit.Button(tooltip)"
   ]
  },
  "Pokémon Emerald ({0})": {
@@ -45142,6 +45422,22 @@
    "IsaClient.Menu/PanelLayout.cs:22 CollectionInitializerExpression"
   ]
  },
+ "Press A to start": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:533 L10n.T(text)"
+  ]
+ },
+ "Press Enter to start": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:533 L10n.T(text)"
+  ]
+ },
  "Press a key (Esc cancels)": {
   "where": [
    "GBA emulator window",
@@ -45293,6 +45589,14 @@
   ],
   "code": [
    "IsaClient.Core/CommandCatalog.cs:486 CommandInfo.Help(summary)"
+  ]
+ },
+ "Processor": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:608 L10n.T(text)"
   ]
  },
  "Progress": {
@@ -45893,7 +46197,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:649 UiKit.Button(tooltip)"
+   "IsaClient.Menu/CharacterWindow.cs:656 UiKit.Button(tooltip)"
   ]
  },
  "Puts your own look, inventory, equipment, life and mana back.": {
@@ -45906,7 +46210,7 @@
   ],
   "code": [
    "IsaClient.Hub/HubPlayerView.cs:414 HubKit.Button(tooltip)",
-   "IsaClient.Menu/CharacterWindow.cs:606 UiKit.Button(tooltip)",
+   "IsaClient.Menu/CharacterWindow.cs:613 UiKit.Button(tooltip)",
    "IsaClient.Menu/InventoryViewerButtons.cs:149 InventoryViewerButton..ctor(mouseOverText)"
   ]
  },
@@ -45918,7 +46222,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:645 UiKit.Button(tooltip)"
+   "IsaClient.Menu/CharacterWindow.cs:652 UiKit.Button(tooltip)"
   ]
  },
  "Puttering": {
@@ -46641,7 +46945,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Rendering/Thor.cs:52 ArrayInitializerExpression"
+   "IsaClient.Rendering/Thor.cs:53 ArrayInitializerExpression"
   ]
  },
  "Rainbow letter {0} attached: send a message to share it.": {
@@ -46844,7 +47148,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:702 L10n.T(text)"
+   "IsaClient.Hub/HubGames.cs:754 L10n.T(text)"
   ]
  },
  "Rank points from games against players: 3 a win, 1 a draw. The computer doesn't count.": {
@@ -46852,7 +47156,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:700 L10n.T(text)"
+   "IsaClient.Hub/HubGames.cs:752 L10n.T(text)"
   ]
  },
  "Rapid Position Updates": {
@@ -47019,22 +47323,22 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:242 UiKit.Button(tooltip)"
+   "IsaClient.Menu/CharacterWindow.cs:249 UiKit.Button(tooltip)"
   ]
  },
  "Ready": {
   "where": [
    "Casino window: lobby, poker table, blackjack table",
    "Pictures, GIFs and emoticons in the chat",
-   "Multi Paste: bots building with you (messages)",
-   "Music player window"
+   "IsaClient.Gta",
+   "Multi Paste: bots building with you (messages)"
   ],
   "note": "Shown in 4 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.Casino/CasinoWindow.cs:1488 L10n.T(text)",
    "IsaClient.ChatImages/ChatAttachments.cs:128 = Status",
-   "IsaClient.MultiClient/MultiPaste.cs:165 ReturnStatement",
-   "IsaClient.Music/MusicPlayerWindow.cs:1453 = Sub"
+   "IsaClient.Gta/GtaSix.cs:414 L10n.T(text)",
+   "IsaClient.MultiClient/MultiPaste.cs:165 ReturnStatement"
   ]
  },
  "Ready to send": {
@@ -47347,7 +47651,7 @@
    "IsaClient.Gba/PokemonFinder.cs:187 MusicDrawing.TextButton(label)",
    "IsaClient.Hub/HubBots.cs:656 HubKit.Button(label)",
    "IsaClient.Hub/HubShare.cs:162 HubKit.Button(label)",
-   "IsaClient.Menu/CharacterWindow.cs:242 UiKit.Button(label)"
+   "IsaClient.Menu/CharacterWindow.cs:249 UiKit.Button(label)"
   ]
  },
  "Refresh Map": {
@@ -47752,7 +48056,7 @@
   ],
   "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/ClientHub.cs:1060 = Label",
+   "IsaClient.Hub/ClientHub.cs:1079 = Label",
    "IsaClient.Hub/HubCards.cs:134 HubInput.Hover(tooltip)",
    "IsaClient.Hub/HubProxy.cs:374 HubKit.BareIcon(tooltip)",
    "IsaClient.Music/MusicPlayerWindow.cs:948 MusicDrawing.BareIcon(tooltip)"
@@ -48545,6 +48849,14 @@
    "IsaClient.Hub/WorldContent.cs:303 WorldContent.Slider(title)"
   ]
  },
+ "Required": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:604 L10n.T(text)"
+  ]
+ },
  "Rescan": {
   "where": [
    "Plugins and developer tools"
@@ -48940,7 +49252,7 @@
    "button"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:606 UiKit.Button(label)"
+   "IsaClient.Menu/CharacterWindow.cs:613 UiKit.Button(label)"
   ]
  },
  "Restores mana": {
@@ -49421,7 +49733,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Rendering/Thor.cs:54 ArrayInitializerExpression"
+   "IsaClient.Rendering/Thor.cs:55 ArrayInitializerExpression"
   ]
  },
  "Right click a card for more  ·  Star = favorite": {
@@ -49429,7 +49741,7 @@
    "The client's main panel (pages, cards, buttons, settings)"
   ],
   "code": [
-   "IsaClient.Hub/ClientHub.cs:669 = hint"
+   "IsaClient.Hub/ClientHub.cs:681 = hint"
   ]
  },
  "Right click a debuff in your buff bar to remove it, the same way you cancel a buff\n(also works on the few buffs Terraria never lets you cancel).": {
@@ -49926,7 +50238,7 @@
    "button"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:668 UiKit.Button(label)"
+   "IsaClient.Menu/CharacterWindow.cs:675 UiKit.Button(label)"
   ]
  },
  "Save as Schematic": {
@@ -50703,7 +51015,7 @@
    "IsaClient.Hub/ClientContent.cs:185 = Verb",
    "IsaClient.Hub/HubBots.cs:547 HubKit.Button(label)",
    "IsaClient.Hub/HubBotSets.cs:634 Argument",
-   "IsaClient.MultiClient/ClientSession.cs:2232 BinaryWriter.Write(value)"
+   "IsaClient.MultiClient/ClientSession.cs:2251 BinaryWriter.Write(value)"
   ]
  },
  "Say One Line": {
@@ -50918,8 +51230,8 @@
   "code": [
    "IsaClient.Hub/ClientContent.cs:395 CatalogBuilder.Page(title)",
    "IsaClient.Hub/ClientContent.cs:396 CatalogBuilder.Find(title)",
-   "IsaClient.Hub/HubGames.cs:381 HubKit.Button(label)",
-   "IsaClient.Hub/HubGames.cs:431 HubKit.Button(label)"
+   "IsaClient.Hub/HubGames.cs:382 HubKit.Button(label)",
+   "IsaClient.Hub/HubGames.cs:432 HubKit.Button(label)"
   ]
  },
  "Scraper": {
@@ -50998,7 +51310,7 @@
   ],
   "note": "Shown in 4 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Hub/ClientHub.cs:599 = title",
+   "IsaClient.Hub/ClientHub.cs:611 = title",
    "IsaClient.Hub/HubProxy.cs:546 HubProxy.Heading(text)",
    "IsaClient.Music/MusicPlayerWindow.cs:1573 ArrayInitializerExpression",
    "IsaClient.Video/VideoWindow.cs:919 MusicDrawing.TextButton(label)"
@@ -51155,7 +51467,7 @@
    "grey hint inside an empty text box"
   ],
   "code": [
-   "IsaClient.Hub/ClientHub.cs:604 HubKit.Field(placeholder)"
+   "IsaClient.Hub/ClientHub.cs:616 HubKit.Field(placeholder)"
   ]
  },
  "Search games...": {
@@ -52088,7 +52400,7 @@
    "text on screen"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:642 UiKit.Text(text)"
+   "IsaClient.Menu/CharacterWindow.cs:649 UiKit.Text(text)"
   ]
  },
  "Send it to the chat of its server": {
@@ -52118,7 +52430,7 @@
    "button"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:653 UiKit.Button(label)"
+   "IsaClient.Menu/CharacterWindow.cs:660 UiKit.Button(label)"
   ]
  },
  "Send me": {
@@ -52129,7 +52441,7 @@
    "button"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:649 UiKit.Button(label)"
+   "IsaClient.Menu/CharacterWindow.cs:656 UiKit.Button(label)"
   ]
  },
  "Send my messages in": {
@@ -52170,7 +52482,7 @@
    "button"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:645 UiKit.Button(label)"
+   "IsaClient.Menu/CharacterWindow.cs:652 UiKit.Button(label)"
   ]
  },
  "Send {0}": {
@@ -53020,28 +53332,6 @@
    "IsaClient.Psp/PspWindow.cs:868 MusicDrawing.Text(text)"
   ]
  },
- "Shift + click an item in your inventory to open it on the Terraria wiki.": {
-  "where": [
-   "Panel > Client settings page"
-  ],
-  "kind": [
-   "panel option description"
-  ],
-  "code": [
-   "IsaClient.Hub/ClientContent.cs:268 CatalogBuilder.Row(description)"
-  ]
- },
- "Shift+Click Wiki Lookup": {
-  "where": [
-   "In-game cheat menu and main menu additions"
-  ],
-  "kind": [
-   "one value of a list (an option, a name, a state)"
-  ],
-  "code": [
-   "IsaClient.Menu/InfoMenu.cs:20 CollectionInitializerExpression"
-  ]
- },
  "Shift: +10": {
   "where": [
    "Panel > character editor"
@@ -53662,7 +53952,7 @@
    "button"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:427 HubKit.Button(label)"
+   "IsaClient.Hub/HubGames.cs:428 HubKit.Button(label)"
   ]
  },
  "Show Sources": {
@@ -53681,7 +53971,7 @@
    "button"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:377 HubKit.Button(label)"
+   "IsaClient.Hub/HubGames.cs:378 HubKit.Button(label)"
   ]
  },
  "Show a list of connected players with an I badge for IsaClient users and Z for zMod (.playerlist).": {
@@ -53722,7 +54012,7 @@
    "The client's main panel (pages, cards, buttons, settings)"
   ],
   "code": [
-   "IsaClient.Hub/ClientHub.cs:1068 = Label"
+   "IsaClient.Hub/ClientHub.cs:1087 = Label"
   ]
  },
  "Show it in the sidebar.": {
@@ -53752,7 +54042,7 @@
    "In-game cheat menu and main menu additions"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:663 UiKit.Toggle(label)"
+   "IsaClient.Menu/CharacterWindow.cs:670 UiKit.Toggle(label)"
   ]
  },
  "Show messages in": {
@@ -53812,8 +54102,8 @@
    "button"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:489 HubKit.Button(label)",
-   "IsaClient.Hub/HubGames.cs:554 HubKit.Button(label)"
+   "IsaClient.Hub/HubGames.cs:490 HubKit.Button(label)",
+   "IsaClient.Hub/HubGames.cs:555 HubKit.Button(label)"
   ]
  },
  "Show the game window": {
@@ -53824,7 +54114,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:229 HubKit.Button(tooltip)"
+   "IsaClient.Hub/HubGames.cs:230 HubKit.Button(tooltip)"
   ]
  },
  "Show the mini player and hide the window": {
@@ -54431,7 +54721,7 @@
    "button"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:624 UiKit.Button(label)"
+   "IsaClient.Menu/CharacterWindow.cs:631 UiKit.Button(label)"
   ]
  },
  "Skeletron": {
@@ -54680,7 +54970,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:610 HubKit.Button(tooltip)"
+   "IsaClient.Hub/HubGames.cs:662 HubKit.Button(tooltip)"
   ]
  },
  "Slot {0}": {
@@ -54755,7 +55045,7 @@
   "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.Hub/ClientContent.cs:725 ArrayInitializerExpression",
-   "IsaClient.Hub/HubGames.cs:1014 ArrayInitializerExpression",
+   "IsaClient.Hub/HubGames.cs:1066 ArrayInitializerExpression",
    "IsaClient.Menu/PlayerFileDropDialog.cs:316 = size"
   ]
  },
@@ -56456,6 +56746,17 @@
    "IsaClient.Video/VideoDownloads.cs:28 = Status"
   ]
  },
+ "Starts Grand Theft Auto VI": {
+  "where": [
+   "Panel > Games page"
+  ],
+  "kind": [
+   "tooltip (shown when the mouse is over something)"
+  ],
+  "code": [
+   "IsaClient.Hub/HubGames.cs:610 HubKit.Button(tooltip)"
+  ]
+ },
  "Starts the celestial pillars (single player).": {
   "where": [
    "Panel > World page"
@@ -57908,17 +58209,6 @@
    "IsaClient.Menu/MiscMenu.cs:344 SwitchExpressionArm"
   ]
  },
- "Switch to the old panel (Settings has the same option)": {
-  "where": [
-   "The client's main panel (pages, cards, buttons, settings)"
-  ],
-  "kind": [
-   "tooltip (shown when the mouse is over something)"
-  ],
-  "code": [
-   "IsaClient.Hub/ClientHub.cs:676 HubKit.Button(tooltip)"
-  ]
- },
  "Switched to {0}.": {
   "where": [
    "AI assistant (.ask) and the AI Plugin Maker"
@@ -57957,6 +58247,14 @@
    "IsaClient.Plugins/DevTools/CodeCompiler.cs:39 ArrayInitializerExpression",
    "IsaClient.Plugins/DevTools/CodeCompiler.cs:65 ArrayInitializerExpression",
    "IsaClient.Plugins/DevTools/ScriptConsole.cs:38 ArrayInitializerExpression"
+  ]
+ },
+ "System check": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:587 L10n.T(text)"
   ]
  },
  "TETRIS!": {
@@ -58693,6 +58991,14 @@
    "IsaClient.Hub/HubSpriteArt.cs:525 HubSpriteArt.Toggle(tip)"
   ]
  },
+ "Terraria runs great on it, though.": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:636 L10n.T(text)"
+  ]
+ },
  "Terraria's music fades out while a song plays.": {
   "where": [
    "Panel > Client settings page"
@@ -58733,7 +59039,7 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:37 ArrowExpressionClause"
+   "IsaClient.MultiClient/ClientSession.cs:41 ArrowExpressionClause"
   ]
  },
  "Test": {
@@ -58969,7 +59275,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:859 L10n.F(text)"
+   "IsaClient.Hub/HubGames.cs:911 L10n.F(text)"
   ]
  },
  "Tetris: top {0} of {1}": {
@@ -59703,7 +60009,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:1009 HubGames.SwitchRow(hint)"
+   "IsaClient.Hub/HubGames.cs:1061 HubGames.SwitchRow(hint)"
   ]
  },
  "The board of every IsaClient player you've met": {
@@ -59714,8 +60020,8 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:381 HubKit.Button(tooltip)",
-   "IsaClient.Hub/HubGames.cs:431 HubKit.Button(tooltip)"
+   "IsaClient.Hub/HubGames.cs:382 HubKit.Button(tooltip)",
+   "IsaClient.Hub/HubGames.cs:432 HubKit.Button(tooltip)"
   ]
  },
  "The bot tries from your IP instead of waiting (the server may turn it away)": {
@@ -59756,7 +60062,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:614 HubKit.Button(tooltip)"
+   "IsaClient.Hub/HubGames.cs:666 HubKit.Button(tooltip)"
   ]
  },
  "The chance your currently held item has to critically hit.\nHold LeftShift to change this by 10.": {
@@ -60004,6 +60310,17 @@
    "IsaClient.Assistant/PluginMaker/PluginTools.cs:438 ToolError..ctor(message)"
   ]
  },
+ "The download didn't finish.": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "kind": [
+   "error message (can be shown to the player)"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaTrailer.cs:125 InvalidOperationException..ctor(message)"
+  ]
+ },
  "The download failed: {0}": {
   "where": [
    "GBA window > Find games (online search)",
@@ -60192,6 +60509,17 @@
   ],
   "code": [
    "IsaClient.Assistant/PluginMaker/PluginTools.cs:625 ToolError..ctor(message)"
+  ]
+ },
+ "The game folder is older than IsaClient: missing textures are drawn transparent, starting with {0}": {
+  "where": [
+   "Client core: chat commands, their help, updates, startup"
+  ],
+  "kind": [
+   "error message (can be shown to the player)"
+  ],
+  "code": [
+   "IsaClient.Core/GameFolderContent.cs:121 FileNotFoundException..ctor(message)"
   ]
  },
  "The game stopped.": {
@@ -60447,6 +60775,14 @@
    "IsaClient.Assistant/PluginMaker/PluginAgent.cs:104 = Help"
   ]
  },
+ "The most awaited game of the decade, running right inside Terraria. Vice City, Leonida and everything in between. Best played with a controller.": {
+  "where": [
+   "Panel > Games page"
+  ],
+  "code": [
+   "IsaClient.Hub/HubGames.cs:598 L10n.T(text)"
+  ]
+ },
  "The most letters one .rainbow writes.": {
   "where": [
    "Panel > Client settings page"
@@ -60502,6 +60838,14 @@
   ],
   "code": [
    "IsaClient.Hub/ClientHub.cs:301 ClientChat.Error(text)"
+  ]
+ },
+ "The new panel: sections, search and favorites (.menu new)": {
+  "where": [
+   "In-game cheat menu and main menu additions"
+  ],
+  "code": [
+   "IsaClient.Menu/CheatPanel.cs:130 L10n.T(text)"
   ]
  },
  "The next ROMs of this collection (the ones you have are in your games)": {
@@ -60595,7 +60939,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:629 UiKit.Toggle(tooltip)"
+   "IsaClient.Menu/CharacterWindow.cs:636 UiKit.Toggle(tooltip)"
   ]
  },
  "The particle to emit when you die. Some will also play sound effects.": {
@@ -60698,7 +61042,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:133 = why"
+   "IsaClient.Hub/HubGames.cs:134 = why"
   ]
  },
  "The pipe is off: turn it on with .pipe on.": {
@@ -60709,7 +61053,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:303 = tip"
+   "IsaClient.Hub/HubGames.cs:304 = tip"
   ]
  },
  "The pixel mark": {
@@ -60717,7 +61061,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:1109 L10n.T(text)"
+   "IsaClient.Hub/HubGames.cs:1161 L10n.T(text)"
   ]
  },
  "The places show on the full map the next time you open it.": {
@@ -61187,7 +61531,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:402 L10n.T(text)"
+   "IsaClient.Hub/HubGames.cs:403 L10n.T(text)"
   ]
  },
  "The sound to play when you die.\nThe selection is limited because there aren't many \"sound only\" particles.": {
@@ -62118,7 +62462,7 @@
    "The client's main panel (pages, cards, buttons, settings)"
   ],
   "code": [
-   "IsaClient.Hub/ClientHub.cs:712 ClientHub.EmptyNote(text)"
+   "IsaClient.Hub/ClientHub.cs:724 ClientHub.EmptyNote(text)"
   ]
  },
  "This sound format cannot go into an .mp4": {
@@ -62210,7 +62554,7 @@
    "message in the chat"
   ],
   "code": [
-   "IsaClient.Rendering/Thor.cs:84 ClientChat.Info(text)"
+   "IsaClient.Rendering/Thor.cs:96 ClientChat.Info(text)"
   ]
  },
  "Thor on: lightning all around. .thor again stops it.": {
@@ -62221,7 +62565,7 @@
    "message in the chat"
   ],
   "code": [
-   "IsaClient.Rendering/Thor.cs:84 ClientChat.Info(text)"
+   "IsaClient.Rendering/Thor.cs:96 ClientChat.Info(text)"
   ]
  },
  "Thor: {0} bolts a second.": {
@@ -62232,7 +62576,7 @@
    "message in the chat"
   ],
   "code": [
-   "IsaClient.Rendering/Thor.cs:79 ClientChat.Info(text)"
+   "IsaClient.Rendering/Thor.cs:91 ClientChat.Info(text)"
   ]
  },
  "Thorough": {
@@ -62415,7 +62759,7 @@
    "text on screen"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:1044 HubKit.Text(text)"
+   "IsaClient.Hub/HubGames.cs:1096 HubKit.Text(text)"
   ]
  },
  "Tic Tac Toe with IsaClient players or the computer (bot): invite a player or everyone, answer the last invitation, or leave your game. Also in the panel: Games.": {
@@ -62754,7 +63098,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:624 UiKit.Button(tooltip)"
+   "IsaClient.Menu/CharacterWindow.cs:631 UiKit.Button(tooltip)"
   ]
  },
  "TilesToBrush - Capacity/Size: {0}": {
@@ -62873,6 +63217,61 @@
   ],
   "code": [
    "IsaClient.Rendering/Cosmetics.cs:182 ReturnStatement"
+  ]
+ },
+ "Tip: Leonida's beaches are best at sunset. So are its car chases.": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "kind": [
+   "one value of a list (an option, a name, a state)"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:64 ArrayInitializerExpression"
+  ]
+ },
+ "Tip: honking at a flamingo is not a crime. Yet.": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "kind": [
+   "one value of a list (an option, a name, a state)"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:65 ArrayInitializerExpression"
+  ]
+ },
+ "Tip: stay hydrated. Florida is hot.": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "kind": [
+   "one value of a list (an option, a name, a state)"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:67 ArrayInitializerExpression"
+  ]
+ },
+ "Tip: the police remember your face. Wear a hat.": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "kind": [
+   "one value of a list (an option, a name, a state)"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:63 ArrayInitializerExpression"
+  ]
+ },
+ "Tip: your phone has 74 apps. Three of them are legal.": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "kind": [
+   "one value of a list (an option, a name, a state)"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:66 ArrayInitializerExpression"
   ]
  },
  "Titanium": {
@@ -63515,7 +63914,7 @@
    "The client's main panel (pages, cards, buttons, settings)"
   ],
   "code": [
-   "IsaClient.Hub/ClientHub.cs:835 ClientHub.EmptyNote(text)"
+   "IsaClient.Hub/ClientHub.cs:847 ClientHub.EmptyNote(text)"
   ]
  },
  "Try some text...": {
@@ -64278,7 +64677,7 @@
    "In-game cheat menu and main menu additions"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:436 L10n.T(text)"
+   "IsaClient.Menu/CharacterWindow.cs:443 L10n.T(text)"
   ]
  },
  "Type, e.g. Terraria.Player.": {
@@ -66914,6 +67313,14 @@
    "IsaClient.Sharing/ShareCard.cs:102 L10n.T(text)"
   ]
  },
+ "Waiting for a controller": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:414 L10n.T(text)"
+  ]
+ },
  "Waiting for another player...": {
   "where": [
    "Casino window: lobby, poker table, blackjack table"
@@ -67204,13 +67611,16 @@
  },
  "Watch again": {
   "where": [
+   "IsaClient.Gta",
    "Video player window"
   ],
   "kind": [
    "button",
    "tooltip (shown when the mouse is over something)"
   ],
+  "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
+   "IsaClient.Gta/GtaSix.cs:631 GtaArt.Button(label)",
    "IsaClient.Video/VideoWindow.cs:430 MusicDrawing.TextButton(label)",
    "IsaClient.Video/VideoWindow.cs:529 MusicDrawing.IconButton(tooltip)"
   ]
@@ -67309,7 +67719,7 @@
    "text on screen"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:587 UiKit.Text(text)"
+   "IsaClient.Menu/CharacterWindow.cs:594 UiKit.Text(text)"
   ]
  },
  "Wear it (clone)": {
@@ -67347,7 +67757,7 @@
    "button"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:602 UiKit.Button(label)"
+   "IsaClient.Menu/CharacterWindow.cs:609 UiKit.Button(label)"
   ]
  },
  "Wear the same accessory more than once.": {
@@ -67395,7 +67805,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:602 UiKit.Button(tooltip)"
+   "IsaClient.Menu/CharacterWindow.cs:609 UiKit.Button(tooltip)"
   ]
  },
  "Wears another player's look, inventory, gear or stats; .wear restore gives you yours back.": {
@@ -67614,7 +68024,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Hub/ClientHub.cs:659 HubInput.Hover(tooltip)"
+   "IsaClient.Hub/ClientHub.cs:671 HubInput.Hover(tooltip)"
   ]
  },
  "What it pays": {
@@ -68063,7 +68473,7 @@
    "one value of a list (an option, a name, a state)"
   ],
   "code": [
-   "IsaClient.Rendering/Thor.cs:54 ArrayInitializerExpression"
+   "IsaClient.Rendering/Thor.cs:55 ArrayInitializerExpression"
   ]
  },
  "Which AI model works (and the ones it falls back to).": {
@@ -68325,15 +68735,17 @@
  "Wiki Lookup": {
   "where": [
    "Panel > Client settings page",
+   "In-game cheat menu and main menu additions",
    "IsaClient.Partials"
   ],
   "kind": [
    "panel option name",
    "one value of a list (an option, a name, a state)"
   ],
-  "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
+  "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.Hub/ClientContent.cs:268 CatalogBuilder.Row(title)",
+   "IsaClient.Menu/InfoMenu.cs:20 CollectionInitializerExpression",
    "IsaClient.Partials/Terraria.GameContent.UI.States/UIManageControls.cs:11 CollectionInitializerExpression",
    "IsaClient.Partials/Terraria.GameContent.UI.States/UIManageControls.cs:18 CollectionInitializerExpression"
   ]
@@ -68579,7 +68991,7 @@
    "IsaClient.Hub/ClientContent.cs:321 ClientContent.Flag(description)"
   ]
  },
- "With the inventory open, hold Shift over an item: the cursor turns into a W.\nClick to open that item on the Terraria wiki.": {
+ "With the inventory open, hold Q (the Wiki Lookup key, in Controls) over an item: the cursor turns into a ?.\nClick to open that item on the Terraria wiki.": {
   "where": [
    "In-game cheat menu and main menu additions"
   ],
@@ -69096,7 +69508,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:668 UiKit.Button(tooltip)"
+   "IsaClient.Menu/CharacterWindow.cs:675 UiKit.Button(tooltip)"
   ]
  },
  "Writes a network log for the world download (.netlogstop stops it).": {
@@ -69288,7 +69700,7 @@
    "In-game cheat menu and main menu additions"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:282 = name"
+   "IsaClient.Menu/CharacterWindow.cs:289 = name"
   ]
  },
  "You always have the set bonus of Nebula Armor.\nDamaging a hostile NPC or Player will spawn a random Nebula Booster.": {
@@ -69836,7 +70248,7 @@
    "Mini games: invitations and matches between players"
   ],
   "code": [
-   "IsaClient.Games/GameLobby.cs:426 L10n.F(text)"
+   "IsaClient.Games/GameLobby.cs:427 L10n.F(text)"
   ]
  },
  "You invited {0} to {1}.": {
@@ -69844,7 +70256,7 @@
    "Mini games: invitations and matches between players"
   ],
   "code": [
-   "IsaClient.Games/GameLobby.cs:431 L10n.F(text)"
+   "IsaClient.Games/GameLobby.cs:432 L10n.F(text)"
   ]
  },
  "You left the world before the pictures were sent.": {
@@ -70227,7 +70639,15 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:765 L10n.F(text)"
+   "IsaClient.Hub/HubGames.cs:817 L10n.F(text)"
+  ]
+ },
+ "You're all set. Press A or click Continue to start.": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:411 L10n.T(text)"
   ]
  },
  "You're alone: the others can join": {
@@ -70341,7 +70761,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:493 HubKit.Button(tooltip)"
+   "IsaClient.Hub/HubGames.cs:494 HubKit.Button(tooltip)"
   ]
  },
  "Your Groq key (or the built-in one), a connection test and the search key.": {
@@ -70468,6 +70888,22 @@
    "IsaClient.Rendering/LucyChorus.cs:156 ClientChat.Info(text)"
   ]
  },
+ "Your PC": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:603 L10n.T(text)"
+  ]
+ },
+ "Your PC isn't powerful enough": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaSix.cs:589 L10n.T(text)"
+  ]
+ },
  "Your PSP games. Each one keeps its own saves.": {
   "where": [
    "IsaClient.Psp"
@@ -70484,7 +70920,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:558 HubKit.Button(tooltip)"
+   "IsaClient.Hub/HubGames.cs:559 HubKit.Button(tooltip)"
   ]
  },
  "Your Schematics folder": {
@@ -70546,7 +70982,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:704 L10n.T(text)"
+   "IsaClient.Hub/HubGames.cs:756 L10n.T(text)"
   ]
  },
  "Your best Tetris score.": {
@@ -70554,7 +70990,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:696 L10n.T(text)"
+   "IsaClient.Hub/HubGames.cs:748 L10n.T(text)"
   ]
  },
  "Your best {0}  ·  #{1} of {2}": {
@@ -70572,8 +71008,8 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:368 L10n.F(text)",
-   "IsaClient.Hub/HubGames.cs:416 L10n.F(text)"
+   "IsaClient.Hub/HubGames.cs:369 L10n.F(text)",
+   "IsaClient.Hub/HubGames.cs:417 L10n.F(text)"
   ]
  },
  "Your bots paste with you": {
@@ -70699,7 +71135,7 @@
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.Hub/HubShare.cs:161 HubShare.Heading(text)",
-   "IsaClient.Menu/CharacterWindow.cs:241 UiKit.Text(text)"
+   "IsaClient.Menu/CharacterWindow.cs:248 UiKit.Text(text)"
   ]
  },
  "Your characters: click one to add it (it joins with its look and items)": {
@@ -70816,7 +71252,7 @@
    "tooltip (shown when the mouse is over something)"
   ],
   "code": [
-   "IsaClient.Hub/ClientHub.cs:665 HubInput.Hover(tooltip)"
+   "IsaClient.Hub/ClientHub.cs:677 HubInput.Hover(tooltip)"
   ]
  },
  "Your file, linked in chat.": {
@@ -71753,7 +72189,7 @@
    "text on screen"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:556 UiKit.Text(text)"
+   "IsaClient.Menu/CharacterWindow.cs:563 UiKit.Text(text)"
   ]
  },
  "[c/9AA7BE:Wearing keeps your name; your own character file is never changed.]": {
@@ -71772,7 +72208,7 @@
    "In-game cheat menu and main menu additions"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:550 = status"
+   "IsaClient.Menu/CharacterWindow.cs:557 = status"
   ]
  },
  "[c/9AA7BE:{0}]": {
@@ -71785,7 +72221,7 @@
   ],
   "note": "Shown in 2 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:560 UiKit.Text(text)",
+   "IsaClient.Menu/CharacterWindow.cs:567 UiKit.Text(text)",
    "IsaClient.Menu/PlayerFileDropDialog.cs:189 UiKit.Text(text)",
    "IsaClient.Menu/PlayerFileDropDialog.cs:263 UiKit.Text(text)",
    "IsaClient.Sharing/FileShareDialog.cs:109 UiKit.Text(text)"
@@ -71815,6 +72251,14 @@
    "IsaClient.Sharing/ShareDialog.cs:194 = state"
   ]
  },
+ "[c/FFE645:Back to the IsaClient panel]": {
+  "where": [
+   "In-game cheat menu and main menu additions"
+  ],
+  "code": [
+   "IsaClient.Menu/CheatPanel.cs:121 ParenthesizedLambdaExpression"
+  ]
+ },
  "[c/FFE645:You already have a world called {0}: this one is added as a new file.]": {
   "where": [
    "In-game cheat menu and main menu additions"
@@ -71831,7 +72275,7 @@
    "In-game cheat menu and main menu additions"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:550 = status"
+   "IsaClient.Menu/CharacterWindow.cs:557 = status"
   ]
  },
  "[c/FFE645:wearing {0}]": {
@@ -71842,7 +72286,7 @@
    "text on screen"
   ],
   "code": [
-   "IsaClient.Menu/CharacterWindow.cs:288 UiKit.Text(text)"
+   "IsaClient.Menu/CharacterWindow.cs:295 UiKit.Text(text)"
   ]
  },
  "[c/FFE645:{0}]": {
@@ -71850,7 +72294,7 @@
    "In-game cheat menu and main menu additions"
   ],
   "code": [
-   "IsaClient.Menu/CheatPanel.cs:119 ParenthesizedLambdaExpression"
+   "IsaClient.Menu/CheatPanel.cs:143 ParenthesizedLambdaExpression"
   ]
  },
  "[c/{0}:Default]": {
@@ -72668,7 +73112,7 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:754 = StatusText"
+   "IsaClient.MultiClient/ClientSession.cs:758 = StatusText"
   ]
  },
  "connected": {
@@ -72711,7 +73155,7 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:729 = StatusText"
+   "IsaClient.MultiClient/ClientSession.cs:733 = StatusText"
   ]
  },
  "connection lost": {
@@ -72719,7 +73163,7 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:387 ClientSession.OnClosed(reason)"
+   "IsaClient.MultiClient/ClientSession.cs:391 ClientSession.OnClosed(reason)"
   ]
  },
  "converting {0} (a TerraAngel build for .NET 10)": {
@@ -72950,7 +73394,7 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:827 = StatusText",
+   "IsaClient.MultiClient/ClientSession.cs:831 = StatusText",
    "IsaClient.MultiClient/Possession.cs:484 ClientSession.MarkGone(reason)"
   ]
  },
@@ -73437,7 +73881,7 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:747 = StatusText"
+   "IsaClient.MultiClient/ClientSession.cs:751 = StatusText"
   ]
  },
  "help, panel, settings, text color, command prefix, abbreviations": {
@@ -73453,7 +73897,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:877 L10n.F(text)"
+   "IsaClient.Hub/HubGames.cs:929 L10n.F(text)"
   ]
  },
  "hi {0}, are you there?": {
@@ -73537,7 +73981,7 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:79 = StatusText"
+   "IsaClient.MultiClient/ClientSession.cs:83 = StatusText"
   ]
  },
  "image picture photo screenshot gif video send imgur paste": {
@@ -73556,8 +74000,8 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:417 = StatusText",
-   "IsaClient.MultiClient/ClientSession.cs:2457 = StatusText"
+   "IsaClient.MultiClient/ClientSession.cs:421 = StatusText",
+   "IsaClient.MultiClient/ClientSession.cs:2480 = StatusText"
   ]
  },
  "in game (you)": {
@@ -73565,7 +74009,7 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:365 = StatusText"
+   "IsaClient.MultiClient/ClientSession.cs:369 = StatusText"
   ]
  },
  "in game (you, idle)": {
@@ -73573,7 +74017,7 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:417 = StatusText"
+   "IsaClient.MultiClient/ClientSession.cs:421 = StatusText"
   ]
  },
  "in your world: hotbar slot 1 if it is a weapon, else the first weapon on the hotbar (tools never)": {
@@ -73793,7 +74237,7 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:2255 ClientSession.Disconnect(reason)"
+   "IsaClient.MultiClient/ClientSession.cs:2274 ClientSession.Disconnect(reason)"
   ]
  },
  "kill aura, butcher, projectiles, spawn and control NPCs": {
@@ -74219,7 +74663,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:849 L10n.T(text)"
+   "IsaClient.Hub/HubGames.cs:901 L10n.T(text)"
   ]
  },
  "nintendo ds": {
@@ -74935,6 +75379,29 @@
    "IsaClient.Feedback/Polls.cs:346 = hovered"
   ]
  },
+ "owwwwwwoowsssso.": {
+  "where": [
+   "Client core: chat commands, their help, updates, startup"
+  ],
+  "kind": [
+   "one value of a list (an option, a name, a state)"
+  ],
+  "code": [
+   "IsaClient.Core/GameFolderContent.cs:50 ArrayInitializerExpression",
+   "IsaClient.Core/GameFolderContent.cs:50 ArrayInitializerExpression"
+  ]
+ },
+ "owwwwwwwowsssso.": {
+  "where": [
+   "Client core: chat commands, their help, updates, startup"
+  ],
+  "kind": [
+   "one value of a list (an option, a name, a state)"
+  ],
+  "code": [
+   "IsaClient.Core/GameFolderContent.cs:50 ArrayInitializerExpression"
+  ]
+ },
  "palette buffers not found": {
   "where": [
    "Game Boy Advance emulator window (games, saves, finding games, Pokemon trainer from your character)"
@@ -75299,7 +75766,7 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:769 ClientConnection.Close(reason)"
+   "IsaClient.MultiClient/ClientSession.cs:773 ClientConnection.Close(reason)"
   ]
  },
  "recv complete: {0} B, crc {1}": {
@@ -75340,7 +75807,7 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:742 ClientConnection.Close(reason)"
+   "IsaClient.MultiClient/ClientSession.cs:746 ClientConnection.Close(reason)"
   ]
  },
  "requesting tiles": {
@@ -75348,7 +75815,7 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:2434 = StatusText"
+   "IsaClient.MultiClient/ClientSession.cs:2457 = StatusText"
   ]
  },
  "requesting world": {
@@ -75356,7 +75823,7 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:2412 = StatusText"
+   "IsaClient.MultiClient/ClientSession.cs:2435 = StatusText"
   ]
  },
  "reset": {
@@ -75405,6 +75872,14 @@
   ],
   "code": [
    "IsaClient.Casino/BetsWindow.cs:1685 ReturnStatement"
+  ]
+ },
+ "row:Wiki Lookup": {
+  "where": [
+   "Panel > panel preferences"
+  ],
+  "code": [
+   "IsaClient.Hub/HubPrefs.cs:126 ParenthesizedLambdaExpression"
   ]
  },
  "same name keeps the same UUID": {
@@ -75466,7 +75941,7 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:2374 = StatusText"
+   "IsaClient.MultiClient/ClientSession.cs:2393 = StatusText"
   ]
  },
  "server": {
@@ -75482,7 +75957,7 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:2268 ClientSession.Disconnect(reason)"
+   "IsaClient.MultiClient/ClientSession.cs:2287 ClientSession.Disconnect(reason)"
   ]
  },
  "servers": {
@@ -76451,7 +76926,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:227 L10n.F(text)"
+   "IsaClient.Hub/HubGames.cs:228 L10n.F(text)"
   ]
  },
  "was kicked: {0}": {
@@ -76537,7 +77012,7 @@
   "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.Gameplay/ItemTools.cs:241 ClientChat.Info(text)",
-   "IsaClient.Hub/HubGames.cs:863 L10n.T(text)",
+   "IsaClient.Hub/HubGames.cs:915 L10n.T(text)",
    "IsaClient.Hub/HubPlayerView.cs:386 HubKit.Button(tooltip)",
    "IsaClient.Hub/HubPlayerView.cs:514 L10n.T(text)"
   ]
@@ -76587,7 +77062,7 @@
    "Bots: extra characters controlled from this client, possession"
   ],
   "code": [
-   "IsaClient.MultiClient/ClientSession.cs:391 = StatusText",
+   "IsaClient.MultiClient/ClientSession.cs:395 = StatusText",
    "IsaClient.MultiClient/MultiClientManager.cs:1587 ReturnStatement"
   ]
  },
@@ -77529,7 +78004,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:598 L10n.F(text)"
+   "IsaClient.Hub/HubGames.cs:650 L10n.F(text)"
   ]
  },
  "{0} chips, all five lines": {
@@ -77584,6 +78059,14 @@
   ],
   "code": [
    "IsaClient.Gba/PokemonWindow.Ds.cs:506 MusicDrawing.RawText(text)"
+  ]
+ },
+ "{0} cores": {
+  "where": [
+   "IsaClient.Gta"
+  ],
+  "code": [
+   "IsaClient.Gta/GtaArt.cs:369 = _cpu"
   ]
  },
  "{0} corners {1} against the wall!": {
@@ -77694,7 +78177,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:908 L10n.F(text)"
+   "IsaClient.Hub/HubGames.cs:960 L10n.F(text)"
   ]
  },
  "{0} doesn't exist in {1}.": {
@@ -77804,7 +78287,7 @@
    "The client's main panel (pages, cards, buttons, settings)"
   ],
   "code": [
-   "IsaClient.Hub/ClientHub.cs:664 HubKit.Chip(text)"
+   "IsaClient.Hub/ClientHub.cs:676 HubKit.Chip(text)"
   ]
  },
  "{0} features found for \"{1}\"": {
@@ -77812,7 +78295,7 @@
    "The client's main panel (pages, cards, buttons, settings)"
   ],
   "code": [
-   "IsaClient.Hub/ClientHub.cs:600 = subtitle"
+   "IsaClient.Hub/ClientHub.cs:612 = subtitle"
   ]
  },
  "{0} features: {1}": {
@@ -77886,8 +78369,8 @@
   "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.Gba/PokemonFinder.cs:199 L10n.F(text)",
-   "IsaClient.Hub/HubGames.cs:484 L10n.F(text)",
-   "IsaClient.Hub/HubGames.cs:549 L10n.F(text)",
+   "IsaClient.Hub/HubGames.cs:485 L10n.F(text)",
+   "IsaClient.Hub/HubGames.cs:550 L10n.F(text)",
    "IsaClient.Psp/PspWindow.Find.cs:95 L10n.F(text)"
   ]
  },
@@ -77967,7 +78450,7 @@
   "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.Hub/HubFeedback.cs:739 ReturnStatement",
-   "IsaClient.Hub/HubGames.cs:906 L10n.F(text)",
+   "IsaClient.Hub/HubGames.cs:958 L10n.F(text)",
    "IsaClient.Hub/HubProxy.cs:744 ReturnStatement"
   ]
  },
@@ -78100,7 +78583,7 @@
    "Mini games: invitations and matches between players"
   ],
   "code": [
-   "IsaClient.Games/GameLobby.cs:756 L10n.F(text)"
+   "IsaClient.Games/GameLobby.cs:757 L10n.F(text)"
   ]
  },
  "{0} invites you to {1}": {
@@ -78116,7 +78599,7 @@
    "Mini games: invitations and matches between players"
   ],
   "code": [
-   "IsaClient.Games/GameLobby.cs:756 L10n.F(text)"
+   "IsaClient.Games/GameLobby.cs:757 L10n.F(text)"
   ]
  },
  "{0} is already a member": {
@@ -78222,7 +78705,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:1110 L10n.F(text)"
+   "IsaClient.Hub/HubGames.cs:1162 L10n.F(text)"
   ]
  },
  "{0} is following {1}.": {
@@ -78298,7 +78781,7 @@
    "In-game cheat menu and main menu additions"
   ],
   "code": [
-   "IsaClient.Menu/CheatPanel.cs:133 L10n.T(text)"
+   "IsaClient.Menu/CheatPanel.cs:157 L10n.T(text)"
   ]
  },
  "{0} is not in game ({1}).": {
@@ -78710,7 +79193,7 @@
   "note": "Shown in 3 places (see where): one translation for all of them. If one word can't fit all, tell the developer and it gets a translation of its own for each place.",
   "code": [
    "IsaClient.Hub/HubFeedback.cs:735 ReturnStatement",
-   "IsaClient.Hub/HubGames.cs:902 L10n.F(text)",
+   "IsaClient.Hub/HubGames.cs:954 L10n.F(text)",
    "IsaClient.Hub/HubProxy.cs:744 ReturnStatement"
   ]
  },
@@ -78820,8 +79303,8 @@
    "The client's main panel (pages, cards, buttons, settings)"
   ],
   "code": [
-   "IsaClient.Hub/ClientHub.cs:658 HubKit.Chip(text)",
-   "IsaClient.Hub/ClientHub.cs:891 HubKit.Chip(text)"
+   "IsaClient.Hub/ClientHub.cs:670 HubKit.Chip(text)",
+   "IsaClient.Hub/ClientHub.cs:903 HubKit.Chip(text)"
   ]
  },
  "{0} online": {
@@ -78859,7 +79342,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:602 L10n.F(text)"
+   "IsaClient.Hub/HubGames.cs:654 L10n.F(text)"
   ]
  },
  "{0} opened a {1} table ({2}).": {
@@ -78932,7 +79415,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:804 L10n.F(text)"
+   "IsaClient.Hub/HubGames.cs:856 L10n.F(text)"
   ]
  },
  "{0} players at this table": {
@@ -78948,8 +79431,8 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:372 L10n.F(text)",
-   "IsaClient.Hub/HubGames.cs:420 L10n.F(text)"
+   "IsaClient.Hub/HubGames.cs:373 L10n.F(text)",
+   "IsaClient.Hub/HubGames.cs:421 L10n.F(text)"
   ]
  },
  "{0} playing now": {
@@ -79006,7 +79489,7 @@
    "Panel > Games page"
   ],
   "code": [
-   "IsaClient.Hub/HubGames.cs:723 L10n.F(text)"
+   "IsaClient.Hub/HubGames.cs:775 L10n.F(text)"
   ]
  },
  "{0} punches the air!": {
@@ -80143,6 +80626,14 @@
    "IsaClient.Feedback/FeedbackReports.cs:414 = temp",
    "IsaClient.Games/Scores.cs:958 = temp",
    "IsaClient.Gba/DsSupport.cs:219 = tmp"
+  ]
+ },
+ "{0}.xnb": {
+  "where": [
+   "Client core: chat commands, their help, updates, startup"
+  ],
+  "code": [
+   "IsaClient.Core/GameFolderContent.cs:192 ReturnStatement"
   ]
  },
  "{0}.{1}.zip": {
