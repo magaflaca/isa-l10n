@@ -13763,8 +13763,8 @@
    "IsaClient.Partials"
   ],
   "code": [
-   "IsaClient.Partials/Terraria/Main.cs:206 Main.MouseText(cursorText)",
-   "IsaClient.Partials/Terraria/Main.cs:224 Main.MouseText(cursorText)"
+   "IsaClient.Partials/Terraria/Main.cs:224 Main.MouseText(cursorText)",
+   "IsaClient.Partials/Terraria/Main.cs:242 Main.MouseText(cursorText)"
   ]
  },
  "Copy Selection Mode {0}": {
@@ -35036,7 +35036,7 @@
    "IsaClient.Partials"
   ],
   "code": [
-   "IsaClient.Partials/Terraria/Main.cs:342 = "
+   "IsaClient.Partials/Terraria/Main.cs:360 = "
   ]
  },
  "Modified by Server": {
@@ -35044,7 +35044,7 @@
    "IsaClient.Partials"
   ],
   "code": [
-   "IsaClient.Partials/Terraria/Main.cs:337 = "
+   "IsaClient.Partials/Terraria/Main.cs:355 = "
   ]
  },
  "Modify how much friction all surfaces have.\nNormal - Unchanged.\nNone - Disables icy surfaces.\nIcy - All surfaces act like ice.\nNo Friction - All surfaces act like Frozen Slime Blocks.": {
